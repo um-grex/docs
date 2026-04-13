@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miscellaneous on Grex</title><link>https://um-grex.github.io/grex-docs/categories/miscellaneous/</link><description>Recent content in Miscellaneous on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml"/><item><title>Grex Documentation - Sitemap</title><link>https://um-grex.github.io/grex-docs/sitemap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/sitemap/</guid><description>&lt;hr&gt;
+&lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
+ class='sc-treeview-tree marginless'&gt;&lt;li class=" sc-treeview-coll"&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center sc-treeview-coll-trigger"&gt;
+ &lt;i class="fa-solid fa-house fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/"
+ class="is-pretty-link"
+ &gt;Grex HPC User Guide&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;ul
+ class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-microchip fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/grex/"
+ class="is-pretty-link"
+ &gt;Grex&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-bolt-lightning fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/start-guide/"
+ class="is-pretty-link"
+ &gt;Quick Start Guide&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-id-card fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/access/"
+ class="is-pretty-link"
+ &gt;Access and usage conditions&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=" sc-treeview-coll"&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center sc-treeview-coll-trigger"&gt;
+ &lt;i class="fa-solid fa-plug fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/connecting/"
+ class="is-pretty-link"
+ &gt;Connecting to Grex&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;ul
+ class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/connecting/mfa/"
+ class="is-pretty-link"
+ &gt;Multi-Factor Authentication&lt;/a
+ &gt;
+ &lt;/p&gt;</description></item></channel></rss>

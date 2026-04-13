@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Singularity on Grex</title><link>https://um-grex.github.io/grex-docs/tags/singularity/</link><description>Recent content in Singularity on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/tags/singularity/index.xml" rel="self" type="application/rss+xml"/><item><title>Containers for Software</title><link>https://um-grex.github.io/grex-docs/software/containers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/containers/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Linux Containers are means to isolate software dependencies from the base Linux operating system (OS). Several different Linux container engines exist, most notably &lt;a
+ href="https://www.docker.com"
+ class="is-pretty-link"&gt;Docker&lt;/a
+&gt;
+ which was first to emerge as the most popular tool in the DevOps community.&lt;/p&gt;
+&lt;p&gt;Since then, a lot of work had been done by major Linux players like Google, RedHat and others to develop an open standard for container runtimes, which developed based on Docker, &lt;a
+ href="https://opencontainers.org/"
+ class="is-pretty-link"&gt;OCI&lt;/a
+&gt;
+.&lt;/p&gt;</description></item></channel></rss>

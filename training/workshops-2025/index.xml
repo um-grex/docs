@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workshops - 2025 on Grex</title><link>https://um-grex.github.io/grex-docs/training/workshops-2025/</link><description>Recent content in Workshops - 2025 on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/training/workshops-2025/index.xml" rel="self" type="application/rss+xml"/><item><title>LoRa walkthrough</title><link>https://um-grex.github.io/grex-docs/training/workshops-2025/lora-huggingface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/workshops-2025/lora-huggingface/</guid><description>&lt;h2 id='high-performance-computing-workshop---oct-14-17-2025' class="title is-flex is-align-items-center mt-4 is-2"&gt;High Performance Computing Workshop - Oct 14-17, 2025&lt;a href='#high-performance-computing-workshop---oct-14-17-2025' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;This is an example of training LoRa in a batch job.
+The example uses a script from &lt;a
+ href="https://huggingface.co"
+ class="is-pretty-link"&gt;Huggingface&lt;/a
+&gt;
+ diffusers package.
+We assume the partiticipant already tried simple text to image generation with SD 1-5 as per &lt;em&gt;02-text-to-image-ipynb&lt;/em&gt; notebook.&lt;/p&gt;
+&lt;h3 id='pull-huggingface-diffusers-copy-data' class="title is-flex is-align-items-center mt-4 is-3"&gt;Pull Huggingface diffusers, copy data&lt;a href='#pull-huggingface-diffusers-copy-data' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;We will downolad Huggingface source code from their Github using Git.
+This is needed to use their Python example training script rather than developing ours from scrath.
+We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/strong&gt; subdirectory of our Workshop materials.&lt;/p&gt;</description></item></channel></rss>

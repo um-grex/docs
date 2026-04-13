@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LMod on Grex</title><link>https://um-grex.github.io/grex-docs/tags/lmod/</link><description>Recent content in LMod on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/tags/lmod/index.xml" rel="self" type="application/rss+xml"/><item><title>Modules and software stacks</title><link>https://um-grex.github.io/grex-docs/software/using-modules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/using-modules/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;!--
+&lt;div class="sc-collapsible-container"&gt;
+ &lt;div
+ class="sc-collapsible-header is-flex is-justify-content-space-between has-text-weight-bold"
+ &gt;Modules allow for clean and dynamic modification of the user&amp;#39;s Linux session environment&lt;/div&gt;
+ &lt;div class="sc-collapsible-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+--&gt;
+&lt;p&gt;On a Linux server or a Linux desktop, software can be installed in one of the standard locations, such as &lt;em&gt;/usr/bin&lt;/em&gt;. This is where most of the system-level software binaries can be found. For custom user-built software, it is a good practice to install it separately from the standard location, to avoid potential conflicts and make changes and uni-installation possible. One of the common locations would be under &lt;em&gt;/usr/local/&lt;/em&gt;, as in &lt;em&gt;/usr/local/My_Custom_software/&lt;/em&gt; , or under &lt;em&gt;/opt&lt;/em&gt; (&lt;em&gt;/opt/My_Other_custom_software&lt;/em&gt;).&lt;/p&gt;</description></item></channel></rss>

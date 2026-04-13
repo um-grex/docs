@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Containers on Grex</title><link>https://um-grex.github.io/grex-docs/tags/containers/</link><description>Recent content in Containers on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/tags/containers/index.xml" rel="self" type="application/rss+xml"/><item><title>Containers for Software</title><link>https://um-grex.github.io/grex-docs/software/containers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/containers/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Linux Containers are means to isolate software dependencies from the base Linux operating system (OS). Several different Linux container engines exist, most notably &lt;a
+ href="https://www.docker.com"
+ class="is-pretty-link"&gt;Docker&lt;/a
+&gt;
+ which was first to emerge as the most popular tool in the DevOps community.&lt;/p&gt;
+&lt;p&gt;Since then, a lot of work had been done by major Linux players like Google, RedHat and others to develop an open standard for container runtimes, which developed based on Docker, &lt;a
+ href="https://opencontainers.org/"
+ class="is-pretty-link"&gt;OCI&lt;/a
+&gt;
+.&lt;/p&gt;</description></item><item><title>CVMFS and the Alliance software stack</title><link>https://um-grex.github.io/grex-docs/software/cern-vmfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/cern-vmfs/</guid><description>&lt;h2 id='cc-cernvmfs-on-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;CC CernVMFS on Grex&lt;a href='#cc-cernvmfs-on-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://cernvm.cern.ch/portal/filesystem"
+ class="is-pretty-link"&gt;CVMFS or CernVM FS&lt;/a
+&gt;
+ stands for CernVM File System. It provides a scalable, reliable and low-maintenance software distribution service. CVMFS was originally developed to assist High Energy Physics (HEP) collaborations to deploy software on the worldwide-distributed computing infrastructure used to run data processing applications. Since then it has been used as a a generic way of distributing software.
+Presently, we use CernVMFS (CVMFS) to provide the Alliance&amp;rsquo;s (or Compute Canada&amp;rsquo;s) software stack. Through the Alliance CVMVS servers, several other publically available CVMFS software repositories are available as well.
+The examples are a Singularity/Apptainer repository from &lt;a
+ href="https://opensciencegrid.org/"title="OpenScienceGrid" id="opensciencegrid"
+ class="is-pretty-link"&gt;OpenScienceGrid&lt;/a
+&gt;
+, Extreme-Scale Scientific Software Stack &lt;a
+ href="https://e4s-project.github.io/"
+ class="is-pretty-link"&gt;E4S&lt;/a
+&gt;
+, and a Genomics software colection (GenPipes/MUGQIC) from &lt;a
+ href="https://computationalgenomics.ca/"
+ class="is-pretty-link"&gt;C3G&lt;/a
+&gt;
+. Note that we can only &amp;ldquo;pull&amp;rdquo; the software from these repositories. To actually add or change software, datasets, etc., or receive support, the respective organizations controlling these CVMFS repositories should be contacted directly.&lt;/p&gt;</description></item></channel></rss>

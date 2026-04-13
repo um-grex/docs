@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SLURM on Grex</title><link>https://um-grex.github.io/grex-docs/tags/slurm/</link><description>Recent content in SLURM on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/tags/slurm/index.xml" rel="self" type="application/rss+xml"/><item><title>Slurm partitions</title><link>https://um-grex.github.io/grex-docs/running-jobs/slurm-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/slurm-partitions/</guid><description>&lt;h2 id='partitions' class="title is-flex is-align-items-center mt-4 is-2"&gt;Partitions&lt;a href='#partitions' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;The current Grex system spans more than one kind of computer hardware: Intel Cascade lake and AMD Genoa CPUs, regular and large (double) memory per node, and several kinds of GPUs (NVidia V100, A30 and L40s).
+A large fraction of the system is also made of researcher-contributed nodes. This makes Grex a very heterogeneous HPC system. With SLURM, as a scheduler, this requires partitioning: a &amp;ldquo;partition&amp;rdquo; is a set of compute nodes, grouped by a characteristic, usually by the kind of hardware the nodes have, and sometimes by who &amp;ldquo;owns&amp;rdquo; the hardware as well. The following SLURM settings are important to know:&lt;/p&gt;</description></item><item><title>How to run interactive jobs on Grex?</title><link>https://um-grex.github.io/grex-docs/running-jobs/interactive-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/interactive-jobs/</guid><description>&lt;h2 id='interactive-work' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive work&lt;a href='#interactive-work' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;The login nodes of Grex are shared resources and should be used for basic operations such as (but not limited) to:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;edit files&lt;/li&gt;
+&lt;li&gt;compile codes and run short interactive calculations.&lt;/li&gt;
+&lt;li&gt;configure and build programs (limit the number of threads to 4: make -j4)&lt;/li&gt;
+&lt;li&gt;submit and monitor jobs&lt;/li&gt;
+&lt;li&gt;transfer and/or download data&lt;/li&gt;
+&lt;li&gt;run short tests, &amp;hellip; etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In other terms, anything that is not CPU, nor memory intensive [for example, a test with up to 4 CPUs, less than 2 Gb per core for 30 minutes or less].&lt;/p&gt;</description></item><item><title>Running batch jobs on Grex</title><link>https://um-grex.github.io/grex-docs/running-jobs/batch-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/batch-jobs/</guid><description>&lt;h2 id='batch-jobs' class="title is-flex is-align-items-center mt-4 is-2"&gt;Batch jobs&lt;a href='#batch-jobs' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;HPC systems usually are &lt;strong&gt;clusters&lt;/strong&gt; of many compute nodes, which are joined by an interconnect (like InfiniBand (IB) or Omni-PATH (OPA)), and under control of a resource management software (for example SLURM). From the users&amp;rsquo; point of view, the HPC system is a unity, a single large machine rather than a network of individual computers. Most of the time, HPC systems are used in batch mode: users would submit so-called &amp;ldquo;jobs&amp;rdquo; to a &amp;ldquo;batch queue&amp;rdquo;. A subset of the available resources of the HPC machine is allocated to each of the users&amp;rsquo; batch jobs, and they run without any need for user intervention as soon as the resources become available.&lt;/p&gt;</description></item><item><title>Running jobs on Grex</title><link>https://um-grex.github.io/grex-docs/running-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/</guid><description>&lt;h2 id='why-running-jobs-in-batch-mode' class="title is-flex is-align-items-center mt-4 is-2"&gt;Why running jobs in batch mode?&lt;a href='#why-running-jobs-in-batch-mode' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;There are many reasons for adopting a batch mode for running jobs on a cluster. From providing user&amp;rsquo;s computations with fairness, traffic control to prevent resource congestion and wasting, enforcing organizational priorities, to better understanding the workload, utilization and resource needs for future capacity planning; the scheduler provides it all. After being long-time PBS/Moab users, we have switched to the &lt;a
+ href="https://slurm.schedmd.com/documentation.html"
+ class="is-pretty-link"&gt;SLURM&lt;/a
+&gt;
+ batch system since &lt;strong&gt;December 2019&lt;/strong&gt; with the &lt;strong&gt;Linux/SLURM update&lt;/strong&gt; &lt;a
+ href="https://um-grex.github.io/grex-docs/changes/linux-slurm-update/"
+ class="is-pretty-link"&gt;project&lt;/a
+&gt;
+.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software and Applications on Grex</title><link>https://um-grex.github.io/grex-docs/software/</link><description>Recent content in Software and Applications on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/software/index.xml" rel="self" type="application/rss+xml"/><item><title>General Linux tools</title><link>https://um-grex.github.io/grex-docs/software/general-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/general-linux/</guid><description>&lt;h2 id='linux-tools-on-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;Linux tools on Grex&lt;a href='#linux-tools-on-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;There are a number of general and distro-specific tools on Grex that are worth mentioning here. Such tools are: &lt;strong&gt;text editors&lt;/strong&gt;, &lt;strong&gt;image viewers&lt;/strong&gt;, &lt;strong&gt;file managers&lt;/strong&gt;, &amp;hellip; etc.&lt;/p&gt;
+&lt;h2 id='command-line-text-editors' class="title is-flex is-align-items-center mt-4 is-2"&gt;Command line Text editors&lt;a href='#command-line-text-editors' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Command line text editors allow you to edit files right on Grex in any terminal session (such as SSH session or an X terminal under OOD):&lt;/p&gt;</description></item><item><title>Modules and software stacks</title><link>https://um-grex.github.io/grex-docs/software/using-modules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/using-modules/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;!--
+&lt;div class="sc-collapsible-container"&gt;
+ &lt;div
+ class="sc-collapsible-header is-flex is-justify-content-space-between has-text-weight-bold"
+ &gt;Modules allow for clean and dynamic modification of the user&amp;#39;s Linux session environment&lt;/div&gt;
+ &lt;div class="sc-collapsible-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+--&gt;
+&lt;p&gt;On a Linux server or a Linux desktop, software can be installed in one of the standard locations, such as &lt;em&gt;/usr/bin&lt;/em&gt;. This is where most of the system-level software binaries can be found. For custom user-built software, it is a good practice to install it separately from the standard location, to avoid potential conflicts and make changes and uni-installation possible. One of the common locations would be under &lt;em&gt;/usr/local/&lt;/em&gt;, as in &lt;em&gt;/usr/local/My_Custom_software/&lt;/em&gt; , or under &lt;em&gt;/opt&lt;/em&gt; (&lt;em&gt;/opt/My_Other_custom_software&lt;/em&gt;).&lt;/p&gt;</description></item><item><title>Code Development on Grex</title><link>https://um-grex.github.io/grex-docs/software/code-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/code-development/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Grex comes with a sizable software stack that contains most of the software development environment for typical HPC applications. This section of the documentation covers best practices for compiling and building your own software on Grex.&lt;/p&gt;
+&lt;p&gt;On Grex, login nodes can be used to compile software and to run short interactive and/or test runs. All other jobs must be submitted to the &lt;a
+ href="https://um-grex.github.io/grex-docs/running-jobs/batch-jobs/"
+ class="is-pretty-link"&gt;batch&lt;/a
+&gt;
+ system. User sessions on the login nodes are limited by &lt;em&gt;cgroups&lt;/em&gt; to prevent resource congestion. Thus, it sometimes makes sense to perform some of the code development in interactive jobs, in cases such as (but not limited to):&lt;/p&gt;</description></item><item><title>Containers for Software</title><link>https://um-grex.github.io/grex-docs/software/containers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/containers/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Linux Containers are means to isolate software dependencies from the base Linux operating system (OS). Several different Linux container engines exist, most notably &lt;a
+ href="https://www.docker.com"
+ class="is-pretty-link"&gt;Docker&lt;/a
+&gt;
+ which was first to emerge as the most popular tool in the DevOps community.&lt;/p&gt;
+&lt;p&gt;Since then, a lot of work had been done by major Linux players like Google, RedHat and others to develop an open standard for container runtimes, which developed based on Docker, &lt;a
+ href="https://opencontainers.org/"
+ class="is-pretty-link"&gt;OCI&lt;/a
+&gt;
+.&lt;/p&gt;</description></item><item><title>CVMFS and the Alliance software stack</title><link>https://um-grex.github.io/grex-docs/software/cern-vmfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/cern-vmfs/</guid><description>&lt;h2 id='cc-cernvmfs-on-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;CC CernVMFS on Grex&lt;a href='#cc-cernvmfs-on-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://cernvm.cern.ch/portal/filesystem"
+ class="is-pretty-link"&gt;CVMFS or CernVM FS&lt;/a
+&gt;
+ stands for CernVM File System. It provides a scalable, reliable and low-maintenance software distribution service. CVMFS was originally developed to assist High Energy Physics (HEP) collaborations to deploy software on the worldwide-distributed computing infrastructure used to run data processing applications. Since then it has been used as a a generic way of distributing software.
+Presently, we use CernVMFS (CVMFS) to provide the Alliance&amp;rsquo;s (or Compute Canada&amp;rsquo;s) software stack. Through the Alliance CVMVS servers, several other publically available CVMFS software repositories are available as well.
+The examples are a Singularity/Apptainer repository from &lt;a
+ href="https://opensciencegrid.org/"title="OpenScienceGrid" id="opensciencegrid"
+ class="is-pretty-link"&gt;OpenScienceGrid&lt;/a
+&gt;
+, Extreme-Scale Scientific Software Stack &lt;a
+ href="https://e4s-project.github.io/"
+ class="is-pretty-link"&gt;E4S&lt;/a
+&gt;
+, and a Genomics software colection (GenPipes/MUGQIC) from &lt;a
+ href="https://computationalgenomics.ca/"
+ class="is-pretty-link"&gt;C3G&lt;/a
+&gt;
+. Note that we can only &amp;ldquo;pull&amp;rdquo; the software from these repositories. To actually add or change software, datasets, etc., or receive support, the respective organizations controlling these CVMFS repositories should be contacted directly.&lt;/p&gt;</description></item><item><title>List of Software in SBEnv environment</title><link>https://um-grex.github.io/grex-docs/software/software-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/software/software-list/</guid><description>&lt;h2 id='software-available-on-the-ccenv-software-stack-on-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;Software available on the CCEnv software stack on Grex.&lt;a href='#software-available-on-the-ccenv-software-stack-on-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Grex receives the ComputeCanada/Alliance software environment via CVMFS. Full autogenerated list of software is available at the &lt;a
+ href="https://docs.alliancecan.ca/wiki/Available_software"
+ class="is-pretty-link"&gt;Available Software page&lt;/a
+&gt;
+ on the Allince Documentation Wiki.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note that Grex does not install local, commercial software licensed only to the National/Alliance systems. The software listed under &amp;ldquo;List of globally-installed modules&amp;rdquo; is available.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id='software-available-on-the-sbenv-software-stack-on-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;Software available on the SBEnv software stack on Grex.&lt;a href='#software-available-on-the-sbenv-software-stack-on-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Below is the auto-generated list of software modules available on Grex&amp;rsquo;s local SBEnv software stack.&lt;/p&gt;</description></item></channel></rss>

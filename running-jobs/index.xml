@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Running jobs on Grex on Grex</title><link>https://um-grex.github.io/grex-docs/running-jobs/</link><description>Recent content in Running jobs on Grex on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/running-jobs/index.xml" rel="self" type="application/rss+xml"/><item><title>Slurm partitions</title><link>https://um-grex.github.io/grex-docs/running-jobs/slurm-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/slurm-partitions/</guid><description>&lt;h2 id='partitions' class="title is-flex is-align-items-center mt-4 is-2"&gt;Partitions&lt;a href='#partitions' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;The current Grex system spans more than one kind of computer hardware: Intel Cascade lake and AMD Genoa CPUs, regular and large (double) memory per node, and several kinds of GPUs (NVidia V100, A30 and L40s).
+A large fraction of the system is also made of researcher-contributed nodes. This makes Grex a very heterogeneous HPC system. With SLURM, as a scheduler, this requires partitioning: a &amp;ldquo;partition&amp;rdquo; is a set of compute nodes, grouped by a characteristic, usually by the kind of hardware the nodes have, and sometimes by who &amp;ldquo;owns&amp;rdquo; the hardware as well. The following SLURM settings are important to know:&lt;/p&gt;</description></item><item><title>How to run interactive jobs on Grex?</title><link>https://um-grex.github.io/grex-docs/running-jobs/interactive-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/interactive-jobs/</guid><description>&lt;h2 id='interactive-work' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive work&lt;a href='#interactive-work' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;The login nodes of Grex are shared resources and should be used for basic operations such as (but not limited) to:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;edit files&lt;/li&gt;
+&lt;li&gt;compile codes and run short interactive calculations.&lt;/li&gt;
+&lt;li&gt;configure and build programs (limit the number of threads to 4: make -j4)&lt;/li&gt;
+&lt;li&gt;submit and monitor jobs&lt;/li&gt;
+&lt;li&gt;transfer and/or download data&lt;/li&gt;
+&lt;li&gt;run short tests, &amp;hellip; etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In other terms, anything that is not CPU, nor memory intensive [for example, a test with up to 4 CPUs, less than 2 Gb per core for 30 minutes or less].&lt;/p&gt;</description></item><item><title>Running batch jobs on Grex</title><link>https://um-grex.github.io/grex-docs/running-jobs/batch-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/batch-jobs/</guid><description>&lt;h2 id='batch-jobs' class="title is-flex is-align-items-center mt-4 is-2"&gt;Batch jobs&lt;a href='#batch-jobs' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;HPC systems usually are &lt;strong&gt;clusters&lt;/strong&gt; of many compute nodes, which are joined by an interconnect (like InfiniBand (IB) or Omni-PATH (OPA)), and under control of a resource management software (for example SLURM). From the users&amp;rsquo; point of view, the HPC system is a unity, a single large machine rather than a network of individual computers. Most of the time, HPC systems are used in batch mode: users would submit so-called &amp;ldquo;jobs&amp;rdquo; to a &amp;ldquo;batch queue&amp;rdquo;. A subset of the available resources of the HPC machine is allocated to each of the users&amp;rsquo; batch jobs, and they run without any need for user intervention as soon as the resources become available.&lt;/p&gt;</description></item><item><title>Scheduling policies and running jobs on Contributed nodes</title><link>https://um-grex.github.io/grex-docs/running-jobs/contributed-systems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/contributed-systems/</guid><description>&lt;h2 id='scheduling-policies-for-contributed-systems' class="title is-flex is-align-items-center mt-4 is-2"&gt;Scheduling policies for contributed systems&lt;a href='#scheduling-policies-for-contributed-systems' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;!--
+![](hpcc/grex-room-2020.png)
+--&gt;
+&lt;p&gt;Grex has a few user-contributed nodes. The owners of the hardware have preferred access to them. The current mechanism for the &amp;ldquo;preferred access&amp;rdquo; is preemption.&lt;/p&gt;
+&lt;h2 id='on-the-definition-of-preferential-access-to-hpc-systems' class="title is-flex is-align-items-center mt-4 is-2"&gt;On the definition of preferential access to HPC systems&lt;a href='#on-the-definition-of-preferential-access-to-hpc-systems' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Preferential access is when you have non-exclusive access to your hardware, in a sense that others can share in its usage over large enough periods. There are the following technical possibilities that rely on the HPC batch queueing technology we have. HPC makes access to CPU cores / GPUs / Memory exclusive per job, for the duration of the job (as opposed to time-sharing). Priority is a factor that decides which job gets to start (and thus exclude other jobs) first if there is a competitive situation (more jobs than free cores).&lt;/p&gt;</description></item><item><title>Using local disks: $TMPDIR</title><link>https://um-grex.github.io/grex-docs/running-jobs/using-localdisks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/using-localdisks/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;High-Performance Computing (HPC) systems, such as Grex, typically provide a shared, scalable, POSIX-compliant filesystem that is accessible by all compute nodes.
+For Grex and the current generation of Alliance HPC machines, this shared filesystem is powered by &lt;a
+ href="https://www.lustre.org/"
+ class="is-pretty-link"&gt;Lustre FS&lt;/a
+&gt;
+, which enables data sharing for compute jobs running on the cluster&amp;rsquo;s nodes. Due to its scalable design, Lustre FS can offer significant bandwidth for large parallel jobs through its parallelized Object Storage Targets (OSTs).&lt;/p&gt;</description></item></channel></rss>

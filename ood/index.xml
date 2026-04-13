@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenOnDemand, HPC Portal on Grex</title><link>https://um-grex.github.io/grex-docs/ood/</link><description>Recent content in OpenOnDemand, HPC Portal on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/ood/index.xml" rel="self" type="application/rss+xml"/><item><title>Desktops</title><link>https://um-grex.github.io/grex-docs/ood/desktops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/ood/desktops/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;From the menu &lt;strong&gt;Interactive Apps&lt;/strong&gt;, it is possible to start a given application and use it for interactive work. Some applications have already predefined settings, like the slurm partition and allow only to adjust the wall time. As an example, the &lt;em&gt;Grex Desktop Simplified&lt;/em&gt; that uses by default the &lt;strong&gt;test&lt;/strong&gt; partition.&lt;/p&gt;
+&lt;p&gt;To start an application, click on the name of the application, then fill the required parameters for slurm (accounting group, partition name, number of cpus, wall time, email notifications, &amp;hellip;etc).&lt;/p&gt;</description></item><item><title>Custom Interactive Apps</title><link>https://um-grex.github.io/grex-docs/ood/interactive-apps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/ood/interactive-apps/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;For the common applications used on Grex, we have addedd separate &lt;a
+ href="https://um-grex.github.io/grex-docs/ood/#interactive-apps"
+ class="is-pretty-link"&gt;interactive applications&lt;/a
+&gt;
+ to make it easier for users. Here is a list of the applications, but nit limited to: Gaussview, Matlab, Mathematica, Relio, Paraview, OVITO, &amp;hellip; etc. Some of the applications may not show up in your dashboard as they are protected with a POSIX group. For example, if you do not have access to &lt;a
+ href="https://um-grex.github.io/grex-docs/specific-soft/gaussian/"
+ class="is-pretty-link"&gt;Gaussian&lt;/a
+&gt;
+, &lt;strong&gt;Gaussview&lt;/strong&gt; will not show up in your dashboard. Other applications like stata, metashape are commercial. Therefore, they are set only for the groups who purchased the license for these programs. Access to these applications is restricted via a POSIX group.&lt;/p&gt;</description></item><item><title>Servers</title><link>https://um-grex.github.io/grex-docs/ood/servers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/ood/servers/</guid><description>&lt;h2 id='openondemand-servers' class="title is-flex is-align-items-center mt-4 is-2"&gt;OpenOnDemand Servers&lt;a href='#openondemand-servers' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Using OOD, users can use RStudio, Jupyter, Code server &amp;hellip; etc.&lt;/p&gt;
+&lt;p&gt;All these applications work in the same way as for &lt;a
+ href="https://um-grex.github.io/grex-docs/ood/desktops/"
+ class="is-pretty-link"&gt;Desktops&lt;/a
+&gt;
+ in the previous section. In other terms, before launching these application, a user has to set some parameters or resources to use (like the accounting group, slurm partition, number of cpus, &amp;hellip;etc.) before launching the application. Once the job is granted, click on the link with name _&lt;em&gt;Connect to &amp;hellip;&lt;/em&gt; to start the server. At the time of writing this documentation, Code server, Matlab Server, RStudio Server and JupeyterLab server are available.&lt;/p&gt;</description></item><item><title>Job Composer</title><link>https://um-grex.github.io/grex-docs/ood/job-composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/ood/job-composer/</guid><description>&lt;h2 id='job-composer' class="title is-flex is-align-items-center mt-4 is-2"&gt;Job Composer&lt;a href='#job-composer' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;The Job Composer is an interface to create and submit jobs via OOD. It is accessible from the menu &lt;strong&gt;Jobs ==&amp;gt; Grex JobComposer&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Once launched, it shows the applications that are already configured:&lt;/p&gt;
+&lt;div class="sc-collapsible-container"&gt;
+ &lt;div
+ class="sc-collapsible-header is-flex is-justify-content-space-between has-text-weight-bold"
+ &gt;Grex JobComposer&lt;/div&gt;
+ &lt;div class="sc-collapsible-content"&gt;&lt;img
+ src="https://um-grex.github.io/grex-docs/ood/job-composer.png"
+ alt="JobComposer Fron Page"
+ class="JobComposer Fron Page"/&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;At the time of writing this page, there are two categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Generic applications to create slurm scripts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Specific job composer for some applications like Gaussian, GROMACS, ORCA, MATLAB and R.&lt;/p&gt;</description></item><item><title>Guide Lines</title><link>https://um-grex.github.io/grex-docs/ood/guide-lines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/ood/guide-lines/</guid><description>&lt;h2 id='openondemand-guide' class="title is-flex is-align-items-center mt-4 is-2"&gt;OpenOnDemand Guide&lt;a href='#openondemand-guide' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id='how-to-connect-to-ood' class="title is-flex is-align-items-center mt-4 is-3"&gt;How to connect to OOD?&lt;a href='#how-to-connect-to-ood' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;a
+ href="https://ood.hpc.umanitoba.ca/"
+ class="is-pretty-link"&gt;https://ood.hpc.umanitoba.ca/&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;It requires a Grex account and MFA.&lt;/li&gt;
+&lt;li&gt;VPN required if used outside UManitoba network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id='what-is-ood-used-for' class="title is-flex is-align-items-center mt-4 is-3"&gt;What is OOD used for?&lt;a href='#what-is-ood-used-for' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;Via OOD interface, one can use and have access to the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interactive Apps:&lt;/strong&gt; GUI applications, Desktops and servers (MATLAB, Gaussview, RStudion, Jupyter, OVITO, ParaView, &amp;hellip;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;File browser:&lt;/strong&gt; navigate through the directories and files under home and project directories. Many operations related to files and directories are accessible from the file browser (copy, delete, edit, move, upload, download, &amp;hellip;). It gives also access to GLOBUS link.&lt;/p&gt;</description></item></channel></rss>

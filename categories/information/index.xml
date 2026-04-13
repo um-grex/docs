@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Information on Grex</title><link>https://um-grex.github.io/grex-docs/categories/information/</link><description>Recent content in Information on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/categories/information/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Research Alliance of Canada</title><link>https://um-grex.github.io/grex-docs/friends/alliancecan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/friends/alliancecan/</guid><description>&lt;p&gt;&lt;a
+ href="https://alliancecan.ca/"&gt;&lt;img
+ src="https://um-grex.github.io/grex-docs/alliance/Alliance_logo_English-first_slogan.jpg"
+ alt="Digital Research Alliance of Canad"
+ class="Digital Research Alliance of Canad"/&gt;
+&lt;/a
+&gt;
+&lt;/p&gt;
+&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Digital Research Alliance of Canada (the Alliance) is a Canadian National Digital Research Infrastructure (&lt;strong&gt;DRI&lt;/strong&gt;) organization (formerly known as Compute Canada). It provides the eligible researchers with the research computing resources such as several High-performance computing (HPC) systems with a large curated HPC &lt;a
+ href="https://docs.alliancecan.ca/wiki/Available_software"
+ class="is-pretty-link"&gt;software stack&lt;/a
+&gt;
+, private OpenStack cloud, and &lt;a
+ href="https://docs.alliancecan.ca/wiki/Globus"
+ class="is-pretty-link"&gt;Globus&lt;/a
+&gt;
+ data transfer software.&lt;/p&gt;
+&lt;p&gt;The Alliance also maintains a user authentication service and usage database called CCDB. On Grex, we rely on CCDB for accessing our system. The first step to get started with Grex is to &lt;a
+ href="https://alliancecan.ca/en/services/advanced-research-computing/account-management/apply-account"title="Apply for an account" id="apply-for-an-account"
+ class="is-pretty-link"&gt;&lt;strong&gt;register&lt;/strong&gt;&lt;/a
+&gt;
+ for an Alliance account at the CCDB website (if you do not already have one).&lt;/p&gt;</description></item><item><title>Linux/SLURM update project</title><link>https://um-grex.github.io/grex-docs/changes/linux-slurm-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/changes/linux-slurm-update/</guid><description>&lt;h2 id='grex-changes-linuxslurm-update-project' class="title is-flex is-align-items-center mt-4 is-2"&gt;Grex changes: Linux/SLURM update project.&lt;a href='#grex-changes-linuxslurm-update-project' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;December 10-11, 2019&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id='introduction--motivation' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction / Motivation&lt;a href='#introduction--motivation' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Grex&lt;/strong&gt; runs an old version of CentOS 6, which gets unsupported in 2020. The 2.6.x Linux kernel that is shipped with CentOS 6 does not support containerized workloads that require recent kernel features. The Lustre parallel filesystem client had some troubles that we were unable to resolve with the CentOS 6 kernel version as well. Finally, the original Grex resource management software, Torque 2.5 and Moab7 are unable to properly schedule jobs that use newer MPI implementations (OpenMPI 2 and 3), which are increasingly common amongst HPC users. Therefore, using the power outages of October and December 2019, we have embarked on a rather ambitious project of updating the entire Grex OS and software stack and scheduling to CentOS 7 and SLURM. This document outlines the changes and how they will affect Grex users.&lt;/p&gt;</description></item><item><title>Data sizes and quotas</title><link>https://um-grex.github.io/grex-docs/storage/data-sizes-and-quota/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/storage/data-sizes-and-quota/</guid><description>&lt;h2 id='data-size-and-quotas' class="title is-flex is-align-items-center mt-4 is-2"&gt;Data size and quotas&lt;a href='#data-size-and-quotas' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;This section explains how to find the actual space and inode usage of &lt;strong&gt;/home/&lt;/strong&gt; and &lt;strong&gt;/project&lt;/strong&gt; allocations on Grex. We limit the size of the data and the number of files that can be stored on these filesystems. The table provides a &amp;ldquo;default&amp;rdquo; storage quota on Grex. Larger quota can be obtained on &lt;strong&gt;/project&lt;/strong&gt; via UM local RAC process.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;File system&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Type&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Total space&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Bulk Quota&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;Files Quota&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;/home&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;NFSv4/RDMA&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;strong&gt;15 TB&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;100 GB / user&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;0.5M per user&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;/project&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;Lustre&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;&lt;strong&gt;2 PB&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;5-20 TB / group&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;1M / user, 2M / group&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;To figure out where your current usage stands with the limit, POSIX &lt;strong&gt;quota&lt;/strong&gt; or Lustre&amp;rsquo;s analog, &lt;strong&gt;lfs quota&lt;/strong&gt;, commands can be used. A convenient command, &lt;strong&gt;diskusage_report&lt;/strong&gt; summarizes usage and quota across all the available filesystems.&lt;/p&gt;</description></item><item><title>Grex: High Performance Computing Cluster at University of Manitoba</title><link>https://um-grex.github.io/grex-docs/grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/grex/</guid><description>&lt;p&gt;&lt;img
+ src="https://um-grex.github.io/grex-docs/hpcc/grex-room-2025.png"
+ alt="HPCC"
+ class="HPCC"/&gt;
+&lt;/p&gt;
+&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Grex&lt;/strong&gt; is a UManitoba High Performance Computing (HPC) system, first put in production in early &lt;strong&gt;2011&lt;/strong&gt; as part of WestGrid consortium. &amp;ldquo;Grex&amp;rdquo; is a &lt;em&gt;Latin&lt;/em&gt; name for &amp;ldquo;herd&amp;rdquo; (or maybe &amp;ldquo;flock&amp;rdquo;?). The names of the Grex login nodes (&lt;a
+ href="https://en.wikipedia.org/wiki/Bison"title="Bison" id="bison"
+ class="is-pretty-link"&gt;bison&lt;/a
+&gt;
+, &lt;a
+ href="https://en.wikipedia.org/wiki/Yak"title="Yak" id="yak"
+ class="is-pretty-link"&gt;yak&lt;/a
+&gt;
+) also refer to various kinds of bovine animals.&lt;/p&gt;
+&lt;div class="notification is-warning"&gt;Please note that older login nodes &lt;em&gt;tatanka&lt;/em&gt; and &lt;em&gt;zebu&lt;/em&gt; are decommissioned during and after the outage of August - September 2024. These login nodes are no longer available.&lt;/div&gt;
+
+&lt;!-- For more information, visit the updates [page](updates) --&gt;
+&lt;p&gt;Since being defunded by WestGrid (on April 2, 2018), Grex is now available only to the users affiliated with University of Manitoba and their collaborators.&lt;/p&gt;</description></item><item><title>Access and Usage Conditions</title><link>https://um-grex.github.io/grex-docs/access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/access/</guid><description>&lt;h1 id='access-conditions' class="title is-flex is-align-items-center mt-4 is-1"&gt;Access Conditions&lt;a href='#access-conditions' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;Grex is open to all researchers at University of Manitoba and their collaborators. The main purpose of the Grex system is Research; it might be used for grad studies courses with a strong research component, for their course-based research.&lt;/p&gt;
+&lt;p&gt;Access to the system, and resource allocations are &lt;em&gt;by research group&lt;/em&gt;; that is, the Principal Investigator (PI) receives resources for his group, and approves access for his group members.&lt;/p&gt;</description></item><item><title>Data Backup</title><link>https://um-grex.github.io/grex-docs/storage/data-backup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/storage/data-backup/</guid><description>&lt;h2 id='backup-policies' class="title is-flex is-align-items-center mt-4 is-2"&gt;Backup policies&lt;a href='#backup-policies' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Since late 2023, there has been a tape backup for user data stored on main Grex filesystems, &lt;strong&gt;/home&lt;/strong&gt; and &lt;strong&gt;/project&lt;/strong&gt;. Our limited resources and large amounts of data do put some limitations on what and how fast can be backed up and restored. All backup is done to tape in the same HPCC data centre.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;/home&lt;/strong&gt; filesystem is backed up daily using incremental backup. A new full backup is done quarterly.&lt;/p&gt;</description></item><item><title>Connecting to Grex</title><link>https://um-grex.github.io/grex-docs/connecting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/connecting/</guid><description>&lt;h2 id='connecting-to-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;Connecting to Grex&lt;a href='#connecting-to-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;In order to use almost any HPC system, you would need to be able to somehow connect and log in to it. Also, it would be necessary to be able to transfer data to and from the system. The standard means for these tasks are provided by the &lt;a
+ href="https://en.wikipedia.org/wiki/Secure_Shell"title="Secure Shell" id="secure-shell"
+ class="is-pretty-link"&gt;SSH protocol&lt;/a
+&gt;
+. The following hosts (login nodes) are available:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;grex.hpc.umanitoba.ca&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;yak.hpc.umanitoba.ca&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;bison.hpc.umanitoba.ca&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+ * bison.hpc.umanitoba.ca
+ * tatanka.hpc.umanitoba.ca
+--&gt;
+&lt;p&gt;To log in to Grex in the text (or bash) mode, connect to one of the above hosts using an &lt;a
+ href="https://um-grex.github.io/grex-docs/connecting/ssh/"
+ class="is-pretty-link"&gt;&lt;strong&gt;SSH&lt;/strong&gt;&lt;/a
+&gt;
+ (Secure SHELL) client.&lt;/p&gt;</description></item><item><title>Data sharing</title><link>https://um-grex.github.io/grex-docs/storage/data-sharing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/storage/data-sharing/</guid><description>&lt;h2 id='data-sharing' class="title is-flex is-align-items-center mt-4 is-2"&gt;Data Sharing&lt;a href='#data-sharing' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;By default, data on Grex are owned by the user and are not accessible to other Grex users or to external parties.&lt;/p&gt;
+&lt;p&gt;In research, it’s often necessary to share datasets or code within a research group or with collaborating groups. This documentation explains how to share data stored on a specific HPC system, in this case, Grex. Sharing data outside the HPC system can be done through other methods, such as Globus or MS OneDrive.&lt;/p&gt;</description></item><item><title>Local IT Resources</title><link>https://um-grex.github.io/grex-docs/friends/localit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/friends/localit/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;In addition to the &lt;strong&gt;HPC&lt;/strong&gt; Research Computing facility, there are other &lt;strong&gt;IT&lt;/strong&gt; providers that might relate to research.&lt;/p&gt;
+&lt;h2 id='resources-provided-by-umanitoba-ist' class="title is-flex is-align-items-center mt-4 is-2"&gt;Resources provided by UManitoba IST&lt;a href='#resources-provided-by-umanitoba-ist' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://umanitoba.ca/information-services-technology/research-computing"
+ class="is-pretty-link"&gt;&amp;ldquo;Information Services and Technology Service Catalogue&amp;rdquo;&lt;/a
+&gt;
+ provides a few services related to Administrative IT, Teaching, and Research Computing as well. The page refers to all Research Computing offerings including Grex.&lt;/p&gt;
+&lt;h2 id='resources-provided-by-umanitoba-libraries' class="title is-flex is-align-items-center mt-4 is-2"&gt;Resources provided by UManitoba Libraries&lt;a href='#resources-provided-by-umanitoba-libraries' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Libraries provide a variety of services related to Research Data Management, as well as a GIS service: UM &lt;a
+ href="https://libguides.lib.umanitoba.ca/researchservices"
+ class="is-pretty-link"&gt;Libraries&lt;/a
+&gt;
+ Research Services.&lt;/p&gt;</description></item><item><title>Friendly Organizations</title><link>https://um-grex.github.io/grex-docs/friends/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/friends/</guid><description>&lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
+ class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/friends/alliancecan/"
+ class="is-pretty-link"
+ &gt;DRAC (Alliance)&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/grex-docs/friends/localit/"
+ class="is-pretty-link"
+ &gt;UManitoba IT resources&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;!-- Changes and update:
+* Last revision: Aug 28, 2024.
+--&gt;</description></item><item><title>Linux/SLURM update project</title><link>https://um-grex.github.io/grex-docs/changes/changes-before-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/changes/changes-before-2020/</guid><description>&lt;h2 id='grex-defunded-since-april-2-2018' class="title is-flex is-align-items-center mt-4 is-2"&gt;Grex defunded since April 2, 2018&lt;a href='#grex-defunded-since-april-2-2018' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Since being defunded by WestGrid (on April 2, 2018), Grex is now available only to the users affiliated with University of Manitoba and their collaborators. The old WestGrid documentation, hosted on the WestGrid website became irrelevant after the Grex upgrade, so please visit Grex’s New &lt;a
+ href="https://um-grex.github.io/grex-docs/"
+ class="is-pretty-link"&gt;Documentation&lt;/a
+&gt;
+. Thus, if you are an experienced user in the previous “version” of Grex, you might benefit from reading this document: Description of Grex &lt;a
+ href="https://um-grex.github.io/grex-docs/changes/linux-slurm-update/"
+ class="is-pretty-link"&gt;changes&lt;/a
+&gt;
+.&lt;/p&gt;</description></item><item><title>Getting Help</title><link>https://um-grex.github.io/grex-docs/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/support/</guid><description>&lt;h2 id='the-alliance-support' class="title is-flex is-align-items-center mt-4 is-2"&gt;The Alliance support&lt;a href='#the-alliance-support' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;!--
+The single point support contact for Compute Canada is [mailto:support@tech.alliancecan.ca](mailto:support@tech.alliancecan.ca "mailto:support@tech.alliancecan.ca")
+--&gt;
+&lt;p&gt;The single point support contact for the Alliance is &lt;strong&gt;support@tech.alliancecan.ca&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Emailing to this address will create a &lt;strong&gt;support ticket&lt;/strong&gt; in the Alliance ticketing system (Help Desk). We support both local (Grex) and National resources through the Alliance support ticketing system. This is the main support contact for our HPC group, and it is a preferred method (as compared to contacting an HPC analyst directly). If you use your UManitoba email address (email registered in CCDB) to contact the Alliance support, it will reach us faster because the system will automatically detect it and assign your username to the generated ticket.&lt;/p&gt;</description></item><item><title>Disclaimer</title><link>https://um-grex.github.io/grex-docs/disclaimer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/disclaimer/</guid><description>&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This website is a place for &lt;strong&gt;technical information&lt;/strong&gt; related to certain Research Computing resources, maintained for the benefit of the researchers at the &lt;a
+ href="https://umanitoba.ca/"
+ class="is-pretty-link"&gt;University of Manitoba&lt;/a
+&gt;
+ and their external collaborators. The information, which is technical in nature, represents advice on best practices for using the Research Computing resources (HPC). Parts of the website are preliminary/draft texts released provisionally, in order to speed up the documentation process, and may contain inaccuracies and errors.&lt;/p&gt;</description></item><item><title>Glossary</title><link>https://um-grex.github.io/grex-docs/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/glossary/</guid><description>&lt;h2 id='a' class="title is-flex is-align-items-center mt-4 is-2"&gt;A&lt;a href='#a' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ACL&lt;/strong&gt; :: Access Control List&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI&lt;/strong&gt; :: Artificial Intelligence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AOCC&lt;/strong&gt; :: AMD Compilers Collection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARC&lt;/strong&gt; :: Advanced Research Computing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AVX&lt;/strong&gt; :: Advanced Vector eXtensions on x86_64 CPUs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='b' class="title is-flex is-align-items-center mt-4 is-2"&gt;B&lt;a href='#b' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BLAS&lt;/strong&gt; :: Basic Linear Algebra Subprograms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='c' class="title is-flex is-align-items-center mt-4 is-2"&gt;C&lt;a href='#c' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CPU&lt;/strong&gt; :: Central Processing Unit, a computer&amp;rsquo;s processor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CC&lt;/strong&gt; :: Compute Canada, a former organization replaced by DRAC&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CCDB&lt;/strong&gt; :: CC User Database, a user accounts portal maintained by DRAC&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CVMFS&lt;/strong&gt; :: Cern Virtual Machines File System&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CUDA&lt;/strong&gt; :: Compute Unified Device Architecture, an NVidia library for GPU calculations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CY&lt;/strong&gt;:: Core Year, the unit of CPU and GPU resources used by CCDB and RAC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='d' class="title is-flex is-align-items-center mt-4 is-2"&gt;D&lt;a href='#d' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DFT&lt;/strong&gt; :: 1. Discrete Fourier Transform, 2. Density Functional Theory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DRAC&lt;/strong&gt; :: Digital Research Alliance of Canada, same as The Alliance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='e' class="title is-flex is-align-items-center mt-4 is-2"&gt;E&lt;a href='#e' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id='f' class="title is-flex is-align-items-center mt-4 is-2"&gt;F&lt;a href='#f' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FFT&lt;/strong&gt; :: Fast Fourier Transform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='g' class="title is-flex is-align-items-center mt-4 is-2"&gt;G&lt;a href='#g' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GCC&lt;/strong&gt; :: GNU Compiler Collection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU&lt;/strong&gt; :: Graphics Processing Unit&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GROMACS&lt;/strong&gt; :: GROningen MAchine for Chemical Simulations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GUI&lt;/strong&gt; :: Graphical User Interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='h' class="title is-flex is-align-items-center mt-4 is-2"&gt;H&lt;a href='#h' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HPC&lt;/strong&gt; :: High-Performance Computing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTTP&lt;/strong&gt; :: Hypertext Transfer Protocol&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTTPS&lt;/strong&gt; :: Hypertext Transfer Protocol Secure&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HDF5&lt;/strong&gt; :: Hierarchical Data file Format version 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='i' class="title is-flex is-align-items-center mt-4 is-2"&gt;I&lt;a href='#i' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;I/O&lt;/strong&gt; :: Input/Output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IOPS&lt;/strong&gt; :: I/O Operations Per Second&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IST&lt;/strong&gt; :: Information Services and Technologies at UM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='j' class="title is-flex is-align-items-center mt-4 is-2"&gt;J&lt;a href='#j' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JuPyteR&lt;/strong&gt; :: an interactive debugging and visualization tool for Python, Julia, R and other programming languages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='k' class="title is-flex is-align-items-center mt-4 is-2"&gt;K&lt;a href='#k' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id='l' class="title is-flex is-align-items-center mt-4 is-2"&gt;L&lt;a href='#l' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LAMMPS&lt;/strong&gt; :: Large-scale Atomic/Molecular Massively Parallel Simulator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LAPACK&lt;/strong&gt; :: Linear Algebra PACKage, used together with BLAS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LDAP&lt;/strong&gt; :: Lightweight Directory Access Protocol, an user authenticaton service&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LLM&lt;/strong&gt; :: Large Language Model, a flavour of ML&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LMod&lt;/strong&gt; :: a software environment module system written in Lua at TACC&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lustre&lt;/strong&gt; :: a parallel filesystem for HPC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='m' class="title is-flex is-align-items-center mt-4 is-2"&gt;M&lt;a href='#m' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MDS&lt;/strong&gt; :: Metadata Server&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MDT&lt;/strong&gt; :: Metadata Target&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ML&lt;/strong&gt; :: Machine Learning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MPI&lt;/strong&gt; :: Message-Passing Interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='n' class="title is-flex is-align-items-center mt-4 is-2"&gt;N&lt;a href='#n' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NetCDF&lt;/strong&gt; :: Network Common Data Form, a set of machine independed data formats&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NFS&lt;/strong&gt; :: Network File System for Linux&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NVMe&lt;/strong&gt; :: Non-Volatile Memory express, a form of SSD disk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='o' class="title is-flex is-align-items-center mt-4 is-2"&gt;O&lt;a href='#o' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OCI&lt;/strong&gt; :: Open Containers Initiative, a container image format specification&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OMP&lt;/strong&gt; , &lt;strong&gt;OpenMP&lt;/strong&gt; :: Open Multi-Processing is a program interface for shared-memory multi-processing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OOD&lt;/strong&gt; :: Open OnDemand , a web portal for HPC&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSS&lt;/strong&gt; :: Object Storage Server&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OST&lt;/strong&gt; :: Object Storage Target&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='p' class="title is-flex is-align-items-center mt-4 is-2"&gt;P&lt;a href='#p' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PAICE&lt;/strong&gt; :: Pan-Canadian AI Compute Environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PI&lt;/strong&gt; :: Principal Investigator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PMIx&lt;/strong&gt; :: Process Management Interface for Exascale, a process kickstart system for MPI and SLURM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='q' class="title is-flex is-align-items-center mt-4 is-2"&gt;Q&lt;a href='#q' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id='r' class="title is-flex is-align-items-center mt-4 is-2"&gt;R&lt;a href='#r' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RAC&lt;/strong&gt; :: Resource Allocation Competition&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RAM&lt;/strong&gt; :: Random Access Memory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RAS&lt;/strong&gt; :: Rapid Access Service&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RDM&lt;/strong&gt; :: Research Data Management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='s' class="title is-flex is-align-items-center mt-4 is-2"&gt;S&lt;a href='#s' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SLURM&lt;/strong&gt; :: Simple Linux Utility for Resource Management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSH&lt;/strong&gt; :: Secure SHell&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSD&lt;/strong&gt; :: Solid State Disk&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSL&lt;/strong&gt; :: Secure Socket Layers, same as TLS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='t' class="title is-flex is-align-items-center mt-4 is-2"&gt;T&lt;a href='#t' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TLS&lt;/strong&gt; :: Transport Layer Security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='u' class="title is-flex is-align-items-center mt-4 is-2"&gt;U&lt;a href='#u' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UM&lt;/strong&gt; :: University of Manitoba&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='v' class="title is-flex is-align-items-center mt-4 is-2"&gt;V&lt;a href='#v' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;VASP&lt;/strong&gt; :: Vienna Ab initio Simulation Package&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VM&lt;/strong&gt; :: Virtual Machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='w' class="title is-flex is-align-items-center mt-4 is-2"&gt;W&lt;a href='#w' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WAN&lt;/strong&gt; :: A Wide Area Network (WAN) is a network that spans several geographically distributed locations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='x' class="title is-flex is-align-items-center mt-4 is-2"&gt;X&lt;a href='#x' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;X11&lt;/strong&gt; :: A GUI for UNIX and Linux based systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='y' class="title is-flex is-align-items-center mt-4 is-2"&gt;Y&lt;a href='#y' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;h2 id='z' class="title is-flex is-align-items-center mt-4 is-2"&gt;Z&lt;a href='#z' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;!-- Changes and update:
+* Last revision: Aug 28, 2024.
+--&gt;</description></item></channel></rss>

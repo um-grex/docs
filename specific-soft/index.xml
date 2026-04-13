@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Specific Notes on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/</link><description>Recent content in Software Specific Notes on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/specific-soft/index.xml" rel="self" type="application/rss+xml"/><item><title>Running Quantum Espresso on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/espresso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/espresso/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://www.quantum-espresso.org"
+ class="is-pretty-link"&gt;Quantum ESPRESSO&lt;/a
+&gt;
+ is an integrated suite of computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density-functional theory, plane waves, and pseudopotentials (both norm-conserving and ultrasoft).&lt;/p&gt;
+&lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;On the Grex&amp;rsquo;s default software stack (&lt;em&gt;SBEnv&lt;/em&gt;), Espresso is built using a variety of compilers and Open MPI&lt;/p&gt;
+&lt;p&gt;To find out which versions are available, use &lt;strong&gt;module spider espresso&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Running Gaussian on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/gaussian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/gaussian/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="http://gaussian.com/"title="Gaussian" id="gaussian"
+ class="is-pretty-link"&gt;Gaussian 16&lt;/a
+&gt;
+ is a comprehensive suite for electronic structure modeling using &lt;strong&gt;ab-initio&lt;/strong&gt;, DFT and semi-empirical methods. A list of Gaussian 16 features can be found &lt;a
+ href="http://gaussian.com/g16glance/"title="Gaussian Features" id="gaussian-features"
+ class="is-pretty-link"&gt;here&lt;/a
+&gt;
+.&lt;/p&gt;
+&lt;h2 id='user-responsibilities-and-access' class="title is-flex is-align-items-center mt-4 is-2"&gt;User Responsibilities and Access&lt;a href='#user-responsibilities-and-access' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;University of Manitoba has a site license for Gaussian 16 and GaussView. However, it comes with certain license limitations, so access to the code is subject to some license conditions.&lt;/p&gt;</description></item><item><title>Running GROMACS MD package on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/gromacs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/gromacs/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://www.gromacs.org"
+ class="is-pretty-link"&gt;GROMACS&lt;/a
+&gt;
+ (GROningen MAchine for Chemical Simulations) is a molecular dynamics package primarily designed for simulations of proteins, lipids and nucleic acids. GROMACS is one of the fastest and most popular software packages available and can run on CPUs as well as GPUs.&lt;/p&gt;
+&lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;On the Grex&amp;rsquo;s default software stack (&lt;em&gt;SBEnv&lt;/em&gt;), GROMACS is built using a variety of compilers and OpenMPI (4.1 or 5.0 for example).&lt;/p&gt;</description></item><item><title>Running Julia on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/julia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/julia/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://julialang.org/"
+ class="is-pretty-link"&gt;Julia&lt;/a
+&gt;
+ is a programming language that was designed for performance, ease of use and portability. It is available as a module on Grex.&lt;/p&gt;
+&lt;h2 id='available-julia-versions' class="title is-flex is-align-items-center mt-4 is-2"&gt;Available Julia versions&lt;a href='#available-julia-versions' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Presently, binary Julia version &lt;strong&gt;julia/1.11.3&lt;/strong&gt; is available. Use &lt;code&gt;module spider julia&lt;/code&gt; to find out other versions.&lt;/p&gt;
+&lt;h2 id='installing-packages' class="title is-flex is-align-items-center mt-4 is-2"&gt;Installing packages&lt;a href='#installing-packages' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;We do not maintain centralized versions of Julia packages. Users should install Julia modules in their home directory.&lt;/p&gt;</description></item><item><title>How to use Jupyter notebooks on Grex?</title><link>https://um-grex.github.io/grex-docs/specific-soft/jupyter-notebook/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/jupyter-notebook/</guid><description>&lt;h1 id='jupyter-on-grex' class="title is-flex is-align-items-center mt-4 is-1"&gt;Jupyter on Grex&lt;a href='#jupyter-on-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://jupyter.org/"
+ class="is-pretty-link"&gt;Jupyter&lt;/a
+&gt;
+ is a Web-interface aimed to support interactive data science and scientific computing. Jupyter supports several dynamic languages, most notably Python, R and Julia. Jupyter offers a metaphor of &amp;ldquo;computational document&amp;rdquo; that combines code, data and visualizations, and can be published or shared with collaborators.&lt;/p&gt;
+&lt;p&gt;Jupyter can be used either as a simple, individual notebook or as a multi-user Web server/Interactive Development Environment (IDE), such as JupyterHub/JupyterLab. The JupyterHub servers can use a variety of computational back-end configurations: from free-for-all shared workstation to job spawning interfaces to HPC schedulers like SLURM or container workflow systems like Kubernetes.&lt;/p&gt;</description></item><item><title>Running LAMMPS on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/lammps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/lammps/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://www.lammps.org/"
+ class="is-pretty-link"&gt;LAMMPS&lt;/a
+&gt;
+ is a classical molecular dynamics code. The name stands for Large-scale Atomic / Molecular Massively Parallel Simulator. LAMMPS is distributed by Sandia National Laboratories, a US Department of Energy laboratory.&lt;/p&gt;
+&lt;h2 id='modules' class="title is-flex is-align-items-center mt-4 is-2"&gt;Modules&lt;a href='#modules' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;On the Grex’s default software stack (SBEnv), LAMMPS was built using a variety of compilers and OpenMPI 4.1&lt;/p&gt;
+&lt;p&gt;To find out which versions are available, use &lt;strong&gt;module spider lammps&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Running MATLAB on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/matlab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/matlab/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="http://www.mathworks.com/"
+ class="is-pretty-link"&gt;MATLAB&lt;/a
+&gt;
+ is a general-purpose high-level programming package for numerical work such as linear algebra, signal processing and other calculations involving matrices or vectors of data. We have a campus license for MATLAB which is used on Grex and other local computing resources. &lt;!-- MATLAB is available only for UManitoba users.--&gt;&lt;/p&gt;
+&lt;p&gt;As with most of the Grex software, MATLAB is available as a module. The following command will load the latest version available on Grex:&lt;/p&gt;</description></item><item><title>Running NWChem on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/nwchem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/nwchem/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://nwchemgit.github.io/"
+ class="is-pretty-link"&gt;NWChem&lt;/a
+&gt;
+ is a Scalable, massive parallel and open source solution for large scale molecular simulations. NWChem is actively developed by a consortium of developers and maintained by the EMSL located at the Pacific Northwest National Laboratory (PNNL) in Washington State. The code is distributed as open source under the terms of the Educational Community License version 2.0 (ECL 2.0).&lt;/p&gt;
+&lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;To find out which versions of NWChem are available, use &lt;strong&gt;module spider nwchem&lt;/strong&gt; .&lt;/p&gt;</description></item><item><title>Running ORCA on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/orca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/orca/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="http://cec.mpg.de/forum/"
+ class="is-pretty-link"&gt;ORCA&lt;/a
+&gt;
+ is a flexible, efficient and easy-to-use general purpose tool for quantum chemistry with specific emphasis on spectroscopic properties of open-shell molecules. It features a wide variety of standard quantum chemical methods ranging from semi-empirical methods to DFT to single - and multi-reference correlated ab initio methods. It can also treat environmental and relativistic effects.&lt;/p&gt;
+&lt;h2 id='user-responsibilities-and-access' class="title is-flex is-align-items-center mt-4 is-2"&gt;User Responsibilities and Access&lt;a href='#user-responsibilities-and-access' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;ORCA is a proprietary software, even if it is free it still requires you to agree to the ORCA license conditions. We have installed ORCA on Grex, but to access the binaries, each of the ORCA users has to confirm they have accepted the license terms.&lt;/p&gt;</description></item><item><title>Running R on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/r-program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/r-program/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://www.r-project.org/"
+ class="is-pretty-link"&gt;R&lt;/a
+&gt;
+ is a system for statistical computation and graphics. It consists of a language plus a runtime environment with graphics, a debugger, access to certain system functions, and the ability to run programs stored in script files.&lt;/p&gt;
+&lt;h2 id='available-r-versions' class="title is-flex is-align-items-center mt-4 is-2"&gt;Available R versions&lt;a href='#available-r-versions' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Multiple versions of R are available. Use &lt;code&gt;module spider r&lt;/code&gt; to find out the different versions of R:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;[&lt;/span&gt;~@yak ~&lt;span style="color:#f92672"&gt;]&lt;/span&gt;$ module spider r
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.4.1+aocl-4.2.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.4.1+mkl-2019.5
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.4.1+mkl-2024.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.5.0+mkl-2024.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.5.0+openblas-0.3.28&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To see how to load a particular version, run the command &lt;code&gt;module spider r/&amp;lt;version&amp;gt;&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Running VASP on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/vasp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/vasp/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a
+ href="https://www.vasp.at/wiki/index.php/The_VASP_Manual"
+ class="is-pretty-link"&gt;VASP&lt;/a
+&gt;
+ is a massively parallel plane-wave solid state DFT code. On Grex, it is available only for the research groups that hold VASP licenses. To get access, PIs would need to send us a confirmation email from the VASP vendor, detailing the status of their license and a list of users allowed to use it.&lt;/p&gt;
+&lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;!--On the Grex local software stack, we have VASP 5 and VASP 6 using Intel compiler and OpenMPI 3.1.--&gt; 
+&lt;p&gt;To find out which versions of VASP are available, use &lt;code&gt;module spider vasp&lt;/code&gt; .&lt;/p&gt;</description></item><item><title>Using Python for ML on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/python-ai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/python-ai/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Python is a dynamic language with many optional Library &amp;ldquo;modules&amp;rdquo; available. Moreover, Python is often used as a &amp;ldquo;glue&amp;rdquo; language for interacting with tools and libraries written in other languages (C/C++, Fortran, CUDA, etc.).
+This makes maintenance of Python software difficult. Not only do Python and libraries need to be of the right versions, but also other software they depend on should be of the same versions that have been used to build the corresponding packages.&lt;/p&gt;</description></item></channel></rss>
