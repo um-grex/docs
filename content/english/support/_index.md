@@ -73,8 +73,8 @@ We also provide small-group workshops on Research Computing topics when there is
 ## Help with this Website
 ---
 
-The documentation is [hosted on Github](https://github.com/um-grex/grex-docs) and is open-source.
-If you see errors, inconsistencies or have other feedback, or want to add to this documentation, please do not hesitate to open an [issue](https://github.com/um-grex/grex-docs/issues) or create a pull request at the Github repository!
+The documentation is [hosted on Github](https://github.com/um-grex/docs) and is open-source.
+If you see errors, inconsistencies or have other feedback, or want to add to this documentation, please do not hesitate to open an [issue](https://github.com/um-grex/docs/issues) or create a pull request at the Github repository!
 
 ## Internal links
 ---
