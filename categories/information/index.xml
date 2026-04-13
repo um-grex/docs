@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Information on Grex</title><link>https://um-grex.github.io/grex-docs/categories/information/</link><description>Recent content in Information on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/categories/information/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Research Alliance of Canada</title><link>https://um-grex.github.io/grex-docs/friends/alliancecan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/friends/alliancecan/</guid><description>&lt;p&gt;&lt;a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Information on Grex</title><link>https://um-grex.github.io/docs/categories/information/</link><description>Recent content in Information on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/information/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Research Alliance of Canada</title><link>https://um-grex.github.io/docs/friends/alliancecan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/friends/alliancecan/</guid><description>&lt;p&gt;&lt;a
  href="https://alliancecan.ca/"&gt;&lt;img
- src="https://um-grex.github.io/grex-docs/alliance/Alliance_logo_English-first_slogan.jpg"
+ src="https://um-grex.github.io/docs/alliance/Alliance_logo_English-first_slogan.jpg"
  alt="Digital Research Alliance of Canad"
  class="Digital Research Alliance of Canad"/&gt;
 &lt;/a
@@ -21,12 +21,12 @@
  href="https://alliancecan.ca/en/services/advanced-research-computing/account-management/apply-account"title="Apply for an account" id="apply-for-an-account"
  class="is-pretty-link"&gt;&lt;strong&gt;register&lt;/strong&gt;&lt;/a
 &gt;
- for an Alliance account at the CCDB website (if you do not already have one).&lt;/p&gt;</description></item><item><title>Linux/SLURM update project</title><link>https://um-grex.github.io/grex-docs/changes/linux-slurm-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/changes/linux-slurm-update/</guid><description>&lt;h2 id='grex-changes-linuxslurm-update-project' class="title is-flex is-align-items-center mt-4 is-2"&gt;Grex changes: Linux/SLURM update project.&lt;a href='#grex-changes-linuxslurm-update-project' class='anchor'&gt;#&lt;/a&gt;
+ for an Alliance account at the CCDB website (if you do not already have one).&lt;/p&gt;</description></item><item><title>Linux/SLURM update project</title><link>https://um-grex.github.io/docs/changes/linux-slurm-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/changes/linux-slurm-update/</guid><description>&lt;h2 id='grex-changes-linuxslurm-update-project' class="title is-flex is-align-items-center mt-4 is-2"&gt;Grex changes: Linux/SLURM update project.&lt;a href='#grex-changes-linuxslurm-update-project' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;December 10-11, 2019&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id='introduction--motivation' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction / Motivation&lt;a href='#introduction--motivation' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Grex&lt;/strong&gt; runs an old version of CentOS 6, which gets unsupported in 2020. The 2.6.x Linux kernel that is shipped with CentOS 6 does not support containerized workloads that require recent kernel features. The Lustre parallel filesystem client had some troubles that we were unable to resolve with the CentOS 6 kernel version as well. Finally, the original Grex resource management software, Torque 2.5 and Moab7 are unable to properly schedule jobs that use newer MPI implementations (OpenMPI 2 and 3), which are increasingly common amongst HPC users. Therefore, using the power outages of October and December 2019, we have embarked on a rather ambitious project of updating the entire Grex OS and software stack and scheduling to CentOS 7 and SLURM. This document outlines the changes and how they will affect Grex users.&lt;/p&gt;</description></item><item><title>Data sizes and quotas</title><link>https://um-grex.github.io/grex-docs/storage/data-sizes-and-quota/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/storage/data-sizes-and-quota/</guid><description>&lt;h2 id='data-size-and-quotas' class="title is-flex is-align-items-center mt-4 is-2"&gt;Data size and quotas&lt;a href='#data-size-and-quotas' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Grex&lt;/strong&gt; runs an old version of CentOS 6, which gets unsupported in 2020. The 2.6.x Linux kernel that is shipped with CentOS 6 does not support containerized workloads that require recent kernel features. The Lustre parallel filesystem client had some troubles that we were unable to resolve with the CentOS 6 kernel version as well. Finally, the original Grex resource management software, Torque 2.5 and Moab7 are unable to properly schedule jobs that use newer MPI implementations (OpenMPI 2 and 3), which are increasingly common amongst HPC users. Therefore, using the power outages of October and December 2019, we have embarked on a rather ambitious project of updating the entire Grex OS and software stack and scheduling to CentOS 7 and SLURM. This document outlines the changes and how they will affect Grex users.&lt;/p&gt;</description></item><item><title>Data sizes and quotas</title><link>https://um-grex.github.io/docs/storage/data-sizes-and-quota/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/storage/data-sizes-and-quota/</guid><description>&lt;h2 id='data-size-and-quotas' class="title is-flex is-align-items-center mt-4 is-2"&gt;Data size and quotas&lt;a href='#data-size-and-quotas' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;This section explains how to find the actual space and inode usage of &lt;strong&gt;/home/&lt;/strong&gt; and &lt;strong&gt;/project&lt;/strong&gt; allocations on Grex. We limit the size of the data and the number of files that can be stored on these filesystems. The table provides a &amp;ldquo;default&amp;rdquo; storage quota on Grex. Larger quota can be obtained on &lt;strong&gt;/project&lt;/strong&gt; via UM local RAC process.&lt;/p&gt;
 &lt;table&gt;
@@ -56,8 +56,8 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;To figure out where your current usage stands with the limit, POSIX &lt;strong&gt;quota&lt;/strong&gt; or Lustre&amp;rsquo;s analog, &lt;strong&gt;lfs quota&lt;/strong&gt;, commands can be used. A convenient command, &lt;strong&gt;diskusage_report&lt;/strong&gt; summarizes usage and quota across all the available filesystems.&lt;/p&gt;</description></item><item><title>Grex: High Performance Computing Cluster at University of Manitoba</title><link>https://um-grex.github.io/grex-docs/grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/grex/</guid><description>&lt;p&gt;&lt;img
- src="https://um-grex.github.io/grex-docs/hpcc/grex-room-2025.png"
+&lt;p&gt;To figure out where your current usage stands with the limit, POSIX &lt;strong&gt;quota&lt;/strong&gt; or Lustre&amp;rsquo;s analog, &lt;strong&gt;lfs quota&lt;/strong&gt;, commands can be used. A convenient command, &lt;strong&gt;diskusage_report&lt;/strong&gt; summarizes usage and quota across all the available filesystems.&lt;/p&gt;</description></item><item><title>Grex: High Performance Computing Cluster at University of Manitoba</title><link>https://um-grex.github.io/docs/grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/grex/</guid><description>&lt;p&gt;&lt;img
+ src="https://um-grex.github.io/docs/hpcc/grex-room-2025.png"
  alt="HPCC"
  class="HPCC"/&gt;
 &lt;/p&gt;
@@ -75,13 +75,13 @@
 &lt;div class="notification is-warning"&gt;Please note that older login nodes &lt;em&gt;tatanka&lt;/em&gt; and &lt;em&gt;zebu&lt;/em&gt; are decommissioned during and after the outage of August - September 2024. These login nodes are no longer available.&lt;/div&gt;
 
 &lt;!-- For more information, visit the updates [page](updates) --&gt;
-&lt;p&gt;Since being defunded by WestGrid (on April 2, 2018), Grex is now available only to the users affiliated with University of Manitoba and their collaborators.&lt;/p&gt;</description></item><item><title>Access and Usage Conditions</title><link>https://um-grex.github.io/grex-docs/access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/access/</guid><description>&lt;h1 id='access-conditions' class="title is-flex is-align-items-center mt-4 is-1"&gt;Access Conditions&lt;a href='#access-conditions' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Since being defunded by WestGrid (on April 2, 2018), Grex is now available only to the users affiliated with University of Manitoba and their collaborators.&lt;/p&gt;</description></item><item><title>Access and Usage Conditions</title><link>https://um-grex.github.io/docs/access/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/access/</guid><description>&lt;h1 id='access-conditions' class="title is-flex is-align-items-center mt-4 is-1"&gt;Access Conditions&lt;a href='#access-conditions' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h1&gt;&lt;hr&gt;
 &lt;p&gt;Grex is open to all researchers at University of Manitoba and their collaborators. The main purpose of the Grex system is Research; it might be used for grad studies courses with a strong research component, for their course-based research.&lt;/p&gt;
-&lt;p&gt;Access to the system, and resource allocations are &lt;em&gt;by research group&lt;/em&gt;; that is, the Principal Investigator (PI) receives resources for his group, and approves access for his group members.&lt;/p&gt;</description></item><item><title>Data Backup</title><link>https://um-grex.github.io/grex-docs/storage/data-backup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/storage/data-backup/</guid><description>&lt;h2 id='backup-policies' class="title is-flex is-align-items-center mt-4 is-2"&gt;Backup policies&lt;a href='#backup-policies' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Access to the system, and resource allocations are &lt;em&gt;by research group&lt;/em&gt;; that is, the Principal Investigator (PI) receives resources for his group, and approves access for his group members.&lt;/p&gt;</description></item><item><title>Data Backup</title><link>https://um-grex.github.io/docs/storage/data-backup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/storage/data-backup/</guid><description>&lt;h2 id='backup-policies' class="title is-flex is-align-items-center mt-4 is-2"&gt;Backup policies&lt;a href='#backup-policies' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Since late 2023, there has been a tape backup for user data stored on main Grex filesystems, &lt;strong&gt;/home&lt;/strong&gt; and &lt;strong&gt;/project&lt;/strong&gt;. Our limited resources and large amounts of data do put some limitations on what and how fast can be backed up and restored. All backup is done to tape in the same HPCC data centre.&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;/home&lt;/strong&gt; filesystem is backed up daily using incremental backup. A new full backup is done quarterly.&lt;/p&gt;</description></item><item><title>Connecting to Grex</title><link>https://um-grex.github.io/grex-docs/connecting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/connecting/</guid><description>&lt;h2 id='connecting-to-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;Connecting to Grex&lt;a href='#connecting-to-grex' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;The &lt;strong&gt;/home&lt;/strong&gt; filesystem is backed up daily using incremental backup. A new full backup is done quarterly.&lt;/p&gt;</description></item><item><title>Connecting to Grex</title><link>https://um-grex.github.io/docs/connecting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/connecting/</guid><description>&lt;h2 id='connecting-to-grex' class="title is-flex is-align-items-center mt-4 is-2"&gt;Connecting to Grex&lt;a href='#connecting-to-grex' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;In order to use almost any HPC system, you would need to be able to somehow connect and log in to it. Also, it would be necessary to be able to transfer data to and from the system. The standard means for these tasks are provided by the &lt;a
  href="https://en.wikipedia.org/wiki/Secure_Shell"title="Secure Shell" id="secure-shell"
@@ -98,13 +98,13 @@
  * tatanka.hpc.umanitoba.ca
 --&gt;
 &lt;p&gt;To log in to Grex in the text (or bash) mode, connect to one of the above hosts using an &lt;a
- href="https://um-grex.github.io/grex-docs/connecting/ssh/"
+ href="https://um-grex.github.io/docs/connecting/ssh/"
  class="is-pretty-link"&gt;&lt;strong&gt;SSH&lt;/strong&gt;&lt;/a
 &gt;
- (Secure SHELL) client.&lt;/p&gt;</description></item><item><title>Data sharing</title><link>https://um-grex.github.io/grex-docs/storage/data-sharing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/storage/data-sharing/</guid><description>&lt;h2 id='data-sharing' class="title is-flex is-align-items-center mt-4 is-2"&gt;Data Sharing&lt;a href='#data-sharing' class='anchor'&gt;#&lt;/a&gt;
+ (Secure SHELL) client.&lt;/p&gt;</description></item><item><title>Data sharing</title><link>https://um-grex.github.io/docs/storage/data-sharing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/storage/data-sharing/</guid><description>&lt;h2 id='data-sharing' class="title is-flex is-align-items-center mt-4 is-2"&gt;Data Sharing&lt;a href='#data-sharing' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;By default, data on Grex are owned by the user and are not accessible to other Grex users or to external parties.&lt;/p&gt;
-&lt;p&gt;In research, it’s often necessary to share datasets or code within a research group or with collaborating groups. This documentation explains how to share data stored on a specific HPC system, in this case, Grex. Sharing data outside the HPC system can be done through other methods, such as Globus or MS OneDrive.&lt;/p&gt;</description></item><item><title>Local IT Resources</title><link>https://um-grex.github.io/grex-docs/friends/localit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/friends/localit/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;In research, it’s often necessary to share datasets or code within a research group or with collaborating groups. This documentation explains how to share data stored on a specific HPC system, in this case, Grex. Sharing data outside the HPC system can be done through other methods, such as Globus or MS OneDrive.&lt;/p&gt;</description></item><item><title>Local IT Resources</title><link>https://um-grex.github.io/docs/friends/localit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/friends/localit/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;In addition to the &lt;strong&gt;HPC&lt;/strong&gt; Research Computing facility, there are other &lt;strong&gt;IT&lt;/strong&gt; providers that might relate to research.&lt;/p&gt;
 &lt;h2 id='resources-provided-by-umanitoba-ist' class="title is-flex is-align-items-center mt-4 is-2"&gt;Resources provided by UManitoba IST&lt;a href='#resources-provided-by-umanitoba-ist' class='anchor'&gt;#&lt;/a&gt;
@@ -120,13 +120,13 @@
  href="https://libguides.lib.umanitoba.ca/researchservices"
  class="is-pretty-link"&gt;Libraries&lt;/a
 &gt;
- Research Services.&lt;/p&gt;</description></item><item><title>Friendly Organizations</title><link>https://um-grex.github.io/grex-docs/friends/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/friends/</guid><description>&lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
+ Research Services.&lt;/p&gt;</description></item><item><title>Friendly Organizations</title><link>https://um-grex.github.io/docs/friends/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/friends/</guid><description>&lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
  class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
  &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/friends/alliancecan/"
+ href="https://um-grex.github.io/docs/friends/alliancecan/"
  class="is-pretty-link"
  &gt;DRAC (Alliance)&lt;/a
  &gt;
@@ -136,7 +136,7 @@
  &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/friends/localit/"
+ href="https://um-grex.github.io/docs/friends/localit/"
  class="is-pretty-link"
  &gt;UManitoba IT resources&lt;/a
  &gt;
@@ -145,29 +145,29 @@
 
 &lt;!-- Changes and update:
 * Last revision: Aug 28, 2024.
---&gt;</description></item><item><title>Linux/SLURM update project</title><link>https://um-grex.github.io/grex-docs/changes/changes-before-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/changes/changes-before-2020/</guid><description>&lt;h2 id='grex-defunded-since-april-2-2018' class="title is-flex is-align-items-center mt-4 is-2"&gt;Grex defunded since April 2, 2018&lt;a href='#grex-defunded-since-april-2-2018' class='anchor'&gt;#&lt;/a&gt;
+--&gt;</description></item><item><title>Linux/SLURM update project</title><link>https://um-grex.github.io/docs/changes/changes-before-2020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/changes/changes-before-2020/</guid><description>&lt;h2 id='grex-defunded-since-april-2-2018' class="title is-flex is-align-items-center mt-4 is-2"&gt;Grex defunded since April 2, 2018&lt;a href='#grex-defunded-since-april-2-2018' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Since being defunded by WestGrid (on April 2, 2018), Grex is now available only to the users affiliated with University of Manitoba and their collaborators. The old WestGrid documentation, hosted on the WestGrid website became irrelevant after the Grex upgrade, so please visit Grex’s New &lt;a
- href="https://um-grex.github.io/grex-docs/"
+ href="https://um-grex.github.io/docs/"
  class="is-pretty-link"&gt;Documentation&lt;/a
 &gt;
 . Thus, if you are an experienced user in the previous “version” of Grex, you might benefit from reading this document: Description of Grex &lt;a
- href="https://um-grex.github.io/grex-docs/changes/linux-slurm-update/"
+ href="https://um-grex.github.io/docs/changes/linux-slurm-update/"
  class="is-pretty-link"&gt;changes&lt;/a
 &gt;
-.&lt;/p&gt;</description></item><item><title>Getting Help</title><link>https://um-grex.github.io/grex-docs/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/support/</guid><description>&lt;h2 id='the-alliance-support' class="title is-flex is-align-items-center mt-4 is-2"&gt;The Alliance support&lt;a href='#the-alliance-support' class='anchor'&gt;#&lt;/a&gt;
+.&lt;/p&gt;</description></item><item><title>Getting Help</title><link>https://um-grex.github.io/docs/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/support/</guid><description>&lt;h2 id='the-alliance-support' class="title is-flex is-align-items-center mt-4 is-2"&gt;The Alliance support&lt;a href='#the-alliance-support' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;!--
 The single point support contact for Compute Canada is [mailto:support@tech.alliancecan.ca](mailto:support@tech.alliancecan.ca "mailto:support@tech.alliancecan.ca")
 --&gt;
 &lt;p&gt;The single point support contact for the Alliance is &lt;strong&gt;support@tech.alliancecan.ca&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Emailing to this address will create a &lt;strong&gt;support ticket&lt;/strong&gt; in the Alliance ticketing system (Help Desk). We support both local (Grex) and National resources through the Alliance support ticketing system. This is the main support contact for our HPC group, and it is a preferred method (as compared to contacting an HPC analyst directly). If you use your UManitoba email address (email registered in CCDB) to contact the Alliance support, it will reach us faster because the system will automatically detect it and assign your username to the generated ticket.&lt;/p&gt;</description></item><item><title>Disclaimer</title><link>https://um-grex.github.io/grex-docs/disclaimer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/disclaimer/</guid><description>&lt;hr&gt;
+&lt;p&gt;Emailing to this address will create a &lt;strong&gt;support ticket&lt;/strong&gt; in the Alliance ticketing system (Help Desk). We support both local (Grex) and National resources through the Alliance support ticketing system. This is the main support contact for our HPC group, and it is a preferred method (as compared to contacting an HPC analyst directly). If you use your UManitoba email address (email registered in CCDB) to contact the Alliance support, it will reach us faster because the system will automatically detect it and assign your username to the generated ticket.&lt;/p&gt;</description></item><item><title>Disclaimer</title><link>https://um-grex.github.io/docs/disclaimer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/disclaimer/</guid><description>&lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This website is a place for &lt;strong&gt;technical information&lt;/strong&gt; related to certain Research Computing resources, maintained for the benefit of the researchers at the &lt;a
  href="https://umanitoba.ca/"
  class="is-pretty-link"&gt;University of Manitoba&lt;/a
 &gt;
- and their external collaborators. The information, which is technical in nature, represents advice on best practices for using the Research Computing resources (HPC). Parts of the website are preliminary/draft texts released provisionally, in order to speed up the documentation process, and may contain inaccuracies and errors.&lt;/p&gt;</description></item><item><title>Glossary</title><link>https://um-grex.github.io/grex-docs/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/glossary/</guid><description>&lt;h2 id='a' class="title is-flex is-align-items-center mt-4 is-2"&gt;A&lt;a href='#a' class='anchor'&gt;#&lt;/a&gt;
+ and their external collaborators. The information, which is technical in nature, represents advice on best practices for using the Research Computing resources (HPC). Parts of the website are preliminary/draft texts released provisionally, in order to speed up the documentation process, and may contain inaccuracies and errors.&lt;/p&gt;</description></item><item><title>Glossary</title><link>https://um-grex.github.io/docs/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/glossary/</guid><description>&lt;h2 id='a' class="title is-flex is-align-items-center mt-4 is-2"&gt;A&lt;a href='#a' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;ACL&lt;/strong&gt; :: Access Control List&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;AI&lt;/strong&gt; :: Artificial Intelligence&lt;/li&gt;

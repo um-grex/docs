@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scheduler on Grex</title><link>https://um-grex.github.io/grex-docs/categories/scheduler/</link><description>Recent content in Scheduler on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/categories/scheduler/index.xml" rel="self" type="application/rss+xml"/><item><title>Running Quantum Espresso on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/espresso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/espresso/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scheduler on Grex</title><link>https://um-grex.github.io/docs/categories/scheduler/</link><description>Recent content in Scheduler on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/scheduler/index.xml" rel="self" type="application/rss+xml"/><item><title>Running Quantum Espresso on Grex</title><link>https://um-grex.github.io/docs/specific-soft/espresso/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/espresso/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="https://www.quantum-espresso.org"
@@ -8,7 +8,7 @@
 &lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;On the Grex&amp;rsquo;s default software stack (&lt;em&gt;SBEnv&lt;/em&gt;), Espresso is built using a variety of compilers and Open MPI&lt;/p&gt;
-&lt;p&gt;To find out which versions are available, use &lt;strong&gt;module spider espresso&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Running Gaussian on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/gaussian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/gaussian/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;To find out which versions are available, use &lt;strong&gt;module spider espresso&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Running Gaussian on Grex</title><link>https://um-grex.github.io/docs/specific-soft/gaussian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/gaussian/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="http://gaussian.com/"title="Gaussian" id="gaussian"
@@ -21,7 +21,7 @@
 .&lt;/p&gt;
 &lt;h2 id='user-responsibilities-and-access' class="title is-flex is-align-items-center mt-4 is-2"&gt;User Responsibilities and Access&lt;a href='#user-responsibilities-and-access' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;University of Manitoba has a site license for Gaussian 16 and GaussView. However, it comes with certain license limitations, so access to the code is subject to some license conditions.&lt;/p&gt;</description></item><item><title>Running GROMACS MD package on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/gromacs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/gromacs/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;University of Manitoba has a site license for Gaussian 16 and GaussView. However, it comes with certain license limitations, so access to the code is subject to some license conditions.&lt;/p&gt;</description></item><item><title>Running GROMACS MD package on Grex</title><link>https://um-grex.github.io/docs/specific-soft/gromacs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/gromacs/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="https://www.gromacs.org"
@@ -30,7 +30,7 @@
  (GROningen MAchine for Chemical Simulations) is a molecular dynamics package primarily designed for simulations of proteins, lipids and nucleic acids. GROMACS is one of the fastest and most popular software packages available and can run on CPUs as well as GPUs.&lt;/p&gt;
 &lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;On the Grex&amp;rsquo;s default software stack (&lt;em&gt;SBEnv&lt;/em&gt;), GROMACS is built using a variety of compilers and OpenMPI (4.1 or 5.0 for example).&lt;/p&gt;</description></item><item><title>Running Julia on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/julia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/julia/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;On the Grex&amp;rsquo;s default software stack (&lt;em&gt;SBEnv&lt;/em&gt;), GROMACS is built using a variety of compilers and OpenMPI (4.1 or 5.0 for example).&lt;/p&gt;</description></item><item><title>Running Julia on Grex</title><link>https://um-grex.github.io/docs/specific-soft/julia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/julia/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="https://julialang.org/"
@@ -42,7 +42,7 @@
 &lt;p&gt;Presently, binary Julia version &lt;strong&gt;julia/1.11.3&lt;/strong&gt; is available. Use &lt;code&gt;module spider julia&lt;/code&gt; to find out other versions.&lt;/p&gt;
 &lt;h2 id='installing-packages' class="title is-flex is-align-items-center mt-4 is-2"&gt;Installing packages&lt;a href='#installing-packages' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;We do not maintain centralized versions of Julia packages. Users should install Julia modules in their home directory.&lt;/p&gt;</description></item><item><title>Running LAMMPS on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/lammps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/lammps/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;We do not maintain centralized versions of Julia packages. Users should install Julia modules in their home directory.&lt;/p&gt;</description></item><item><title>Running LAMMPS on Grex</title><link>https://um-grex.github.io/docs/specific-soft/lammps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/lammps/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="https://www.lammps.org/"
@@ -52,14 +52,14 @@
 &lt;h2 id='modules' class="title is-flex is-align-items-center mt-4 is-2"&gt;Modules&lt;a href='#modules' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;On the Grex’s default software stack (SBEnv), LAMMPS was built using a variety of compilers and OpenMPI 4.1&lt;/p&gt;
-&lt;p&gt;To find out which versions are available, use &lt;strong&gt;module spider lammps&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Running MATLAB on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/matlab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/matlab/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;To find out which versions are available, use &lt;strong&gt;module spider lammps&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Running MATLAB on Grex</title><link>https://um-grex.github.io/docs/specific-soft/matlab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/matlab/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="http://www.mathworks.com/"
  class="is-pretty-link"&gt;MATLAB&lt;/a
 &gt;
  is a general-purpose high-level programming package for numerical work such as linear algebra, signal processing and other calculations involving matrices or vectors of data. We have a campus license for MATLAB which is used on Grex and other local computing resources. &lt;!-- MATLAB is available only for UManitoba users.--&gt;&lt;/p&gt;
-&lt;p&gt;As with most of the Grex software, MATLAB is available as a module. The following command will load the latest version available on Grex:&lt;/p&gt;</description></item><item><title>Running NWChem on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/nwchem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/nwchem/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;As with most of the Grex software, MATLAB is available as a module. The following command will load the latest version available on Grex:&lt;/p&gt;</description></item><item><title>Running NWChem on Grex</title><link>https://um-grex.github.io/docs/specific-soft/nwchem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/nwchem/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="https://nwchemgit.github.io/"
@@ -68,7 +68,7 @@
  is a Scalable, massive parallel and open source solution for large scale molecular simulations. NWChem is actively developed by a consortium of developers and maintained by the EMSL located at the Pacific Northwest National Laboratory (PNNL) in Washington State. The code is distributed as open source under the terms of the Educational Community License version 2.0 (ECL 2.0).&lt;/p&gt;
 &lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;To find out which versions of NWChem are available, use &lt;strong&gt;module spider nwchem&lt;/strong&gt; .&lt;/p&gt;</description></item><item><title>Running ORCA on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/orca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/orca/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;To find out which versions of NWChem are available, use &lt;strong&gt;module spider nwchem&lt;/strong&gt; .&lt;/p&gt;</description></item><item><title>Running ORCA on Grex</title><link>https://um-grex.github.io/docs/specific-soft/orca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/orca/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="http://cec.mpg.de/forum/"
@@ -77,7 +77,7 @@
  is a flexible, efficient and easy-to-use general purpose tool for quantum chemistry with specific emphasis on spectroscopic properties of open-shell molecules. It features a wide variety of standard quantum chemical methods ranging from semi-empirical methods to DFT to single - and multi-reference correlated ab initio methods. It can also treat environmental and relativistic effects.&lt;/p&gt;
 &lt;h2 id='user-responsibilities-and-access' class="title is-flex is-align-items-center mt-4 is-2"&gt;User Responsibilities and Access&lt;a href='#user-responsibilities-and-access' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;ORCA is a proprietary software, even if it is free it still requires you to agree to the ORCA license conditions. We have installed ORCA on Grex, but to access the binaries, each of the ORCA users has to confirm they have accepted the license terms.&lt;/p&gt;</description></item><item><title>Running R on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/r-program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/r-program/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;ORCA is a proprietary software, even if it is free it still requires you to agree to the ORCA license conditions. We have installed ORCA on Grex, but to access the binaries, each of the ORCA users has to confirm they have accepted the license terms.&lt;/p&gt;</description></item><item><title>Running R on Grex</title><link>https://um-grex.github.io/docs/specific-soft/r-program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/r-program/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="https://www.r-project.org/"
@@ -93,10 +93,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.4.1+mkl-2024.1
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.5.0+mkl-2024.1
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r/4.5.0+openblas-0.3.28&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;To see how to load a particular version, run the command &lt;code&gt;module spider r/&amp;lt;version&amp;gt;&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Slurm partitions</title><link>https://um-grex.github.io/grex-docs/running-jobs/slurm-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/slurm-partitions/</guid><description>&lt;h2 id='partitions' class="title is-flex is-align-items-center mt-4 is-2"&gt;Partitions&lt;a href='#partitions' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;To see how to load a particular version, run the command &lt;code&gt;module spider r/&amp;lt;version&amp;gt;&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Slurm partitions</title><link>https://um-grex.github.io/docs/running-jobs/slurm-partitions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/running-jobs/slurm-partitions/</guid><description>&lt;h2 id='partitions' class="title is-flex is-align-items-center mt-4 is-2"&gt;Partitions&lt;a href='#partitions' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;The current Grex system spans more than one kind of computer hardware: Intel Cascade lake and AMD Genoa CPUs, regular and large (double) memory per node, and several kinds of GPUs (NVidia V100, A30 and L40s).
-A large fraction of the system is also made of researcher-contributed nodes. This makes Grex a very heterogeneous HPC system. With SLURM, as a scheduler, this requires partitioning: a &amp;ldquo;partition&amp;rdquo; is a set of compute nodes, grouped by a characteristic, usually by the kind of hardware the nodes have, and sometimes by who &amp;ldquo;owns&amp;rdquo; the hardware as well. The following SLURM settings are important to know:&lt;/p&gt;</description></item><item><title>Running VASP on Grex</title><link>https://um-grex.github.io/grex-docs/specific-soft/vasp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/vasp/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+A large fraction of the system is also made of researcher-contributed nodes. This makes Grex a very heterogeneous HPC system. With SLURM, as a scheduler, this requires partitioning: a &amp;ldquo;partition&amp;rdquo; is a set of compute nodes, grouped by a characteristic, usually by the kind of hardware the nodes have, and sometimes by who &amp;ldquo;owns&amp;rdquo; the hardware as well. The following SLURM settings are important to know:&lt;/p&gt;</description></item><item><title>Running VASP on Grex</title><link>https://um-grex.github.io/docs/specific-soft/vasp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/vasp/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;&lt;a
  href="https://www.vasp.at/wiki/index.php/The_VASP_Manual"
@@ -106,7 +106,7 @@ A large fraction of the system is also made of researcher-contributed nodes. Thi
 &lt;h2 id='system-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;System specific notes&lt;a href='#system-specific-notes' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;!--On the Grex local software stack, we have VASP 5 and VASP 6 using Intel compiler and OpenMPI 3.1.--&gt; 
-&lt;p&gt;To find out which versions of VASP are available, use &lt;code&gt;module spider vasp&lt;/code&gt; .&lt;/p&gt;</description></item><item><title>How to run interactive jobs on Grex?</title><link>https://um-grex.github.io/grex-docs/running-jobs/interactive-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/interactive-jobs/</guid><description>&lt;h2 id='interactive-work' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive work&lt;a href='#interactive-work' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;To find out which versions of VASP are available, use &lt;code&gt;module spider vasp&lt;/code&gt; .&lt;/p&gt;</description></item><item><title>How to run interactive jobs on Grex?</title><link>https://um-grex.github.io/docs/running-jobs/interactive-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/running-jobs/interactive-jobs/</guid><description>&lt;h2 id='interactive-work' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive work&lt;a href='#interactive-work' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;The login nodes of Grex are shared resources and should be used for basic operations such as (but not limited) to:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -119,9 +119,9 @@ A large fraction of the system is also made of researcher-contributed nodes. Thi
 &lt;li&gt;run short tests, &amp;hellip; etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In other terms, anything that is not CPU, nor memory intensive [for example, a test with up to 4 CPUs, less than 2 Gb per core for 30 minutes or less].&lt;/p&gt;</description></item><item><title>Running batch jobs on Grex</title><link>https://um-grex.github.io/grex-docs/running-jobs/batch-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/batch-jobs/</guid><description>&lt;h2 id='batch-jobs' class="title is-flex is-align-items-center mt-4 is-2"&gt;Batch jobs&lt;a href='#batch-jobs' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;In other terms, anything that is not CPU, nor memory intensive [for example, a test with up to 4 CPUs, less than 2 Gb per core for 30 minutes or less].&lt;/p&gt;</description></item><item><title>Running batch jobs on Grex</title><link>https://um-grex.github.io/docs/running-jobs/batch-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/running-jobs/batch-jobs/</guid><description>&lt;h2 id='batch-jobs' class="title is-flex is-align-items-center mt-4 is-2"&gt;Batch jobs&lt;a href='#batch-jobs' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;HPC systems usually are &lt;strong&gt;clusters&lt;/strong&gt; of many compute nodes, which are joined by an interconnect (like InfiniBand (IB) or Omni-PATH (OPA)), and under control of a resource management software (for example SLURM). From the users&amp;rsquo; point of view, the HPC system is a unity, a single large machine rather than a network of individual computers. Most of the time, HPC systems are used in batch mode: users would submit so-called &amp;ldquo;jobs&amp;rdquo; to a &amp;ldquo;batch queue&amp;rdquo;. A subset of the available resources of the HPC machine is allocated to each of the users&amp;rsquo; batch jobs, and they run without any need for user intervention as soon as the resources become available.&lt;/p&gt;</description></item><item><title>Scheduling policies and running jobs on Contributed nodes</title><link>https://um-grex.github.io/grex-docs/running-jobs/contributed-systems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/contributed-systems/</guid><description>&lt;h2 id='scheduling-policies-for-contributed-systems' class="title is-flex is-align-items-center mt-4 is-2"&gt;Scheduling policies for contributed systems&lt;a href='#scheduling-policies-for-contributed-systems' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;HPC systems usually are &lt;strong&gt;clusters&lt;/strong&gt; of many compute nodes, which are joined by an interconnect (like InfiniBand (IB) or Omni-PATH (OPA)), and under control of a resource management software (for example SLURM). From the users&amp;rsquo; point of view, the HPC system is a unity, a single large machine rather than a network of individual computers. Most of the time, HPC systems are used in batch mode: users would submit so-called &amp;ldquo;jobs&amp;rdquo; to a &amp;ldquo;batch queue&amp;rdquo;. A subset of the available resources of the HPC machine is allocated to each of the users&amp;rsquo; batch jobs, and they run without any need for user intervention as soon as the resources become available.&lt;/p&gt;</description></item><item><title>Scheduling policies and running jobs on Contributed nodes</title><link>https://um-grex.github.io/docs/running-jobs/contributed-systems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/running-jobs/contributed-systems/</guid><description>&lt;h2 id='scheduling-policies-for-contributed-systems' class="title is-flex is-align-items-center mt-4 is-2"&gt;Scheduling policies for contributed systems&lt;a href='#scheduling-policies-for-contributed-systems' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;!--
 ![](hpcc/grex-room-2020.png)
@@ -129,24 +129,24 @@ A large fraction of the system is also made of researcher-contributed nodes. Thi
 &lt;p&gt;Grex has a few user-contributed nodes. The owners of the hardware have preferred access to them. The current mechanism for the &amp;ldquo;preferred access&amp;rdquo; is preemption.&lt;/p&gt;
 &lt;h2 id='on-the-definition-of-preferential-access-to-hpc-systems' class="title is-flex is-align-items-center mt-4 is-2"&gt;On the definition of preferential access to HPC systems&lt;a href='#on-the-definition-of-preferential-access-to-hpc-systems' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;Preferential access is when you have non-exclusive access to your hardware, in a sense that others can share in its usage over large enough periods. There are the following technical possibilities that rely on the HPC batch queueing technology we have. HPC makes access to CPU cores / GPUs / Memory exclusive per job, for the duration of the job (as opposed to time-sharing). Priority is a factor that decides which job gets to start (and thus exclude other jobs) first if there is a competitive situation (more jobs than free cores).&lt;/p&gt;</description></item><item><title>Using local disks: $TMPDIR</title><link>https://um-grex.github.io/grex-docs/running-jobs/using-localdisks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/using-localdisks/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Preferential access is when you have non-exclusive access to your hardware, in a sense that others can share in its usage over large enough periods. There are the following technical possibilities that rely on the HPC batch queueing technology we have. HPC makes access to CPU cores / GPUs / Memory exclusive per job, for the duration of the job (as opposed to time-sharing). Priority is a factor that decides which job gets to start (and thus exclude other jobs) first if there is a competitive situation (more jobs than free cores).&lt;/p&gt;</description></item><item><title>Using local disks: $TMPDIR</title><link>https://um-grex.github.io/docs/running-jobs/using-localdisks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/running-jobs/using-localdisks/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;High-Performance Computing (HPC) systems, such as Grex, typically provide a shared, scalable, POSIX-compliant filesystem that is accessible by all compute nodes.
 For Grex and the current generation of Alliance HPC machines, this shared filesystem is powered by &lt;a
  href="https://www.lustre.org/"
  class="is-pretty-link"&gt;Lustre FS&lt;/a
 &gt;
-, which enables data sharing for compute jobs running on the cluster&amp;rsquo;s nodes. Due to its scalable design, Lustre FS can offer significant bandwidth for large parallel jobs through its parallelized Object Storage Targets (OSTs).&lt;/p&gt;</description></item><item><title>Running jobs on Grex</title><link>https://um-grex.github.io/grex-docs/running-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/running-jobs/</guid><description>&lt;h2 id='why-running-jobs-in-batch-mode' class="title is-flex is-align-items-center mt-4 is-2"&gt;Why running jobs in batch mode?&lt;a href='#why-running-jobs-in-batch-mode' class='anchor'&gt;#&lt;/a&gt;
+, which enables data sharing for compute jobs running on the cluster&amp;rsquo;s nodes. Due to its scalable design, Lustre FS can offer significant bandwidth for large parallel jobs through its parallelized Object Storage Targets (OSTs).&lt;/p&gt;</description></item><item><title>Running jobs on Grex</title><link>https://um-grex.github.io/docs/running-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/running-jobs/</guid><description>&lt;h2 id='why-running-jobs-in-batch-mode' class="title is-flex is-align-items-center mt-4 is-2"&gt;Why running jobs in batch mode?&lt;a href='#why-running-jobs-in-batch-mode' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;There are many reasons for adopting a batch mode for running jobs on a cluster. From providing user&amp;rsquo;s computations with fairness, traffic control to prevent resource congestion and wasting, enforcing organizational priorities, to better understanding the workload, utilization and resource needs for future capacity planning; the scheduler provides it all. After being long-time PBS/Moab users, we have switched to the &lt;a
  href="https://slurm.schedmd.com/documentation.html"
  class="is-pretty-link"&gt;SLURM&lt;/a
 &gt;
  batch system since &lt;strong&gt;December 2019&lt;/strong&gt; with the &lt;strong&gt;Linux/SLURM update&lt;/strong&gt; &lt;a
- href="https://um-grex.github.io/grex-docs/changes/linux-slurm-update/"
+ href="https://um-grex.github.io/docs/changes/linux-slurm-update/"
  class="is-pretty-link"&gt;project&lt;/a
 &gt;
-.&lt;/p&gt;</description></item><item><title>Software Specific Notes</title><link>https://um-grex.github.io/grex-docs/specific-soft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/specific-soft/</guid><description>&lt;h2 id='software-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;Software specific notes&lt;a href='#software-specific-notes' class='anchor'&gt;#&lt;/a&gt;
+.&lt;/p&gt;</description></item><item><title>Software Specific Notes</title><link>https://um-grex.github.io/docs/specific-soft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/specific-soft/</guid><description>&lt;h2 id='software-specific-notes' class="title is-flex is-align-items-center mt-4 is-2"&gt;Software specific notes&lt;a href='#software-specific-notes' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;This page refers to the usage of some specific programs installed on Grex, like ORCA, VASP, &amp;hellip; etc.&lt;/p&gt;
 &lt;hr&gt;
@@ -156,7 +156,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/espresso/"
+ href="https://um-grex.github.io/docs/specific-soft/espresso/"
  class="is-pretty-link"
  &gt;Espresso&lt;/a
  &gt;
@@ -164,7 +164,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/gaussian/"
+ href="https://um-grex.github.io/docs/specific-soft/gaussian/"
  class="is-pretty-link"
  &gt;Gaussian&lt;/a
  &gt;
@@ -172,7 +172,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/gromacs/"
+ href="https://um-grex.github.io/docs/specific-soft/gromacs/"
  class="is-pretty-link"
  &gt;GROMACS&lt;/a
  &gt;
@@ -180,7 +180,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/julia/"
+ href="https://um-grex.github.io/docs/specific-soft/julia/"
  class="is-pretty-link"
  &gt;Julia&lt;/a
  &gt;
@@ -188,7 +188,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/jupyter-notebook/"
+ href="https://um-grex.github.io/docs/specific-soft/jupyter-notebook/"
  class="is-pretty-link"
  &gt;Jupyter notebooks&lt;/a
  &gt;
@@ -196,7 +196,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/lammps/"
+ href="https://um-grex.github.io/docs/specific-soft/lammps/"
  class="is-pretty-link"
  &gt;LAMMPS&lt;/a
  &gt;
@@ -204,7 +204,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/matlab/"
+ href="https://um-grex.github.io/docs/specific-soft/matlab/"
  class="is-pretty-link"
  &gt;MATLAB&lt;/a
  &gt;
@@ -212,7 +212,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/nwchem/"
+ href="https://um-grex.github.io/docs/specific-soft/nwchem/"
  class="is-pretty-link"
  &gt;NWChem&lt;/a
  &gt;
@@ -220,7 +220,7 @@ For Grex and the current generation of Alliance HPC machines, this shared filesy
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/specific-soft/orca/"
+ href="https://um-grex.github.io/docs/specific-soft/orca/"
  class="is-pretty-link"
  &gt;ORCA&lt;/a
  &gt;

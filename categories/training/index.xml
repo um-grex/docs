@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training on Grex</title><link>https://um-grex.github.io/grex-docs/categories/training/</link><description>Recent content in Training on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/categories/training/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshops - 2025</title><link>https://um-grex.github.io/grex-docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/workshops-2025/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training on Grex</title><link>https://um-grex.github.io/docs/categories/training/</link><description>Recent content in Training on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/training/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshops - 2025</title><link>https://um-grex.github.io/docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/</guid><description>&lt;!--
 ## Autumn workshop, October 2025
 ---
 
@@ -29,7 +29,7 @@ Use the following [link](https://www.eventbrite.ca/e/umanitoba-autumn-2025-hpc-a
 --&gt;
 &lt;h1 id='high-performance-computing-workshop---oct-14-17-2025' class="title is-flex is-align-items-center mt-4 is-1"&gt;High Performance Computing Workshop - Oct 14-17, 2025&lt;a href='#high-performance-computing-workshop---oct-14-17-2025' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h1&gt;&lt;hr&gt;
-&lt;p&gt;Below are the slides and some materials from the in-person workshop that was held on Oct 2025:&lt;/p&gt;</description></item><item><title>LoRa walkthrough</title><link>https://um-grex.github.io/grex-docs/training/workshops-2025/lora-huggingface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/workshops-2025/lora-huggingface/</guid><description>&lt;h2 id='high-performance-computing-workshop---oct-14-17-2025' class="title is-flex is-align-items-center mt-4 is-2"&gt;High Performance Computing Workshop - Oct 14-17, 2025&lt;a href='#high-performance-computing-workshop---oct-14-17-2025' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Below are the slides and some materials from the in-person workshop that was held on Oct 2025:&lt;/p&gt;</description></item><item><title>LoRa walkthrough</title><link>https://um-grex.github.io/docs/training/workshops-2025/lora-huggingface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/lora-huggingface/</guid><description>&lt;h2 id='high-performance-computing-workshop---oct-14-17-2025' class="title is-flex is-align-items-center mt-4 is-2"&gt;High Performance Computing Workshop - Oct 14-17, 2025&lt;a href='#high-performance-computing-workshop---oct-14-17-2025' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;This is an example of training LoRa in a batch job.
 The example uses a script from &lt;a
@@ -42,7 +42,7 @@ We assume the partiticipant already tried simple text to image generation with S
 &lt;/h3&gt;&lt;hr&gt;
 &lt;p&gt;We will downolad Huggingface source code from their Github using Git.
 This is needed to use their Python example training script rather than developing ours from scrath.
-We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/strong&gt; subdirectory of our Workshop materials.&lt;/p&gt;</description></item><item><title>Workshops - 2024</title><link>https://um-grex.github.io/grex-docs/training/workshops-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/workshops-2024/</guid><description>&lt;h2 id='autumn-workshop-october-2024' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2024&lt;a href='#autumn-workshop-october-2024' class='anchor'&gt;#&lt;/a&gt;
+We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/strong&gt; subdirectory of our Workshop materials.&lt;/p&gt;</description></item><item><title>Workshops - 2024</title><link>https://um-grex.github.io/docs/training/workshops-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2024/</guid><description>&lt;h2 id='autumn-workshop-october-2024' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2024&lt;a href='#autumn-workshop-october-2024' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;div class="notification is-warning"&gt;This workshop has been created for a group of users from Bannatyne campus to explain the usage of contributed nodes. However, most of the material from the following slides (slurm, software, singularity, podman, &amp;hellip;) is still valid for general use.&lt;/div&gt;
 
@@ -50,17 +50,17 @@ We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/stro
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Start Guide for Using Grex efficiently&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2024/Start_Guide-and_Grex-Usage-Oct2024.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2024/Start_Guide-and_Grex-Usage-Oct2024.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Containers in HPC - Singularity/Apptainer&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2024/Singularity-Apptainer.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2024/Singularity-Apptainer.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Containers in HPC – Podman&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2024/introduction_podman.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2024/introduction_podman.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
@@ -121,53 +121,53 @@ This event will help you get started with HPC and familiarize you with essential
 &lt;hr&gt;
 &lt;h2 id='fall-data-4010-seminars-september-2024' class="title is-flex is-align-items-center mt-4 is-2"&gt;Fall DATA-4010 seminars, September 2024&lt;a href='#fall-data-4010-seminars-september-2024' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;Below are the slides from the DATA 4010 seminars that were held on September 18 and 25, 2024:&lt;/p&gt;</description></item><item><title>Workshops - 2023</title><link>https://um-grex.github.io/grex-docs/training/workshops-2023/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/workshops-2023/</guid><description>&lt;h2 id='autumn-workshop-november-2023' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, November 2023&lt;a href='#autumn-workshop-november-2023' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Below are the slides from the DATA 4010 seminars that were held on September 18 and 25, 2024:&lt;/p&gt;</description></item><item><title>Workshops - 2023</title><link>https://um-grex.github.io/docs/training/workshops-2023/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2023/</guid><description>&lt;h2 id='autumn-workshop-november-2023' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, November 2023&lt;a href='#autumn-workshop-november-2023' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Below are the slides from the Grex workshop that was held on November 6-8, 2023:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Updates on Research Computing Resources&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/01-Introduction.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/01-Introduction.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Getting accounts, connecting, using Duo MFA&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/02-Accounts-and-MFA.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/02-Accounts-and-MFA.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Basics of Linux Shell&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/03-Basics-of-Linux-Shell.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/03-Basics-of-Linux-Shell.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beginner running HPC jobs with SLURM&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/04-Running-Jobs-On-HPC-Clusters.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/04-Running-Jobs-On-HPC-Clusters.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Using HPC with OpenOnDemand Web portal&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/05-OSC-OnDemand-on-Grex.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/05-OSC-OnDemand-on-Grex.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beginner HPC software overview&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/06-HPC-Software-Overview.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/06-HPC-Software-Overview.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Using containers in HPC (Apptainer, SingularityCE)&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/07-SingularityApptainer.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/07-SingularityApptainer.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Basics of using OpenStack cloud&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/08-OpenStack-Cloud-Beginner.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/08-OpenStack-Cloud-Beginner.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Getting most of HPC system&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2023/09-Monitoring-Jobs-and-Efficiency.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2023/09-Monitoring-Jobs-and-Efficiency.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
@@ -176,28 +176,28 @@ This event will help you get started with HPC and familiarize you with essential
 &lt;hr&gt;
 &lt;h2 id='fall-data-4010-seminars-september-2023' class="title is-flex is-align-items-center mt-4 is-2"&gt;Fall DATA-4010 seminars, September 2023&lt;a href='#fall-data-4010-seminars-september-2023' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;Below are the slides from the DATA 4010 seminars that were held on September 18 and 25, 2023:&lt;/p&gt;</description></item><item><title>Workshops - 2022</title><link>https://um-grex.github.io/grex-docs/training/workshops-2022/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/workshops-2022/</guid><description>&lt;h2 id='autumn-workshop-october-2022' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2022&lt;a href='#autumn-workshop-october-2022' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Below are the slides from the DATA 4010 seminars that were held on September 18 and 25, 2023:&lt;/p&gt;</description></item><item><title>Workshops - 2022</title><link>https://um-grex.github.io/docs/training/workshops-2022/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2022/</guid><description>&lt;h2 id='autumn-workshop-october-2022' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2022&lt;a href='#autumn-workshop-october-2022' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Below are the slides from the Grex workshop that was held on October 26-27, 2022:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Program and updates&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2022/Programme-And-Grex-Updates-Autumn2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2022/Programme-And-Grex-Updates-Autumn2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;High Performance Computing: Start Guide&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2022/Start-Guide-HPC-Grex-Autumn2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2022/Start-Guide-HPC-Grex-Autumn2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;High Performance Computing: software environments&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2022/HPC-Software-Grex-Autumn2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2022/HPC-Software-Grex-Autumn2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;OSC OpenOnDemand portal on Grex&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2022/Using-OpenOndemand-On-Grex-Autumn2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2022/Using-OpenOndemand-On-Grex-Autumn2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
@@ -209,27 +209,27 @@ This event will help you get started with HPC and familiarize you with essential
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Introduction to local and National HPC at UManitoba: How to use available software and run jobs efficiently&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/spring2022/Intro-Program-Spring2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/spring2022/Intro-Program-Spring2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Introduction to High Performance Computing step by step: From getting an account to running jobs&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/spring2022/HPC-Step-by-Step-Grex-Spring2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/spring2022/HPC-Step-by-Step-Grex-Spring2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Using GP GPU compute on Grex&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/spring2022/Using-GPU-Nodes-Grex-Spring2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/spring2022/Using-GPU-Nodes-Grex-Spring2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;High Performance Computing and software environments&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/spring2022/HPC-Soft-Env-Grex-Spring2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/spring2022/HPC-Soft-Env-Grex-Spring2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;OSC OpenOnDemand portal on Grex&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/spring2022/OpenOndemand-Grex-Spring2022.pdf"
+ href="https://um-grex.github.io/docs/workshops/spring2022/OpenOndemand-Grex-Spring2022.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
@@ -240,28 +240,28 @@ This event will help you get started with HPC and familiarize you with essential
  --&gt;
 &lt;!-- Changes and update:
 * Last revision: Aug 28, 2024. 
---&gt;</description></item><item><title>Workshops - 2021</title><link>https://um-grex.github.io/grex-docs/training/workshops-2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/workshops-2021/</guid><description>&lt;h2 id='autumn-workshop-november-2021' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, November 2021&lt;a href='#autumn-workshop-november-2021' class='anchor'&gt;#&lt;/a&gt;
+--&gt;</description></item><item><title>Workshops - 2021</title><link>https://um-grex.github.io/docs/training/workshops-2021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2021/</guid><description>&lt;h2 id='autumn-workshop-november-2021' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, November 2021&lt;a href='#autumn-workshop-november-2021' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Below are the slides from the Grex workshop that was held on November 01-02, 2021:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Introduction to HPC: Basics: Steps from getting an account to submitting jobs&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2021/Intro-to-HPC-Basics-Autumn2021.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2021/Intro-to-HPC-Basics-Autumn2021.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Linux (Unix) shell basics&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2021/Linux-Shell-Basics-autumn2021-2.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2021/Linux-Shell-Basics-autumn2021-2.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Software on HPC clusters&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2021/Intro-HPC-Software-Env-Grex-autumn2021.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2021/Intro-HPC-Software-Env-Grex-autumn2021.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Scheduling jobs on HPC clusters: How to optimize your jobs and get more from the resources available?&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/grex-docs/workshops/autumn2021/Adv-Scheduling-Jobs-HPC-Cluster-Grex-autumn2021.pdf"
+ href="https://um-grex.github.io/docs/workshops/autumn2021/Adv-Scheduling-Jobs-HPC-Cluster-Grex-autumn2021.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
@@ -269,7 +269,7 @@ This event will help you get started with HPC and familiarize you with essential
 &lt;/blockquote&gt;
 &lt;h2 id='spring-workshop-april-2021' class="title is-flex is-align-items-center mt-4 is-2"&gt;Spring workshop, April 2021&lt;a href='#spring-workshop-april-2021' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;Below are the slides from the Grex workshop that was held on April 21-22, 2021:&lt;/p&gt;</description></item><item><title>Workshops and Training Material</title><link>https://um-grex.github.io/grex-docs/training/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/training/</guid><description>&lt;h2 id='local-workshops' class="title is-flex is-align-items-center mt-4 is-2"&gt;Local workshops&lt;a href='#local-workshops' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Below are the slides from the Grex workshop that was held on April 21-22, 2021:&lt;/p&gt;</description></item><item><title>Workshops and Training Material</title><link>https://um-grex.github.io/docs/training/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/</guid><description>&lt;h2 id='local-workshops' class="title is-flex is-align-items-center mt-4 is-2"&gt;Local workshops&lt;a href='#local-workshops' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;!--
 &lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
@@ -278,7 +278,7 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/training/workshops-2025/"
+ href="https://um-grex.github.io/docs/training/workshops-2025/"
  class="is-pretty-link"
  &gt;2025&lt;/a
  &gt;
@@ -289,7 +289,7 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/training/workshops-2025/lora-huggingface/"
+ href="https://um-grex.github.io/docs/training/workshops-2025/lora-huggingface/"
  class="is-pretty-link"
  &gt;LoRa walkthrough&lt;/a
  &gt;
@@ -299,7 +299,7 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/training/workshops-2024/"
+ href="https://um-grex.github.io/docs/training/workshops-2024/"
  class="is-pretty-link"
  &gt;2024&lt;/a
  &gt;
@@ -309,7 +309,7 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/training/workshops-2023/"
+ href="https://um-grex.github.io/docs/training/workshops-2023/"
  class="is-pretty-link"
  &gt;2023&lt;/a
  &gt;
@@ -319,7 +319,7 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/training/workshops-2022/"
+ href="https://um-grex.github.io/docs/training/workshops-2022/"
  class="is-pretty-link"
  &gt;2022&lt;/a
  &gt;
@@ -329,7 +329,7 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/grex-docs/training/workshops-2021/"
+ href="https://um-grex.github.io/docs/training/workshops-2021/"
  class="is-pretty-link"
  &gt;2021&lt;/a
  &gt;

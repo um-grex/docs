@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connecting to Grex on Grex</title><link>https://um-grex.github.io/grex-docs/connecting/</link><description>Recent content in Connecting to Grex on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-docs/connecting/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Multi-Factor Authentication (MFA) on Grex</title><link>https://um-grex.github.io/grex-docs/connecting/mfa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/connecting/mfa/</guid><description>&lt;h2 id='important-notices' class="title is-flex is-align-items-center mt-4 is-2"&gt;Important Notices&lt;a href='#important-notices' class='anchor'&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connecting to Grex on Grex</title><link>https://um-grex.github.io/docs/connecting/</link><description>Recent content in Connecting to Grex on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/connecting/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Multi-Factor Authentication (MFA) on Grex</title><link>https://um-grex.github.io/docs/connecting/mfa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/connecting/mfa/</guid><description>&lt;h2 id='important-notices' class="title is-flex is-align-items-center mt-4 is-2"&gt;Important Notices&lt;a href='#important-notices' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;As of January 9, 2024 MFA is enforced for all UManitoba/Grex users.&lt;/strong&gt;&lt;/li&gt;
@@ -19,7 +19,7 @@
 &lt;p&gt;Both Digital Research Alliance of Canada and our UManitoba HPC systems are using a multifactor authentication (MFA) system.
 MFA adds an additional layer of security to the traditional password-based and SSH keys authentications by requiring a second factor, known as &amp;ldquo;something you have&amp;rdquo;.
 The Cisco Duo product was chosen as the provider for this additional authentication factor.
-Grex is using the Duo instance provided by the Alliance. The available additional factors and even the MFA provider are not the same as those used by the University of Manitoba for platforms such as UM Intranet and University MS Office products.&lt;/p&gt;</description></item><item><title>Connecting to Grex with SSH</title><link>https://um-grex.github.io/grex-docs/connecting/ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/connecting/ssh/</guid><description>&lt;h2 id='ssh' class="title is-flex is-align-items-center mt-4 is-2"&gt;SSH&lt;a href='#ssh' class='anchor'&gt;#&lt;/a&gt;
+Grex is using the Duo instance provided by the Alliance. The available additional factors and even the MFA provider are not the same as those used by the University of Manitoba for platforms such as UM Intranet and University MS Office products.&lt;/p&gt;</description></item><item><title>Connecting to Grex with SSH</title><link>https://um-grex.github.io/docs/connecting/ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/connecting/ssh/</guid><description>&lt;h2 id='ssh' class="title is-flex is-align-items-center mt-4 is-2"&gt;SSH&lt;a href='#ssh' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Most of the work on shared HPC computing systems is done via Linux command line / Shell. To connect, in a secure manner, to a remote Linux system, you would like to use SSH protocol. You will need to have:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -33,17 +33,17 @@ Grex is using the Duo instance provided by the Alliance. The available additiona
  href="https://www.computecanada.ca/research-portal/account-management/apply-for-an-account/"
  class="is-pretty-link"&gt;Getting Access&lt;/a
 &gt;
-. You will also need the DNS name of Grex Which is &lt;strong&gt;grex.hpc.umanitoba.ca&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Connect and Transfer data with OOD</title><link>https://um-grex.github.io/grex-docs/connecting/ood/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-docs/connecting/ood/</guid><description>&lt;p&gt;OpenOnDemand (OOD) is a Web portal application for High-Performance Computing systems.
+. You will also need the DNS name of Grex Which is &lt;strong&gt;grex.hpc.umanitoba.ca&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Connect and Transfer data with OOD</title><link>https://um-grex.github.io/docs/connecting/ood/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/connecting/ood/</guid><description>&lt;p&gt;OpenOnDemand (OOD) is a Web portal application for High-Performance Computing systems.
 An OOD portal is available on Grex at &lt;a
  href="https://ood.hpc.umanitoba.ca"
  class="is-pretty-link"&gt;https://ood.hpc.umanitoba.ca&lt;/a
 &gt;
  ; it can be used to &lt;a
- href="http://localhost:1313/grex-docs/ood/#connect-to-openondemand"
- class="is-pretty-link"&gt;Connect&lt;/a
+ href="https://um-grex.github.io/docs/ood/#connect-to-openondemand"
+ class="is-pretty-link"&gt;connect&lt;/a
 &gt;
  to Grex, Transfer data and and run both interactive and batch Applications. For more information about how to connect and use OOD, please refer to the main &lt;a
- href="https://um-grex.github.io/grex-docs/ood/"
+ href="https://um-grex.github.io/docs/ood/"
  class="is-pretty-link"&gt;OOD&lt;/a
 &gt;
  page.&lt;/p&gt;
@@ -84,7 +84,7 @@ When authenticated, you will see the following screen with the current Grex Mess
  class="sc-collapsible-header is-flex is-justify-content-space-between has-text-weight-bold"
  &gt;Landing / MOTD page, OpenOndemand web portal on Grex&lt;/div&gt;
  &lt;div class="sc-collapsible-content"&gt;&lt;img
- src="https://um-grex.github.io/grex-docs/ood/frontpage.png"
+ src="https://um-grex.github.io/docs/ood/frontpage.png"
  alt="OpenOnDemand Front Page"
  class="OpenOnDemand Front Page"/&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -106,7 +106,7 @@ The _Files_ interface allows for uploading, downloading and editing of the files
  class="sc-collapsible-header is-flex is-justify-content-space-between has-text-weight-bold"
  &gt;File view on OpenOndemand web portal on Grex&lt;/div&gt;
  &lt;div class="sc-collapsible-content"&gt;&lt;img
- src="https://um-grex.github.io/grex-docs/ood/files.png"
+ src="https://um-grex.github.io/docs/ood/files.png"
  alt=""
  class=""/&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -117,12 +117,12 @@ The _Files_ interface allows for uploading, downloading and editing of the files
 &lt;/h2&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;Use OOD Files app to move data: &lt;a
- href="https://um-grex.github.io/grex-docs/ood/#files"
+ href="https://um-grex.github.io/docs/ood/#files"
  class="is-pretty-link"&gt;OOD Files&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;li&gt;Run applications with &lt;a
- href="https://um-grex.github.io/grex-docs/ood/"
+ href="https://um-grex.github.io/docs/ood/"
  class="is-pretty-link"&gt;OOD&lt;/a
 &gt;
 &lt;/li&gt;
