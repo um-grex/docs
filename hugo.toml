@@ -2,7 +2,7 @@
 # Standard configuration
 #================================================================================
 
-baseURL                = 'https://um-grex.github.io/grex-docs/'
+baseURL                = 'https://um-grex.github.io/docs/'
 title                  = 'Unofficial Grex User Guide'
 copyright              = 'The MIT License (MIT) Copyright © 2025 UM-Grex'
 theme                  = 'shadocs'
@@ -55,12 +55,12 @@ publishDir             = 'public'
   siteContentOrder   = 'weight'
   globalBanner       = false
   currentVersion     = 'latest'
-  latestVersionUrl   = 'https://um-grex.github.io/grex-docs/'
+  latestVersionUrl   = 'https://um-grex.github.io/docs/'
   [params.github]
-    main     = 'https://github.com/um-grex/grex-docs'
-    download = 'https://github.com/um-grex/grex-docs/archive/refs/heads/main.zip'
-    issue    = 'https://github.com/um-grex/grex-docs/issues'
-    fork     = 'https://github.com/um-grex/grex-docs/forks'
+    main     = 'https://github.com/um-grex/docs'
+    download = 'https://github.com/um-grex/docs/archive/refs/heads/main.zip'
+    issue    = 'https://github.com/um-grex/docs/issues'
+    fork     = 'https://github.com/um-grex/docs/forks'
 
 [markup]
   [markup.goldmark]

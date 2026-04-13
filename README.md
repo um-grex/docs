@@ -23,7 +23,7 @@ The Hugo version to work with is the latest stable, extended.
 
 2. Clone this repository to get the currently used Hugo theme:
 
-   `git clone https://github.com/um-grex/grex-docs.git`
+   `git clone https://github.com/um-grex/docs.git`
 
 3. Change to the repository and render it with Hugo:
 
@@ -47,7 +47,8 @@ When ready, merge the `develop` branch into the `main` branch and push it to dep
 
 For example:
 ```bash
-[~]$ git clone https://github.com/um-grex/grex-docs.git --recursive  && cd grex-docs.git # if clean doc copy is needed
+[~]$ git clone --recursive https://github.com/um-grex/docs.git grex-docs  # if clean doc copy is needed
+[~]$ cd grex-docs
 [~]$ git pull  # if the repo is already cloned
 [~]$ git switch develop
 # change/update the documentation files; render them locally with Hugo server as described above. 
