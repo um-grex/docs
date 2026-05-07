@@ -14,4 +14,15 @@
 While not suited, for performance reasons, for online computation work or for storing large datasets, OneDrive can be a useful storage space to store important data of smaller size, documents, articles and such.
 It also offers some data preservation features like data recovery and data history.&lt;/p&gt;</description></item><item><title>Data transfers for OpenStack Object Storage</title><link>https://um-grex.github.io/docs/data-transfer/object-storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/data-transfer/object-storage/</guid><description>&lt;h2 id='what-is-object-storage' class="title is-flex is-align-items-center mt-4 is-2"&gt;What is Object Storage&lt;a href='#what-is-object-storage' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;Object storage is a storage technology that allows large amounts of data to be stored as “objects.” This differs from a traditional POSIX-compliant filesystem, which organizes data as randomly accessible “files” and “directories” on block-based storage. Object storage enables access to entire objects only (for loading, storing, or retrieving). Each object contains the data itself (e.g., a photo, video, or document), metadata that describes the object, and a unique identifier used to retrieve it. Access to the content inside an object is typically handled by client software.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Object storage is a storage technology that allows large amounts of data to be stored as “objects.” This differs from a traditional POSIX-compliant filesystem, which organizes data as randomly accessible “files” and “directories” on block-based storage. Object storage enables access to entire objects only (for loading, storing, or retrieving). Each object contains the data itself (e.g., a photo, video, or document), metadata that describes the object, and a unique identifier used to retrieve it. Access to the content inside an object is typically handled by client software.&lt;/p&gt;</description></item><item><title>Using Nextcloud on Grex</title><link>https://um-grex.github.io/docs/data-transfer/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/data-transfer/nextcloud/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;We are pleased to provide a &amp;ldquo;pilot project&amp;rdquo;, starting Apr 2026, for &lt;a
+ href="https://nextcloud.com/files/"
+ class="is-pretty-link"&gt;Nextcloud Files&lt;/a
+&gt;
+, an Open Source, Dropbox-like storage service, for all Grex users. You can use your Grex ( CCDB ) username and password to log in to the &lt;a
+ href="https://nextcloud.hpc.umanitoba.ca"
+ class="is-pretty-link"&gt;https://nextcloud.hpc.umanitoba.ca&lt;/a
+&gt;
+ server.&lt;/p&gt;
+&lt;p&gt;Nextcloud files allow for accessing your data from a Web Interface, command line tools like RClone, and a Desktop client on MacOS or Windows.&lt;/p&gt;</description></item></channel></rss>
