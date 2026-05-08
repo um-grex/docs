@@ -1,5 +1,5 @@
 ---
-weight: 100
+weight: 1300
 linkTitle: "2025"
 Title: "Workshops - 2025"
 description: "Workshops and Training Material - 2025"
