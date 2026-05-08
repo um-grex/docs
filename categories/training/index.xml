@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training on Grex</title><link>https://um-grex.github.io/docs/categories/training/</link><description>Recent content in Training on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/training/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshops - 2025</title><link>https://um-grex.github.io/docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/</guid><description>&lt;!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training on Grex</title><link>https://um-grex.github.io/docs/categories/training/</link><description>Recent content in Training on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/training/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshops - 2026</title><link>https://um-grex.github.io/docs/training/workshops-2026/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/</guid><description>&lt;h2 id='spring-hpc-and-cloud-computing-workshop-may-2026' class="title is-flex is-align-items-center mt-4 is-2"&gt;Spring HPC and Cloud computing workshop, May 2026.&lt;a href='#spring-hpc-and-cloud-computing-workshop-may-2026' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id='umanitoba-spring-2026-hpc-and-cloud-computing-workshop' class="title is-flex is-align-items-center mt-4 is-3"&gt;UManitoba Spring 2026 HPC and Cloud computing workshop&lt;a href='#umanitoba-spring-2026-hpc-and-cloud-computing-workshop' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;Join us for our free Spring 2026 workshop, open to all researchers from Manitoba institutions!&lt;/p&gt;
+&lt;p&gt;We are pleased to invite you to the Spring 2026 Manitoba High-Performance Computing (HPC) and Cloud Computing Workshop, taking place May 20–22, 2026, at the University of Manitoba (Fort Garry campus), Engineering Building, Lecture Hall &lt;strong&gt;E2-350&lt;/strong&gt;. The workshop is designed for beginner and intermediate users.&lt;/p&gt;</description></item><item><title>Workshops - 2025</title><link>https://um-grex.github.io/docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/</guid><description>&lt;!--
 ## Autumn workshop, October 2025
 ---
 
@@ -273,7 +277,17 @@ This event will help you get started with HPC and familiarize you with essential
 &lt;/h2&gt;&lt;hr&gt;
 &lt;!--
 &lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
- class='sc-treeview-tree marginless'&gt;&lt;li class=" sc-treeview-coll"&gt;
+ class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/"
+ class="is-pretty-link"
+ &gt;2026&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=" sc-treeview-coll"&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center sc-treeview-coll-trigger"&gt;
  &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
@@ -322,15 +336,5 @@ This event will help you get started with HPC and familiarize you with essential
  href="https://um-grex.github.io/docs/training/workshops-2022/"
  class="is-pretty-link"
  &gt;2022&lt;/a
- &gt;
- &lt;/p&gt;
- &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
- &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
- &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
- &lt;/div&gt;&lt;p&gt;
- &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2021/"
- class="is-pretty-link"
- &gt;2021&lt;/a
  &gt;
  &lt;/p&gt;</description></item></channel></rss>
