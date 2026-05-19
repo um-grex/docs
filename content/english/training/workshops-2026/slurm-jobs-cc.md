@@ -6,7 +6,7 @@ description: "Workshops and Training Material - 2026 - Running jobs"
 #titleIcon: "fa-solid fa-cubes"
 categories: ["Training"]
 #tags: ["Content management"]
-draft: true
+#draft: true
 #build:
 # list: false
 # render: false
