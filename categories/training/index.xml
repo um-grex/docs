@@ -84,7 +84,21 @@ We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/stro
 &lt;li&gt;module &lt;strong&gt;purge&lt;/strong&gt;; module &lt;strong&gt;&amp;ndash;force purge&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;module &lt;strong&gt;use&lt;/strong&gt; ~/modulefiles; module &lt;strong&gt;unuse&lt;/strong&gt; ~/modulefiles&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;To see if a given software or program, called foo, is available on the software stach, run the command:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Software installation</title><link>https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;To see if a given software or program, called foo, is available on the software stach, run the command:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Running jobs on CC</title><link>https://um-grex.github.io/docs/training/workshops-2026/slurm-jobs-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/slurm-jobs-cc/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;To run jobs on the cluster, a scheduler is used. In this section, different job scripts are presented. There are specified directive for each type of application: serial, openmp, mpi, hybrid and gpu.&lt;/p&gt;
+&lt;h2 id='interactive-job-via-salloc' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive job via salloc&lt;a href='#interactive-job-via-salloc' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;On this example, we will test lammps interactively via salloc. All the scripts and instructions are under the directory &lt;strong&gt;interactive&lt;/strong&gt;.&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;First, ask for interactive job using salloc:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Running jobs on Grex</title><link>https://um-grex.github.io/docs/training/workshops-2026/slurm-jobs-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/slurm-jobs-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;To run jobs on the cluster, a scheduler is used. In this section, different job scripts are presented. There are specified directive for each type of application: serial, openmp, mpi, hybrid and gpu.&lt;/p&gt;
+&lt;h2 id='interactive-job-via-salloc' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive job via salloc&lt;a href='#interactive-job-via-salloc' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;On this example, we will test lammps interactively via salloc. All the scripts and instructions are under the directory &lt;strong&gt;interactive&lt;/strong&gt;.&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;First, ask for interactive job using salloc:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Software installation</title><link>https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Many programs are installed locally under user&amp;rsquo;s space. Some of these programs are: R packages, Python packages, Perl packages, Julia packages. There is already a minimal installation of R, Python, Perl and Julia as modules that can be used to install the packages a user may need. Other than that, there are programs hat can be installed under user&amp;rsquo;s account or as modules. We do not use sudo and package managers, like &lt;strong&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/strong&gt;. Most of the programs are installed from source or from pre-compiled binaries. The installation is based on one of the following procedures:&lt;/p&gt;</description></item><item><title>Software installation</title><link>https://um-grex.github.io/docs/training/workshops-2026/install-software-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/install-software-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
@@ -355,9 +369,9 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/slurm-jobs-cc/"
  class="is-pretty-link"
- &gt;Software on CC&lt;/a
+ &gt;Running jobs on CC&lt;/a
  &gt;
  &lt;/p&gt;
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
@@ -365,8 +379,8 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2026/install-software-grex/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/slurm-jobs-grex/"
  class="is-pretty-link"
- &gt;Software on Grex&lt;/a
+ &gt;Running jobs on Grex&lt;/a
  &gt;
  &lt;/p&gt;</description></item></channel></rss>
