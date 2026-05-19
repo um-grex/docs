@@ -46,7 +46,49 @@ We assume the partiticipant already tried simple text to image generation with S
 &lt;/h3&gt;&lt;hr&gt;
 &lt;p&gt;We will downolad Huggingface source code from their Github using Git.
 This is needed to use their Python example training script rather than developing ours from scrath.
-We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/strong&gt; subdirectory of our Workshop materials.&lt;/p&gt;</description></item><item><title>Workshops - 2024</title><link>https://um-grex.github.io/docs/training/workshops-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2024/</guid><description>&lt;h2 id='autumn-workshop-october-2024' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2024&lt;a href='#autumn-workshop-october-2024' class='anchor'&gt;#&lt;/a&gt;
+We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/strong&gt; subdirectory of our Workshop materials.&lt;/p&gt;</description></item><item><title>Working with modules</title><link>https://um-grex.github.io/docs/training/workshops-2026/using-modules-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/using-modules-cc/</guid><description>&lt;h1 id='introduction' class="title is-flex is-align-items-center mt-4 is-1"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;How to use modules on national systems (like Fir, Nibi, Rorqual and Narval)? As examples, we show how to load gromacs and lammps.&lt;/div&gt;
+
+&lt;h2 id='modules' class="title is-flex is-align-items-center mt-4 is-2"&gt;Modules&lt;a href='#modules' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Here are the most used commands for manipulating modules:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;module &lt;strong&gt;list&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;avail&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;spider&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;load&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;unload&lt;/strong&gt; {&lt;strong&gt;rm&lt;/strong&gt;} soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;show&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;help&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;whatis&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;purge&lt;/strong&gt;; module &lt;strong&gt;&amp;ndash;force purge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;use&lt;/strong&gt; ~/modulefiles; module &lt;strong&gt;unuse&lt;/strong&gt; ~/modulefiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;To see if a given software or program, called foo, is available on the software stach, run the command:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Working with modules</title><link>https://um-grex.github.io/docs/training/workshops-2026/using-modules-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/using-modules-grex/</guid><description>&lt;h1 id='introduction' class="title is-flex is-align-items-center mt-4 is-1"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;How to use modules on Grex? As examples, we show how to load gromacs and lammps.&lt;/div&gt;
+
+&lt;h2 id='modules' class="title is-flex is-align-items-center mt-4 is-2"&gt;Modules&lt;a href='#modules' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Here are the most used commands for manipulating modules:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;module &lt;strong&gt;list&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;avail&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;spider&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;load&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;unload&lt;/strong&gt; {&lt;strong&gt;rm&lt;/strong&gt;} soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;show&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;help&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;whatis&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;purge&lt;/strong&gt;; module &lt;strong&gt;&amp;ndash;force purge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;use&lt;/strong&gt; ~/modulefiles; module &lt;strong&gt;unuse&lt;/strong&gt; ~/modulefiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;To see if a given software or program, called foo, is available on the software stach, run the command:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Software installation</title><link>https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Many programs are installed locally under user&amp;rsquo;s space. Some of these programs are: R packages, Python packages, Perl packages, Julia packages. There is already a minimal installation of R, Python, Perl and Julia as modules that can be used to install the packages a user may need. Other than that, there are programs hat can be installed under user&amp;rsquo;s account or as modules. We do not use sudo and package managers, like &lt;strong&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/strong&gt;. Most of the programs are installed from source or from pre-compiled binaries. The installation is based on one of the following procedures:&lt;/p&gt;</description></item><item><title>Software installation</title><link>https://um-grex.github.io/docs/training/workshops-2026/install-software-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/install-software-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Many programs are installed locally under user&amp;rsquo;s space. Some of these programs are: R packages, Python packages, Perl packages, Julia packages. There is already a minimal installation of R, Python, Perl and Julia as modules that can be used to install the packages a user may need. Other than that, there are programs hat can be installed under user&amp;rsquo;s account or as modules. We do not use sudo and package managers, like &lt;strong&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/strong&gt;. Most of the programs are installed from source or from pre-compiled binaries. The installation is based on one of the following procedures:&lt;/p&gt;</description></item><item><title>Workshops - 2024</title><link>https://um-grex.github.io/docs/training/workshops-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2024/</guid><description>&lt;h2 id='autumn-workshop-october-2024' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2024&lt;a href='#autumn-workshop-october-2024' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;div class="notification is-warning"&gt;This workshop has been created for a group of users from Bannatyne campus to explain the usage of contributed nodes. However, most of the material from the following slides (slurm, software, singularity, podman, &amp;hellip;) is still valid for general use.&lt;/div&gt;
 
@@ -277,8 +319,8 @@ This event will help you get started with HPC and familiarize you with essential
 &lt;/h2&gt;&lt;hr&gt;
 &lt;!--
 &lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
- class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
- &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ class='sc-treeview-tree marginless'&gt;&lt;li class=" sc-treeview-coll"&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center sc-treeview-coll-trigger"&gt;
  &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
@@ -287,35 +329,15 @@ This event will help you get started with HPC and familiarize you with essential
  &gt;2026&lt;/a
  &gt;
  &lt;/p&gt;
- &lt;/div&gt;&lt;/li&gt;&lt;li class=" sc-treeview-coll"&gt;
- &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center sc-treeview-coll-trigger"&gt;
- &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
- &lt;/div&gt;&lt;p&gt;
- &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2025/"
- class="is-pretty-link"
- &gt;2025&lt;/a
- &gt;
- &lt;/p&gt;
  &lt;/div&gt;&lt;ul
  class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2025/lora-huggingface/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/using-modules-cc/"
  class="is-pretty-link"
- &gt;LoRa walkthrough&lt;/a
- &gt;
- &lt;/p&gt;
- &lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li class=""&gt;
- &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
- &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
- &lt;/div&gt;&lt;p&gt;
- &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2024/"
- class="is-pretty-link"
- &gt;2024&lt;/a
+ &gt;Modules on CC&lt;/a
  &gt;
  &lt;/p&gt;
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
@@ -323,9 +345,9 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2023/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/using-modules-grex/"
  class="is-pretty-link"
- &gt;2023&lt;/a
+ &gt;Modules on Grex&lt;/a
  &gt;
  &lt;/p&gt;
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
@@ -333,8 +355,18 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2022/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/install-software-cc/"
  class="is-pretty-link"
- &gt;2022&lt;/a
+ &gt;Software on CC&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/install-software-grex/"
+ class="is-pretty-link"
+ &gt;Software on Grex&lt;/a
  &gt;
  &lt;/p&gt;</description></item></channel></rss>
