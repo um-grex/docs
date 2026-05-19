@@ -69,10 +69,32 @@ Any individual sessions can be selected. We will issue certificates of attendanc
 | 14:45 | 15:00 | Closing Remarks | Grigory |
 
 ## Various Workshop materials and walkthroughs
+---
 
-<!--
+**The data used on this workshop is available on Grex and on MC:**
+
+To copy the data to user's account on MC, use one of the following:
+{{< highlight bash >}}
+cp -r /home/shared/ws-may2026 ~/
+or
+cp -r /home/shared/ws-may2026 $SCRATCH
+or
+cp -r /home/shared/ws-may2026 /project/60004/$USER
+{{< /highlight >}}
+
+The first line will copy the directory __ws-may2026__ from the shared directory __/home/shared__ to the user's home directory. The second command will make a copy to the user's scratch and the third one to the project.
+
+To copy the data to user's account on Grex, use one of the following:
+
+{{< highlight bash >}}
+cp -r /global/software/ws-may2026 ~/
+or
+cp -r /global/software/ws-may2026 path-to-your-project-directory
+{{< /highlight >}}
+
+The first line will copy the directory __ws-may2026__ from the directory __/global/software/ws-may2026__ to the user's home directory. The second command will make a copy to the project directory. Please replace __path-to-your-project-directory__ by the appropriate path to your project directory on Grex.
+
 {{< treeview display="file" />}}
--->
 
 <!-- Changes and update:
 * Last revision: May 12, 2026.

@@ -7,6 +7,9 @@ description: "Workshops and Training Material - 2025 AI LoRA example"
 categories: ["Training"]
 #tags: ["Content management"]
 draft: true
+build:
+ list: false
+ render: false
 ---
 
 ## High Performance Computing Workshop - Oct 14-17, 2025
