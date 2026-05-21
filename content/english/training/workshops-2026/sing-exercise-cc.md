@@ -150,13 +150,13 @@ mkdir -p "${OUTPUT_DIR}"
 # Pull the image.
 
 # dont!
-#singularity pull docker://google/deepvariant:"${BIN_VERSION}"
+#apptainer pull docker://google/deepvariant:"${BIN_VERSION}"
 
-module load singularity
-
+#module load singularity
+module load apptainer/1.4.5
 
 # Run DeepVariant.
-singularity run --nv -B /usr/lib/locale/:/usr/lib/locale/ \
+apptainer run --nv -B /usr/lib/locale/:/usr/lib/locale/ \
   deepvariant_latest-gpu.sif \
   /opt/deepvariant/bin/run_deepvariant \
   --model_type=WGS \
@@ -179,12 +179,14 @@ The tutorial on Github suggests to run another container to sanity check the res
 
 {{< highlight bash >}}
 
-singularity pull docker://jmcdani20/hap.py:v0.3.12
+module load apptainer/1.4.5
+
+apptainer pull docker://jmcdani20/hap.py:v0.3.12
 
 INPUT_DIR="${PWD}/quickstart-testdata"
 OUTPUT_DIR="${PWD}/quickstart-output"
 
-singularity exec  -B /usr/lib/locale/:/usr/lib/locale/  -B "${INPUT_DIR}":"/input"   -B "${OUTPUT_DIR}:/output" hap.py_v0.3.12.sif  /opt/hap.py/bin/hap.py   /input/test_nist.b37_chr20_100kbp_at_10mb.vcf.gz   /output/output.vcf.gz   -f "/input/test_nist.b37_chr20_100kbp_at_10mb.bed"   -r "/input/ucsc.hg19.chr20.unittest.fasta"   -o "/output/happy.output"   --engine=vcfeval   --pass-only   -l chr20:10000000-10010000 --threads=12
+apptainer exec  -B /usr/lib/locale/:/usr/lib/locale/  -B "${INPUT_DIR}":"/input"   -B "${OUTPUT_DIR}:/output" hap.py_v0.3.12.sif  /opt/hap.py/bin/hap.py   /input/test_nist.b37_chr20_100kbp_at_10mb.vcf.gz   /output/output.vcf.gz   -f "/input/test_nist.b37_chr20_100kbp_at_10mb.bed"   -r "/input/ucsc.hg19.chr20.unittest.fasta"   -o "/output/happy.output"   --engine=vcfeval   --pass-only   -l chr20:10000000-10010000 --threads=12
 
 cat quickstart-output//happy.output.summary.csv
 {{< /highlight >}}
