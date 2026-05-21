@@ -136,9 +136,8 @@ Lets use VI and save the following job script:
 {{< highlight bash >}}
 #!/bin/bash
 #SBATCH --gpus=1
-#SBATCH --partition=stamps-b --reservation=ws_gpu
-#SBATCH --account=def-gshamov
-#SBATCH --cpus-per-task=12 --mem-per-cpu=4gb
+#SBATCH --partition=stamps-b,livi-b,mcordgpu-b,agro-b --reservation=ws_gpu
+#SBATCH --cpus-per-task=12 --mem-per-cpu=3gb
 
 #https://github.com/google/deepvariant/blob/r1.6/docs/deepvariant-quick-start.md
 

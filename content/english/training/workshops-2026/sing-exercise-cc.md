@@ -139,10 +139,7 @@ Lets use VI and save the following job script:
 
 {{< highlight bash >}}
 #!/bin/bash
-#SBATCH --gpus=1
-#SBATCH --partition=stamps-b --reservation=ws_gpu
-#SBATCH --account=def-gshamov
-#SBATCH --cpus-per-task=12 --mem-per-cpu=4gb
+#SBATCH   --gpus=1 --partition=gpu-node --mem=0
 
 #https://github.com/google/deepvariant/blob/r1.6/docs/deepvariant-quick-start.md
 
@@ -169,7 +166,7 @@ singularity run --nv -B /usr/lib/locale/:/usr/lib/locale/ \
   --output_vcf="${OUTPUT_DIR}"/output.vcf.gz \
   --output_gvcf="${OUTPUT_DIR}"/output.g.vcf.gz \
   --intermediate_results_dir "${OUTPUT_DIR}/intermediate_results_dir" \
-  --num_shards=12
+  --num_shards=2
 
 # --model_type=WGS # **Replace this string with exactly one of the following [WGS,WES,PACBIO,ONT_R104,HYBRID_PACBIO_ILLUMINA]**
 # --num_shards=12  #  **How many cores the `make_examples` step uses. Change it to the number of CPU cores you have.**
