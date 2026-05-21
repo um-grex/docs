@@ -66,4 +66,17 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider apptainer
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider singularity&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Assuming we have found any of the above, &lt;strong&gt;module load singularity&lt;/strong&gt; or whatever we have found. Then, try executing it.&lt;/p&gt;</description></item><item><title>Exercise for singularity/apptainer for CC</title><link>https://um-grex.github.io/docs/training/workshops-2026/sing-exercise-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/sing-exercise-cc/</guid><description>&lt;h1 id='introduction' class="title is-flex is-align-items-center mt-4 is-1"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;How to use Apptainer aka Singularity on HPC systems: a generic task and two Genomics examples&lt;/div&gt;
+
+&lt;h2 id='getting-singularity-or-apptainer' class="title is-flex is-align-items-center mt-4 is-2"&gt;Getting Singularity or Apptainer&lt;a href='#getting-singularity-or-apptainer' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;We do it as always, by using modules. Some systems may have Sing./Appt. in systems PATH or in an unusual place like somewhere on CVMFS.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;which singularity
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;which apptainer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider apptainer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider singularity&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Assuming we have found any of the above, &lt;strong&gt;module load singularity&lt;/strong&gt; or whatever we have found. Then, try executing it.&lt;/p&gt;</description></item></channel></rss>
