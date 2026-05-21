@@ -51,10 +51,7 @@ Bioconductor and StaPH repositories on Quay.io are good places to start.</p><div
 </span></span><span style=display:flex><span>ln -s /home/shared/sing/deepvariant_latest-gpu.sif ./deepvariant_latest-gpu.sif
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>ln -s /home/shared/sing/deepvariant_latest.sif ./deepvariant_latest.sif</span></span></code></pre></div><p>Lets use VI and save the following job script:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
-</span></span></span><span style=display:flex><span><span style=color:#75715e>#SBATCH --gpus=1</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#SBATCH --partition=stamps-b --reservation=ws_gpu</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#SBATCH --account=def-gshamov</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#SBATCH --cpus-per-task=12 --mem-per-cpu=4gb</span>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#SBATCH   --gpus=1 --partition=gpu-node --mem=0</span>
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#https://github.com/google/deepvariant/blob/r1.6/docs/deepvariant-quick-start.md</span>
 </span></span><span style=display:flex><span>
@@ -81,7 +78,7 @@ Bioconductor and StaPH repositories on Quay.io are good places to start.</p><div
 </span></span></span><span style=display:flex><span>  --output_vcf<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>OUTPUT_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>/output.vcf.gz <span style=color:#ae81ff>\
 </span></span></span><span style=display:flex><span>  --output_gvcf<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>OUTPUT_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>/output.g.vcf.gz <span style=color:#ae81ff>\
 </span></span></span><span style=display:flex><span>  --intermediate_results_dir <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${</span>OUTPUT_DIR<span style=color:#e6db74>}</span><span style=color:#e6db74>/intermediate_results_dir&#34;</span> <span style=color:#ae81ff>\
-</span></span></span><span style=display:flex><span>  --num_shards<span style=color:#f92672>=</span><span style=color:#ae81ff>12</span>
+</span></span></span><span style=display:flex><span>  --num_shards<span style=color:#f92672>=</span><span style=color:#ae81ff>2</span>
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#75715e># --model_type=WGS # **Replace this string with exactly one of the following [WGS,WES,PACBIO,ONT_R104,HYBRID_PACBIO_ILLUMINA]**</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># --num_shards=12  #  **How many cores the `make_examples` step uses. Change it to the number of CPU cores you have.**</span>
