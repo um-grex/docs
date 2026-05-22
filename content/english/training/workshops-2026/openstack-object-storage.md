@@ -41,7 +41,7 @@ module load git nodejs openstack-client s3cmd
 
 2. Download the `openrc` file from Arbutus dashboard
 
-3. Create credential for th eobject storage
+3. Create credential for the object storage
 
 {{< highlight bash >}}
 source def-training-cloud-openrc.sh
