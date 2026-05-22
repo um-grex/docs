@@ -113,8 +113,10 @@ or
 # MC instructions 
 #
 module load apptainer/1.4.5
-apptainer pull 
-apptainer pull
+#apptainer pull docker://ghcr.io/ggml-org/llama.cpp:server-cuda
+ln -s /home/shared/sing/llama.cpp_server-cuda.sif ./llama.cpp_server-cuda.sif
+#apptainer pull docker://ghcr.io/ggml-org/llama.cpp:full-cuda
+ln -s /home/shared/sing/llama.cpp_full-cuda.sif ./llama.cpp_full-cuda.sif
 ls *.sif
 {{< /highlight >}}
 
@@ -125,6 +127,8 @@ On Grex, use the Workshop's GPU reservation __ws_gpu__ !
 {{< highlight bash >}}
 salloc --account=def-gshamov  --mem-per-cpu=16gb  --cpus-per-task=1 --gpus=1 --reservation=ws_gpu --partition=livi-b,gpu-b,stamps-b,agro-b,mcordgpu-b
 {{< /highlight >}}
+
+( On MC, use a whole GPU VM as __salloc \-\-gpus=1 \-\-partition=gpu-node \-\-mem=0__ . Do not run it on Grex. )
 
 Wait for it to give you and interactive prompt. Check your node name and if you have GPUs!
 
@@ -139,6 +143,9 @@ Now we have the code, the model and the GPU, and can try loading the model into 
 {{< highlight bash >}}
 llama-cli -c 4096 -ngl 60 --temp 0.7 -n 256 -m ~/models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf   -p "Hello, how are you?"
 {{< /highlight >}}
+
+
+( On MC, prefix the line above with __apptainer exec ./llama.cpp_full-cuda.sif /app/llama-cli__ . Do not run it on Grex)
 
 Does it say? Try other models?
 
