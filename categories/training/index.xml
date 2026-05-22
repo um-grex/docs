@@ -2,7 +2,19 @@
 &lt;/h2&gt;&lt;hr&gt;
 &lt;h3 id='umanitoba-spring-2026-hpc-and-cloud-computing-workshop' class="title is-flex is-align-items-center mt-4 is-3"&gt;UManitoba Spring 2026 HPC and Cloud computing workshop&lt;a href='#umanitoba-spring-2026-hpc-and-cloud-computing-workshop' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;Join us for our free Spring 2026 workshop, open to all researchers from Manitoba institutions!&lt;/p&gt;
-&lt;p&gt;We are pleased to invite you to the Spring 2026 Manitoba High-Performance Computing (HPC) and Cloud Computing Workshop, taking place May 20–22, 2026, at the University of Manitoba (Fort Garry campus), Engineering Building, Lecture Hall &lt;strong&gt;E2-350&lt;/strong&gt;. The workshop is designed for beginner and intermediate users.&lt;/p&gt;</description></item><item><title>Workshops - 2025</title><link>https://um-grex.github.io/docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/</guid><description>&lt;!--
+&lt;p&gt;We are pleased to invite you to the Spring 2026 Manitoba High-Performance Computing (HPC) and Cloud Computing Workshop, taking place May 20–22, 2026, at the University of Manitoba (Fort Garry campus), Engineering Building, Lecture Hall &lt;strong&gt;E2-350&lt;/strong&gt;. The workshop is designed for beginner and intermediate users.&lt;/p&gt;</description></item><item><title>Exercise for running local models on HPC</title><link>https://um-grex.github.io/docs/training/workshops-2026/llama-exercise-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/llama-exercise-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;An example running local llama.cpp AI models with OpenWebUI, using Singularity and Podman containers.&lt;/div&gt;
+
+&lt;h2 id='getting-singularity-or-apptainer-and-podman' class="title is-flex is-align-items-center mt-4 is-2"&gt;Getting Singularity or Apptainer, and Podman&lt;a href='#getting-singularity-or-apptainer-and-podman' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;We do it as always, by using modules. Some systems may have Sing./Appt. in systems PATH or in an unusual place like somewhere on CVMFS.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;which singularity
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider apptainer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider singularity&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Assuming we have found any of the above, &lt;strong&gt;module load singularity&lt;/strong&gt; or whatever we have found. Then, execute it.&lt;/p&gt;</description></item><item><title>Workshops - 2025</title><link>https://um-grex.github.io/docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/</guid><description>&lt;!--
 ## Autumn workshop, October 2025
 ---
 
@@ -517,6 +529,16 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/llama-exercise-grex/"
+ class="is-pretty-link"
+ &gt;Local LLama.CPP in HPC&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;&lt;p&gt;
+ &lt;a
  href="https://um-grex.github.io/docs/training/workshops-2026/using-modules-cc/"
  class="is-pretty-link"
  &gt;Modules on CC&lt;/a
@@ -540,15 +562,5 @@ This event will help you get started with HPC and familiarize you with essential
  href="https://um-grex.github.io/docs/training/workshops-2026/openstack-cloud/"
  class="is-pretty-link"
  &gt;Openstack Cloud - Arbutus&lt;/a
- &gt;
- &lt;/p&gt;
- &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
- &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
- &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
- &lt;/div&gt;&lt;p&gt;
- &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2026/openstack-object-storage/"
- class="is-pretty-link"
- &gt;Openstack Object Storage - Arbutus&lt;/a
  &gt;
  &lt;/p&gt;</description></item></channel></rss>
