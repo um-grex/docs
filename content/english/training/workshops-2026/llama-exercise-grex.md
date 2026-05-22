@@ -12,7 +12,7 @@ categories: ["Training"]
 # render: false
 ---
 
-# Introduction
+## Introduction
 ---
 
 {{< alert type="info" >}}
