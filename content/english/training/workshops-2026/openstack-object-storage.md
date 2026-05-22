@@ -90,7 +90,7 @@ vim index.html
 
 {{< highlight bash >}}
 for i in index.html build/ examples/ libs/ pointclouds/ ; do
-  s3cmd -c ${HOME}/.s3cfg_training --no-mime-magic -M sync ${i} s3://BUCKET_NAME/${i}
+  s3cmd -c ${HOME}/.s3cmd_ws_2026 --no-mime-magic -M sync ${i} s3://BUCKET_NAME/${i}
 done
 {{< /highlight >}}
 
