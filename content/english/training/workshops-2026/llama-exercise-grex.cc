@@ -1,8 +1,8 @@
 ---
-weight: 2500
+weight: 566
 linkTitle: "Local LLama.CPP in HPC"
-Title: "Exercise for local models on HPC"
-description: "Workshops and Training Material - 2026 - Local Models and OpwnWebUI"
+Title: "Exercise for running local models on HPC"
+description: "Workshops and Training Material - 2026 - Local Models and OpenWebUI"
 #titleIcon: "fa-solid fa-cubes"
 categories: ["Training"]
 #tags: ["Content management"]
@@ -249,7 +249,7 @@ Confgure OpenWebUI to see our Llama at http://n999:MYPORT in the Web UI: Admin -
 ## Use Connecting OpenWebUI to make a RAG?
 
 TBD! Just explore the UI in Firefox at __http://localhost:8080__
-
+"Knowledge base" can be added by uploading some Markdown files and using local builtin vectoring models in OpenWebUI.
 
 <!-- Changes and update:
 * Last revision: May 22, 2026.
