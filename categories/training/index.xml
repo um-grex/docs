@@ -1,8 +1,114 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training on Grex</title><link>https://um-grex.github.io/docs/categories/training/</link><description>Recent content in Training on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/training/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshops - 2026</title><link>https://um-grex.github.io/docs/training/workshops-2026/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/</guid><description>&lt;h2 id='spring-hpc-and-cloud-computing-workshop-may-2026' class="title is-flex is-align-items-center mt-4 is-2"&gt;Spring HPC and Cloud computing workshop, May 2026.&lt;a href='#spring-hpc-and-cloud-computing-workshop-may-2026' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;h3 id='umanitoba-spring-2026-hpc-and-cloud-computing-workshop' class="title is-flex is-align-items-center mt-4 is-3"&gt;UManitoba Spring 2026 HPC and Cloud computing workshop&lt;a href='#umanitoba-spring-2026-hpc-and-cloud-computing-workshop' class='anchor'&gt;#&lt;/a&gt;
-&lt;/h3&gt;&lt;p&gt;Join us for our free Spring 2026 workshop, open to all researchers from Manitoba institutions!&lt;/p&gt;
-&lt;p&gt;We are pleased to invite you to the Spring 2026 Manitoba High-Performance Computing (HPC) and Cloud Computing Workshop, taking place May 20–22, 2026, at the University of Manitoba (Fort Garry campus), Engineering Building, Lecture Hall &lt;strong&gt;E2-350&lt;/strong&gt;. The workshop is designed for beginner and intermediate users.&lt;/p&gt;</description></item><item><title>Exercise for running local models on HPC</title><link>https://um-grex.github.io/docs/training/workshops-2026/llama-exercise-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/llama-exercise-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Below are the slides and some materials from the in-person workshop that was held on May 2026:&lt;/p&gt;
+&lt;h3 id='may-20-2026' class="title is-flex is-align-items-center mt-4 is-3"&gt;May 20, 2026&lt;a href='#may-20-2026' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;!--
+&gt; - **Introduction to Alliance and Manitoba HPC, AI and Cloud resources**: [Slides](/workshops/spring2026/)
+&gt; - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/spring2026/)
+--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Introduction to High Performance Computing Software and Lmod&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/Introduction-to-HPC-software-2026.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--
+&gt; - **Data transfers and storage with Globus, NextCloud**: [Slides](/workshops/spring2026/)
+--&gt;
+&lt;h3 id='may-21-2026' class="title is-flex is-align-items-center mt-4 is-3"&gt;May 21, 2026&lt;a href='#may-21-2026' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;!--
+&gt; - **OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications**: [Slides](/workshops/spring2026/)
+&gt; - **Containers in HPC: using Singularity/Apptainer**: [Slides](/workshops/spring2026/)
+&gt; - **Containers in HPC: using Podman and Pixis**: [Slides](/workshops/spring2026/)
+--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Introduction to OpenOnDemand:Running jobs using the Job Composer&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/Running-Jobs-via-OOD.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Running jobs on HPC cluster using SLURM: batch and interactive jobs&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/Running-Jobs-on-HPC-Cluster-2026.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--
+&gt; - **Using Jupyter on HPC systems via OOD, JupyterHub**: [Slides](/workshops/spring2026/)							
+--&gt;
+&lt;h3 id='may-22-2026' class="title is-flex is-align-items-center mt-4 is-3"&gt;May 22, 2026&lt;a href='#may-22-2026' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;!--
+&gt; - **Using ClusterPilot to run jobs**: [Slides](/workshops/spring2026/)
+&gt; - **AI on HPC topics**: [Slides](/workshops/spring2026/)
+&gt; - **Using OpenStack Cloud Dashboard**: [Slides](/workshops/spring2026/)
+&gt; - **Using OpenStack Cloud, deploying Web applications**: [Slides](/workshops/spring2026/)
+&gt; - **Using OpenStack CLI and ObjectStorage**: [Slides](/workshops/spring2026/)
+--&gt;
+&lt;!--
+### UManitoba Spring 2026 HPC and Cloud computing workshop
+
+Join us for our free Spring 2026 workshop, open to all researchers from Manitoba institutions! 
+
+We are pleased to invite you to the Spring 2026 Manitoba High-Performance Computing (HPC) and Cloud Computing Workshop, taking place May 20–22, 2026, at the University of Manitoba (Fort Garry campus), Engineering Building, Lecture Hall __E2-350__. The workshop is designed for beginner and intermediate users. 
+
+**Requirements:**
+
+ * A laptop is required for hands-on exercises.
+ * An active CCDB account is optional (but recommended).
+ * Free RSVP is required: must be completed via Eventbrite, at the following URL: [Spring 2026 Registration](https://grexapps.hpc.umanitoba.ca/short/register-ws-2026)
+
+Any individual sessions can be selected. We will issue certificates of attendance for participants who attended all the three days.
+
+&gt; Coffee will be provided before each days' session! We got cookies! 
+
+### Program and materials
+
+**Day 1: May 20**
+
+| Start | End | Session description | Speaker |
+| :---: | :--: | :---------------------------: | :-------: |
+| 10:00 | 10:45 | Introduction to Alliance and Manitoba HPC, AI and Cloud resources | Grigory |
+| 10:45 | 11:00 | Housekeeping: how to connect to MC/Grex/CC | Stefano |
+| 11:00 | 12:30 | Linux (BASH) CLI tutorial, SSH | Stefano |
+| 12:30 | 13:00 | Lunch break | |
+| 13:00 | 14:20 | Intro to HPC software, Lmod modules tool | Ali |
+| 14:20 | 15:00 | Data transfers and storage with Globus, NextCloud | Stefano |
+
+
+**Day 2: May 21**
+
+| Start | End | Session description | Speaker |
+| :---: | :--: | :---------------------------: | :-------: |
+| 10:00 | 10:10 | Housekeeping: how to connect to MC/Grex/CC | Stefano |
+| 10:10 | 11:00 | OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications | Stefano |
+| 11:00 | 12:00 | Containers in HPC: using Singularity/Apptainer | Grigory |
+| 12:00 | 12:30 | Containers in HPC: using Podman and Pixis | Stefano |
+| 12:30 | 13:00 | Lunch break | |
+| 13:00 | 13:30 | OpenOnDemand HPC Web portal: Running Jobs with Job Composer | Ali |
+| 13:30 | 14:30 | Running HPC jobs with SLURM scheduler (hands-on) | Ali |
+| 14:30 | 15:00 | Using Jupyter on HPC systems via OOD, JupyterHub | Grigory | 
+
+**Day 3: May 22**
+
+| Start | End | Session description | Speaker |
+| :---: | :--: | :---------------------------: | :-------: |
+| 10:00 | 10:10 | Housekeeping: how to connect to MC/Grex/CC | Grigory |
+| 10:10 | 10:30 | Using ClusterPilot to run jobs | Julia Frank |
+| 10:30 | 11:30 | AI on HPC topics | Grigory |
+| 11:30 | 12:30 | Using OpenStack Cloud Dashboard | Stefano |
+| 12:30 | 13:00 | Lunch break | |
+| 13:00 | 13:45 | Using OpenStack Cloud, deploying Web applications | Stefano |
+| 13:45 | 14:45 | Using OpenStack CLI and ObjectStorage | Stefano |
+| 14:45 | 15:00 | Closing Remarks | Grigory |
+---&gt;
+&lt;h2 id='various-workshop-materials-and-walkthroughs' class="title is-flex is-align-items-center mt-4 is-2"&gt;Various Workshop materials and walkthroughs&lt;a href='#various-workshop-materials-and-walkthroughs' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;The data used on this workshop is available on Grex and on MC:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Exercise for running local models on HPC</title><link>https://um-grex.github.io/docs/training/workshops-2026/llama-exercise-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/llama-exercise-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;div class="notification is-info"&gt;An example running local llama.cpp AI models with OpenWebUI, using Singularity and Podman containers.&lt;/div&gt;
 
