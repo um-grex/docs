@@ -12,6 +12,43 @@ categories: ["Training"]
 ## Spring HPC and Cloud computing workshop, May 2026.
 ---
 
+Below are the slides and some materials from the in-person workshop that was held on May 2026:
+
+### May 20, 2026
+
+<!--
+> - **Introduction to Alliance and Manitoba HPC, AI and Cloud resources**: [Slides](/workshops/spring2026/)
+> - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/spring2026/)
+-->
+> - **Introduction to High Performance Computing Software and Lmod**: [Slides](/workshops/spring2026/Introduction-to-HPC-software-2026.pdf)
+<!--
+> - **Data transfers and storage with Globus, NextCloud**: [Slides](/workshops/spring2026/)
+-->
+
+### May 21, 2026
+
+<!--
+> - **OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications**: [Slides](/workshops/spring2026/)
+> - **Containers in HPC: using Singularity/Apptainer**: [Slides](/workshops/spring2026/)
+> - **Containers in HPC: using Podman and Pixis**: [Slides](/workshops/spring2026/)
+-->
+> - **Introduction to OpenOnDemand:Running jobs using the Job Composer**: [Slides](/workshops/spring2026/Running-Jobs-via-OOD.pdf)
+> - **Running jobs on HPC cluster using SLURM: batch and interactive jobs**: [Slides](/workshops/spring2026/Running-Jobs-on-HPC-Cluster-2026.pdf)
+<!--
+> - **Using Jupyter on HPC systems via OOD, JupyterHub**: [Slides](/workshops/spring2026/)							
+-->
+
+### May 22, 2026
+
+<!--
+> - **Using ClusterPilot to run jobs**: [Slides](/workshops/spring2026/)
+> - **AI on HPC topics**: [Slides](/workshops/spring2026/)
+> - **Using OpenStack Cloud Dashboard**: [Slides](/workshops/spring2026/)
+> - **Using OpenStack Cloud, deploying Web applications**: [Slides](/workshops/spring2026/)
+> - **Using OpenStack CLI and ObjectStorage**: [Slides](/workshops/spring2026/)
+-->
+
+<!--
 ### UManitoba Spring 2026 HPC and Cloud computing workshop
 
 Join us for our free Spring 2026 workshop, open to all researchers from Manitoba institutions! 
@@ -67,6 +104,7 @@ Any individual sessions can be selected. We will issue certificates of attendanc
 | 13:00 | 13:45 | Using OpenStack Cloud, deploying Web applications | Stefano |
 | 13:45 | 14:45 | Using OpenStack CLI and ObjectStorage  | Stefano |
 | 14:45 | 15:00 | Closing Remarks | Grigory |
+--->
 
 ## Various Workshop materials and walkthroughs
 ---
