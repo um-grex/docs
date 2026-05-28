@@ -29,7 +29,17 @@
 &lt;h3 id='may-21-2026' class="title is-flex is-align-items-center mt-4 is-3"&gt;May 21, 2026&lt;a href='#may-21-2026' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h3&gt;&lt;!--
 &gt; - **OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications**: [Slides](/workshops/spring2026/)
-&gt; - **Containers in HPC: using Singularity/Apptainer**: [Slides](/workshops/spring2026/)
+--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Containers in HPC: using Singularity/Apptainer&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/Containers-in-HPC-Singularity-Apptainer-2026.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--
 &gt; - **Containers in HPC: using Podman and Pixis**: [Slides](/workshops/spring2026/)
 --&gt;
 &lt;blockquote&gt;
