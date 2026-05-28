@@ -40,8 +40,8 @@ Below are the slides and some materials from the in-person workshop that was hel
 
 ### May 22, 2026
 
+> - **AI on HPC topics**: [Slides](/workshops/spring2026/Topics-on-using-AI-on-HPC-Spring-2026.pdf)
 <!--
-> - **AI on HPC topics**: [Slides](/workshops/spring2026/)
 > - **Using OpenStack Cloud Dashboard**: [Slides](/workshops/spring2026/)
 > - **Using OpenStack Cloud, deploying Web applications**: [Slides](/workshops/spring2026/)
 > - **Using OpenStack CLI and ObjectStorage**: [Slides](/workshops/spring2026/)
