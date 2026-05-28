@@ -16,8 +16,9 @@ Below are the slides and some materials from the in-person workshop that was hel
 
 ### May 20, 2026
 
+
+> - **Introduction to Alliance and Manitoba HPC, AI and Cloud resources**: [Slides](/workshops/spring2026/Intro-to-Canadian-and-Local-DRI-Spring-2026.pdf)
 <!--
-> - **Introduction to Alliance and Manitoba HPC, AI and Cloud resources**: [Slides](/workshops/spring2026/)
 > - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/spring2026/)
 -->
 > - **Introduction to High Performance Computing Software and Lmod**: [Slides](/workshops/spring2026/Introduction-to-HPC-software-2026.pdf)
@@ -41,7 +42,6 @@ Below are the slides and some materials from the in-person workshop that was hel
 ### May 22, 2026
 
 <!--
-> - **Using ClusterPilot to run jobs**: [Slides](/workshops/spring2026/)
 > - **AI on HPC topics**: [Slides](/workshops/spring2026/)
 > - **Using OpenStack Cloud Dashboard**: [Slides](/workshops/spring2026/)
 > - **Using OpenStack Cloud, deploying Web applications**: [Slides](/workshops/spring2026/)
