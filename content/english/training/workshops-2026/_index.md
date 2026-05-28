@@ -30,7 +30,9 @@ Below are the slides and some materials from the in-person workshop that was hel
 
 <!--
 > - **OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications**: [Slides](/workshops/spring2026/)
-> - **Containers in HPC: using Singularity/Apptainer**: [Slides](/workshops/spring2026/)
+-->
+> - **Containers in HPC: using Singularity/Apptainer**: [Slides](/workshops/spring2026/Containers-in-HPC-Singularity-Apptainer-2026.pdf)
+<!--
 > - **Containers in HPC: using Podman and Pixis**: [Slides](/workshops/spring2026/)
 -->
 > - **Introduction to OpenOnDemand:Running jobs using the Job Composer**: [Slides](/workshops/spring2026/Running-Jobs-via-OOD.pdf)
