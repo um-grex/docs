@@ -35,9 +35,8 @@ Below are the slides and some materials from the in-person workshop that was hel
 -->
 > - **Introduction to OpenOnDemand:Running jobs using the Job Composer**: [Slides](/workshops/spring2026/Running-Jobs-via-OOD.pdf)
 > - **Running jobs on HPC cluster using SLURM: batch and interactive jobs**: [Slides](/workshops/spring2026/Running-Jobs-on-HPC-Cluster-2026.pdf)
-<!--
-> - **Using Jupyter on HPC systems via OOD, JupyterHub**: [Slides](/workshops/spring2026/)							
--->
+> - **Using Jupyter on HPC systems**: [Slides](/workshops/spring2026/Jupyter-on-HPC-Spring-2026.pdf)							
+
 
 ### May 22, 2026
 
