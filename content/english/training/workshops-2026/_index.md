@@ -98,8 +98,7 @@ Any individual sessions can be selected. We will issue certificates of attendanc
 | Start | End   | Session description           | Speaker |
 | :---: | :--:  | :---------------------------: | :-------: |
 | 10:00 | 10:10 | Housekeeping: how to connect to MC/Grex/CC | Grigory |
-| 10:10 | 10:30 | Using ClusterPilot to run jobs | Julia Frank |
-| 10:30 | 11:30 | AI on HPC topics | Grigory |
+| 10:10 | 11:30 | AI on HPC topics | Grigory |
 | 11:30 | 12:30 | Using OpenStack Cloud Dashboard | Stefano |
 | 12:30 | 13:00 | Lunch break | |
 | 13:00 | 13:45 | Using OpenStack Cloud, deploying Web applications | Stefano |
@@ -107,6 +106,8 @@ Any individual sessions can be selected. We will issue certificates of attendanc
 | 14:45 | 15:00 | Closing Remarks | Grigory |
 --->
 
+
+<!--
 ## Various Workshop materials and walkthroughs
 ---
 
@@ -133,8 +134,12 @@ cp -r /global/software/ws-may2026 path-to-your-project-directory
 
 The first line will copy the directory __ws-may2026__ from the directory __/global/software/ws-may2026__ to the user's home directory. The second command will make a copy to the project directory. Please replace __path-to-your-project-directory__ by the appropriate path to your project directory on Grex.
 
-{{< treeview display="file" />}}
+
+{{< treeview display="folder" />}}
+-->
+
+[Materials](/training/workshops-2026/materials)
 
 <!-- Changes and update:
-* Last revision: May 12, 2026.
+* Last revision: May 29, 2026.
 -->
