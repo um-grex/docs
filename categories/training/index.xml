@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training on Grex</title><link>https://um-grex.github.io/docs/categories/training/</link><description>Recent content in Training on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/training/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshops - 2026</title><link>https://um-grex.github.io/docs/training/workshops-2026/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/</guid><description>&lt;h2 id='spring-hpc-and-cloud-computing-workshop-may-2026' class="title is-flex is-align-items-center mt-4 is-2"&gt;Spring HPC and Cloud computing workshop, May 2026.&lt;a href='#spring-hpc-and-cloud-computing-workshop-may-2026' class='anchor'&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Training on Grex</title><link>https://um-grex.github.io/docs/categories/training/</link><description>Recent content in Training on Grex</description><generator>Hugo</generator><language>en-us</language><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/docs/categories/training/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshop materials - 2026</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/</guid><description>&lt;h2 id='spring-hpc-and-cloud-computing-workshop-may-2026' class="title is-flex is-align-items-center mt-4 is-2"&gt;Spring HPC and Cloud computing workshop, May 2026.&lt;a href='#spring-hpc-and-cloud-computing-workshop-may-2026' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
+ &gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/llama-exercise-grex/"
+ class="is-pretty-link"
+ &gt;Local LLama.CPP in HPC&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-cc/"
+ class="is-pretty-link"
+ &gt;Modules on CC&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-grex/"
+ class="is-pretty-link"
+ &gt;Modules on Grex&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/openstack-cloud/"
+ class="is-pretty-link"
+ &gt;Openstack Cloud - Arbutus&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/openstack-object-storage/"
+ class="is-pretty-link"
+ &gt;Openstack Object Storage - Arbutus&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/slurm-jobs-cc/"
+ class="is-pretty-link"
+ &gt;Running jobs on CC&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/slurm-jobs-grex/"
+ class="is-pretty-link"
+ &gt;Running jobs on Grex&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/install-software-cc/"
+ class="is-pretty-link"
+ &gt;Software on CC&lt;/a
+ &gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/install-software-grex/"
+ class="is-pretty-link"
+ &gt;Software on Grex&lt;/a
+ &gt;
+ &lt;/p&gt;</description></item><item><title>Workshops - 2026</title><link>https://um-grex.github.io/docs/training/workshops-2026/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/</guid><description>&lt;h2 id='spring-hpc-and-cloud-computing-workshop-may-2026' class="title is-flex is-align-items-center mt-4 is-2"&gt;Spring HPC and Cloud computing workshop, May 2026.&lt;a href='#spring-hpc-and-cloud-computing-workshop-may-2026' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;p&gt;Below are the slides and some materials from the in-person workshop that was held on May 2026:&lt;/p&gt;
 &lt;h3 id='may-20-2026' class="title is-flex is-align-items-center mt-4 is-3"&gt;May 20, 2026&lt;a href='#may-20-2026' class='anchor'&gt;#&lt;/a&gt;
@@ -156,14 +230,27 @@ To copy the data to user's account on Grex, use one of the following:
 The first line will copy the directory __ws-may2026__ from the directory __/global/software/ws-may2026__ to the user's home directory. The second command will make a copy to the project directory. Please replace __path-to-your-project-directory__ by the appropriate path to your project directory on Grex.
 
 
-&lt;div class="sc-treeview is-overflow-x"&gt;&lt;div class="notification is-warning"&gt;No data available&lt;/div&gt;&lt;/div&gt;
+&lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
+ &gt;&lt;li class=" sc-treeview-coll"&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;p&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/"
+ class="is-pretty-link"
+ &gt;Materials&lt;/a
+ &gt;
+ &lt;/p&gt;</description></item><item><title>Exercise for running local models on HPC</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/llama-exercise-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/llama-exercise-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;An example running local llama.cpp AI models with OpenWebUI, using Singularity and Podman containers.&lt;/div&gt;
 
---&gt;
-&lt;p&gt;&lt;a
- href="https://um-grex.github.io/docs/training/workshops-2026/materials"
- class="is-pretty-link"&gt;Materials&lt;/a
-&gt;
-&lt;/p&gt;</description></item><item><title>Workshops - 2025</title><link>https://um-grex.github.io/docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/</guid><description>&lt;!--
+&lt;h2 id='getting-singularity-or-apptainer-and-podman' class="title is-flex is-align-items-center mt-4 is-2"&gt;Getting Singularity or Apptainer, and Podman&lt;a href='#getting-singularity-or-apptainer-and-podman' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;We do it as always, by using modules. Some systems may have Sing./Appt. in systems PATH or in an unusual place like somewhere on CVMFS.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;which singularity
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider apptainer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider singularity&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Assuming we have found any of the above, &lt;strong&gt;module load singularity&lt;/strong&gt; or whatever we have found. Then, execute it.&lt;/p&gt;</description></item><item><title>Workshops - 2025</title><link>https://um-grex.github.io/docs/training/workshops-2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2025/</guid><description>&lt;!--
 ## Autumn workshop, October 2025
 ---
 
@@ -207,7 +294,206 @@ We assume the partiticipant already tried simple text to image generation with S
 &lt;/h3&gt;&lt;hr&gt;
 &lt;p&gt;We will downolad Huggingface source code from their Github using Git.
 This is needed to use their Python example training script rather than developing ours from scrath.
-We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/strong&gt; subdirectory of our Workshop materials.&lt;/p&gt;</description></item><item><title>Workshops - 2024</title><link>https://um-grex.github.io/docs/training/workshops-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2024/</guid><description>&lt;h2 id='autumn-workshop-october-2024' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2024&lt;a href='#autumn-workshop-october-2024' class='anchor'&gt;#&lt;/a&gt;
+We will also copy the datasets for training from &lt;strong&gt;pythonai&lt;/strong&gt; subdirectory of our Workshop materials.&lt;/p&gt;</description></item><item><title>Working with modules</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-cc/</guid><description>&lt;h1 id='introduction' class="title is-flex is-align-items-center mt-4 is-1"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;How to use modules on national systems (like Fir, Nibi, Rorqual and Narval)? As examples, we show how to load gromacs and lammps.&lt;/div&gt;
+
+&lt;h2 id='modules' class="title is-flex is-align-items-center mt-4 is-2"&gt;Modules&lt;a href='#modules' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Here are the most used commands for manipulating modules:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;module &lt;strong&gt;list&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;avail&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;spider&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;load&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;unload&lt;/strong&gt; {&lt;strong&gt;rm&lt;/strong&gt;} soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;show&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;help&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;whatis&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;purge&lt;/strong&gt;; module &lt;strong&gt;&amp;ndash;force purge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;use&lt;/strong&gt; ~/modulefiles; module &lt;strong&gt;unuse&lt;/strong&gt; ~/modulefiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;To see if a given software or program, called foo, is available on the software stach, run the command:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Working with modules</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-grex/</guid><description>&lt;h1 id='introduction' class="title is-flex is-align-items-center mt-4 is-1"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;How to use modules on Grex? As examples, we show how to load gromacs and lammps.&lt;/div&gt;
+
+&lt;h2 id='modules' class="title is-flex is-align-items-center mt-4 is-2"&gt;Modules&lt;a href='#modules' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Here are the most used commands for manipulating modules:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;module &lt;strong&gt;list&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;avail&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;spider&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;load&lt;/strong&gt; soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;unload&lt;/strong&gt; {&lt;strong&gt;rm&lt;/strong&gt;} soft/version&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;show&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;help&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;whatis&lt;/strong&gt; soft&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;purge&lt;/strong&gt;; module &lt;strong&gt;&amp;ndash;force purge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;module &lt;strong&gt;use&lt;/strong&gt; ~/modulefiles; module &lt;strong&gt;unuse&lt;/strong&gt; ~/modulefiles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;To see if a given software or program, called foo, is available on the software stach, run the command:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Web service example - Forgejo</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/openstack-cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/openstack-cloud/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Walkthrough to install a code repository service based on &lt;a
+ href="https://forgejo.org/"
+ class="is-pretty-link"&gt;Forgejo&lt;/a
+&gt;
+.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes you already have a working &lt;a
+ href="https://www.debian.org/releases/bookworm/"
+ class="is-pretty-link"&gt;Debian 12&lt;/a
+&gt;
+ virtual machine with a public IP.&lt;/p&gt;
+&lt;p&gt;Some useful links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arbutus (legacy) - &lt;a
+ href="https://arbutus.cloud.computecanada.ca/"
+ class="is-pretty-link"&gt;https://arbutus.cloud.computecanada.ca/&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;Cloud on DRAC Wiki - &lt;a
+ href="https://docs.alliancecan.ca/wiki/Cloud"
+ class="is-pretty-link"&gt;https://docs.alliancecan.ca/wiki/Cloud&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;Cloud Quick Start on DRAC Wiki - &lt;a
+ href="https://docs.alliancecan.ca/wiki/Cloud_Quick_Start"
+ class="is-pretty-link"&gt;https://docs.alliancecan.ca/wiki/Cloud_Quick_Start&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='install-forgejo' class="title is-flex is-align-items-center mt-4 is-2"&gt;Install Forgejo&lt;a href='#install-forgejo' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;Update the system&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt -y upgrade&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Install dependencies (and some utilities)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt -y install vim tmux net-tools dnsutils git git-lfs postgresql postgresql-client nginx certbot&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;Create a &lt;code&gt;git&lt;/code&gt; user&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo adduser --system --group --disabled-password --shell /bin/bash --home /opt/git git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;Download &lt;a
+ href="https://forgejo.org/"
+ class="is-pretty-link"&gt;Forgejo&lt;/a
+&gt;
+ from the &lt;a
+ href="https://codeberg.org/forgejo/forgejo/releases"
+ class="is-pretty-link"&gt;release page&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo wget -O /opt/git/forgejo https://codeberg.org/forgejo/forgejo/releases/download/v15.0.2/forgejo-15.0.2-linux-amd64
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo chown git:git /opt/git/forgejo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo chmod +x /opt/git/forgejo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;Create required directories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo mkdir -p /etc/forgejo /var/lib/forgejo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo chown git:git /etc/forgejo /var/lib/forgejo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo chmod &lt;span style="color:#ae81ff"&gt;750&lt;/span&gt; /etc/forgejo /var/lib/forgejo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="6"&gt;
+&lt;li&gt;Create the database&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo -iu postgres -- psql -c &lt;span style="color:#e6db74"&gt;&amp;#34;CREATE ROLE forgejo WITH LOGIN PASSWORD &amp;#39;forgejo&amp;#39;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo -iu postgres -- psql -c &lt;span style="color:#e6db74"&gt;&amp;#34;CREATE DATABASE forgejo WITH OWNER forgejo&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="7"&gt;
+&lt;li&gt;Download the Systemd service file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo wget -O /etc/systemd/system/forgejo.service https://codeberg.org/forgejo/forgejo/raw/branch/forgejo/contrib/systemd/forgejo.service
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo sed -i -e &lt;span style="color:#e6db74"&gt;&amp;#39;s|=/usr/local/bin/forgejo|=/opt/git/forgejo|&amp;#39;&lt;/span&gt; /etc/systemd/system/forgejo.service
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo sed -i -e &lt;span style="color:#e6db74"&gt;&amp;#39;s|HOME=/home/git|HOME=/opt/git|&amp;#39;&lt;/span&gt; /etc/systemd/system/forgejo.service
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo systemctl daemon-reload
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo systemctl enable forgejo.service&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="8"&gt;
+&lt;li&gt;Create the TLS certificate&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo systemctl stop nginx.service
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo certbot certonly --standalone -n --agree-tos --register-unsafely-without-email -d CHANGE_THIS.cloud.computecanada.ca&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;Configure Nginx&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo rm /etc/nginx/sites-enabled/default
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo touch /etc/nginx/sites-available/forgejo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo ln -s /etc/nginx/sites-available/forgejo /etc/nginx/sites-enabled/forgejo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo vim /etc/nginx/sites-available/forgejo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Copy the following configuration inside &lt;code&gt;/etc/nginx/sites-available/forgejo&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Object storage example - Potree</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/openstack-object-storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/openstack-object-storage/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Walkthrough to create a static website using Arbutus cloud object storage.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes you already have access to an Arbutus cloud project and you have installed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;a
+ href="https://pypi.org/project/python-openstackclient/"
+ class="is-pretty-link"&gt;python openstack client&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;the &lt;a
+ href="https://s3tools.org/s3cmd"
+ class="is-pretty-link"&gt;s3cmd tool&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a
+ href="https://nodejs.org/"
+ class="is-pretty-link"&gt;NodeJS&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a
+ href="https://git-scm.com/"
+ class="is-pretty-link"&gt;Git&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All the required software is available on Grex as modules.&lt;/p&gt;
+&lt;p&gt;Some useful links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arbutus (legacy) - &lt;a
+ href="https://arbutus.cloud.computecanada.ca/"
+ class="is-pretty-link"&gt;https://arbutus.cloud.computecanada.ca/&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;Cloud on DRAC Wiki - &lt;a
+ href="https://docs.alliancecan.ca/wiki/Cloud"
+ class="is-pretty-link"&gt;https://docs.alliancecan.ca/wiki/Cloud&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;Cloud Object Storage on DRAC Wiki - &lt;a
+ href="https://docs.alliancecan.ca/wiki/Arbutus_object_storage"
+ class="is-pretty-link"&gt;https://docs.alliancecan.ca/wiki/Arbutus_object_storage&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id='deploy-a-potree-website' class="title is-flex is-align-items-center mt-4 is-2"&gt;Deploy a Potree website&lt;a href='#deploy-a-potree-website' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;Load required modules&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module load git nodejs openstack-client s3cmd&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;
+&lt;p&gt;Download the &lt;code&gt;openrc&lt;/code&gt; file from Arbutus dashboard&lt;/p&gt;</description></item><item><title>Running jobs on CC</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/slurm-jobs-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/slurm-jobs-cc/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;To run jobs on the cluster, a scheduler is used. In this section, different job scripts are presented. There are specified directive for each type of application: serial, openmp, mpi, hybrid and gpu.&lt;/p&gt;
+&lt;h2 id='interactive-job-via-salloc' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive job via salloc&lt;a href='#interactive-job-via-salloc' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;On this example, we will test lammps interactively via salloc. All the scripts and instructions are under the directory &lt;strong&gt;interactive&lt;/strong&gt;.&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;First, ask for interactive job using salloc:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Running jobs on Grex</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/slurm-jobs-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/slurm-jobs-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;To run jobs on the cluster, a scheduler is used. In this section, different job scripts are presented. There are specified directive for each type of application: serial, openmp, mpi, hybrid and gpu.&lt;/p&gt;
+&lt;h2 id='interactive-job-via-salloc' class="title is-flex is-align-items-center mt-4 is-2"&gt;Interactive job via salloc&lt;a href='#interactive-job-via-salloc' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;On this example, we will test lammps interactively via salloc. All the scripts and instructions are under the directory &lt;strong&gt;interactive&lt;/strong&gt;.&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;First, ask for interactive job using salloc:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Software installation</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/install-software-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/install-software-cc/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Many programs are installed locally under user&amp;rsquo;s space. Some of these programs are: R packages, Python packages, Perl packages, Julia packages. There is already a minimal installation of R, Python, Perl and Julia as modules that can be used to install the packages a user may need. Other than that, there are programs hat can be installed under user&amp;rsquo;s account or as modules. We do not use sudo and package managers, like &lt;strong&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/strong&gt;. Most of the programs are installed from source or from pre-compiled binaries. The installation is based on one of the following procedures:&lt;/p&gt;</description></item><item><title>Software installation</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/install-software-grex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/install-software-grex/</guid><description>&lt;h2 id='introduction' class="title is-flex is-align-items-center mt-4 is-2"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;Many programs are installed locally under user&amp;rsquo;s space. Some of these programs are: R packages, Python packages, Perl packages, Julia packages. There is already a minimal installation of R, Python, Perl and Julia as modules that can be used to install the packages a user may need. Other than that, there are programs hat can be installed under user&amp;rsquo;s account or as modules. We do not use sudo and package managers, like &lt;strong&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/strong&gt;. Most of the programs are installed from source or from pre-compiled binaries. The installation is based on one of the following procedures:&lt;/p&gt;</description></item><item><title>Workshops - 2024</title><link>https://um-grex.github.io/docs/training/workshops-2024/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2024/</guid><description>&lt;h2 id='autumn-workshop-october-2024' class="title is-flex is-align-items-center mt-4 is-2"&gt;Autumn workshop, October 2024&lt;a href='#autumn-workshop-october-2024' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;div class="notification is-warning"&gt;This workshop has been created for a group of users from Bannatyne campus to explain the usage of contributed nodes. However, most of the material from the following slides (slurm, software, singularity, podman, &amp;hellip;) is still valid for general use.&lt;/div&gt;
 
@@ -434,12 +720,37 @@ This event will help you get started with HPC and familiarize you with essential
 &lt;/blockquote&gt;
 &lt;h2 id='spring-workshop-april-2021' class="title is-flex is-align-items-center mt-4 is-2"&gt;Spring workshop, April 2021&lt;a href='#spring-workshop-april-2021' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;Below are the slides from the Grex workshop that was held on April 21-22, 2021:&lt;/p&gt;</description></item><item><title>Workshops and Training Material</title><link>https://um-grex.github.io/docs/training/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/</guid><description>&lt;h2 id='local-workshops' class="title is-flex is-align-items-center mt-4 is-2"&gt;Local workshops&lt;a href='#local-workshops' class='anchor'&gt;#&lt;/a&gt;
+&lt;p&gt;Below are the slides from the Grex workshop that was held on April 21-22, 2021:&lt;/p&gt;</description></item><item><title>Exercise for singularity/apptainer</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/sing-exercise/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/sing-exercise/</guid><description>&lt;h1 id='introduction' class="title is-flex is-align-items-center mt-4 is-1"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;How to use Apptainer aka Singularity on HPC systems: a generic task and two Genomics examples&lt;/div&gt;
+
+&lt;h2 id='getting-singularity-or-apptainer' class="title is-flex is-align-items-center mt-4 is-2"&gt;Getting Singularity or Apptainer&lt;a href='#getting-singularity-or-apptainer' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;We do it as always, by using modules. Some systems may have Sing./Appt. in systems PATH or in an unusual place like somewhere on CVMFS.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;which singularity
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider apptainer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider singularity&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Assuming we have found any of the above, &lt;strong&gt;module load singularity&lt;/strong&gt; or whatever we have found. Then, try executing it.&lt;/p&gt;</description></item><item><title>Exercise for singularity/apptainer for CC</title><link>https://um-grex.github.io/docs/training/workshops-2026/materials/sing-exercise-cc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/workshops-2026/materials/sing-exercise-cc/</guid><description>&lt;h1 id='introduction' class="title is-flex is-align-items-center mt-4 is-1"&gt;Introduction&lt;a href='#introduction' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h1&gt;&lt;hr&gt;
+&lt;div class="notification is-info"&gt;How to use Apptainer aka Singularity on HPC systems: a generic task and two Genomics examples&lt;/div&gt;
+
+&lt;h2 id='getting-singularity-or-apptainer' class="title is-flex is-align-items-center mt-4 is-2"&gt;Getting Singularity or Apptainer&lt;a href='#getting-singularity-or-apptainer' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;We do it as always, by using modules. Some systems may have Sing./Appt. in systems PATH or in an unusual place like somewhere on CVMFS.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;which singularity
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;which apptainer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider apptainer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;module spider singularity&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Assuming we have found any of the above, &lt;strong&gt;module load singularity&lt;/strong&gt; or whatever we have found. Then, try executing it.&lt;/p&gt;</description></item><item><title>Workshops and Training Material</title><link>https://um-grex.github.io/docs/training/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/docs/training/</guid><description>&lt;h2 id='local-workshops' class="title is-flex is-align-items-center mt-4 is-2"&gt;Local workshops&lt;a href='#local-workshops' class='anchor'&gt;#&lt;/a&gt;
 &lt;/h2&gt;&lt;hr&gt;
 &lt;!--
 &lt;div class="sc-treeview is-overflow-x"&gt;&lt;ul
- class='sc-treeview-tree marginless'&gt;&lt;li class=""&gt;
- &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
+ class='sc-treeview-tree marginless'&gt;&lt;li class=" sc-treeview-coll"&gt;
+ &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center sc-treeview-coll-trigger"&gt;
  &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
@@ -448,14 +759,15 @@ This event will help you get started with HPC and familiarize you with essential
  &gt;2026&lt;/a
  &gt;
  &lt;/p&gt;
- &lt;/div&gt;&lt;/li&gt;&lt;li class=" sc-treeview-coll"&gt;
+ &lt;/div&gt;&lt;ul
+ class='sc-treeview-tree marginless'&gt;&lt;li class=" sc-treeview-coll"&gt;
  &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center sc-treeview-coll-trigger"&gt;
  &lt;i class="fa-solid fa-folder-tree fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2025/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/"
  class="is-pretty-link"
- &gt;2025&lt;/a
+ &gt;Materials&lt;/a
  &gt;
  &lt;/p&gt;
  &lt;/div&gt;&lt;ul
@@ -464,19 +776,9 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2025/lora-huggingface/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/llama-exercise-grex/"
  class="is-pretty-link"
- &gt;LoRa walkthrough&lt;/a
- &gt;
- &lt;/p&gt;
- &lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li class=""&gt;
- &lt;div class="sc-treeview-label is-flex is-align-items-center"&gt;&lt;div class="sc-treeview-icon is-flex is-align-items-center is-justify-content-center"&gt;
- &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
- &lt;/div&gt;&lt;p&gt;
- &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2024/"
- class="is-pretty-link"
- &gt;2024&lt;/a
+ &gt;Local LLama.CPP in HPC&lt;/a
  &gt;
  &lt;/p&gt;
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
@@ -484,9 +786,9 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2023/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-cc/"
  class="is-pretty-link"
- &gt;2023&lt;/a
+ &gt;Modules on CC&lt;/a
  &gt;
  &lt;/p&gt;
  &lt;/div&gt;&lt;/li&gt;&lt;li class=""&gt;
@@ -494,8 +796,8 @@ This event will help you get started with HPC and familiarize you with essential
  &lt;i class="fa-solid fa-file-lines fa-fw"&gt;&lt;/i&gt;
  &lt;/div&gt;&lt;p&gt;
  &lt;a
- href="https://um-grex.github.io/docs/training/workshops-2022/"
+ href="https://um-grex.github.io/docs/training/workshops-2026/materials/using-modules-grex/"
  class="is-pretty-link"
- &gt;2022&lt;/a
+ &gt;Modules on Grex&lt;/a
  &gt;
  &lt;/p&gt;</description></item></channel></rss>
