@@ -18,23 +18,15 @@ Below are the slides and some materials from the in-person workshop that was hel
 
 
 > - **Introduction to Alliance and Manitoba HPC, AI and Cloud resources**: [Slides](/workshops/spring2026/Intro-to-Canadian-and-Local-DRI-Spring-2026.pdf)
-<!--
-> - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/spring2026/)
--->
+> - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/spring2026/linux_shell_basics.pdf)
 > - **Introduction to High Performance Computing Software and Lmod**: [Slides](/workshops/spring2026/Introduction-to-HPC-software-2026.pdf)
-<!--
-> - **Data transfers and storage with Globus, NextCloud**: [Slides](/workshops/spring2026/)
--->
+> - **Data transfers and storage with Globus, NextCloud**: [Slides](/workshops/spring2026/data_transfer_in_hpc.pdf)
 
 ### May 21, 2026
 
-<!--
-> - **OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications**: [Slides](/workshops/spring2026/)
--->
+> - **OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications**: [Slides](/workshops/spring2026/introduction_openondemand.pdf)
 > - **Containers in HPC: using Singularity/Apptainer**: [Slides](/workshops/spring2026/Containers-in-HPC-Singularity-Apptainer-2026.pdf)
-<!--
-> - **Containers in HPC: using Podman and Pixis**: [Slides](/workshops/spring2026/)
--->
+> - **Containers in HPC: using Podman and Pyxis**: [Slides Podman](/workshops/spring2026/introduction_podman.pdf) [Slides Pyxis](/workshops/spring2026/introduction_pyxis.pdf)
 > - **Introduction to OpenOnDemand:Running jobs using the Job Composer**: [Slides](/workshops/spring2026/Running-Jobs-via-OOD.pdf)
 > - **Running jobs on HPC cluster using SLURM: batch and interactive jobs**: [Slides](/workshops/spring2026/Running-Jobs-on-HPC-Cluster-2026.pdf)
 > - **Using Jupyter on HPC systems**: [Slides](/workshops/spring2026/Jupyter-on-HPC-Spring-2026.pdf)							
@@ -43,11 +35,8 @@ Below are the slides and some materials from the in-person workshop that was hel
 ### May 22, 2026
 
 > - **AI on HPC topics**: [Slides](/workshops/spring2026/Topics-on-using-AI-on-HPC-Spring-2026.pdf)
-<!--
-> - **Using OpenStack Cloud Dashboard**: [Slides](/workshops/spring2026/)
-> - **Using OpenStack Cloud, deploying Web applications**: [Slides](/workshops/spring2026/)
-> - **Using OpenStack CLI and ObjectStorage**: [Slides](/workshops/spring2026/)
--->
+> - **Using OpenStack Cloud Dashboard**: [Slides](/workshops/spring2026/openstack_community_cloud_beginner.pdf)
+> - **Using OpenStack CLI and ObjectStorage**: [Slides](/workshops/spring2026/openstack_community_cloud_object_storage.pdf)
 
 <!--
 ### UManitoba Spring 2026 HPC and Cloud computing workshop
