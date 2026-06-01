@@ -83,41 +83,45 @@
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;!--
-&gt; - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/spring2026/)
---&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Linux (BASH) CLI tutorial, SSH&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/linux_shell_basics.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Introduction to High Performance Computing Software and Lmod&lt;/strong&gt;: &lt;a
  href="https://um-grex.github.io/docs/workshops/spring2026/Introduction-to-HPC-software-2026.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;!--
-&gt; - **Data transfers and storage with Globus, NextCloud**: [Slides](/workshops/spring2026/)
---&gt;
-&lt;h3 id='may-21-2026' class="title is-flex is-align-items-center mt-4 is-3"&gt;May 21, 2026&lt;a href='#may-21-2026' class='anchor'&gt;#&lt;/a&gt;
-&lt;/h3&gt;&lt;!--
-&gt; - **OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications**: [Slides](/workshops/spring2026/)
---&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Containers in HPC: using Singularity/Apptainer&lt;/strong&gt;: &lt;a
- href="https://um-grex.github.io/docs/workshops/spring2026/Containers-in-HPC-Singularity-Apptainer-2026.pdf"
+&lt;li&gt;&lt;strong&gt;Data transfers and storage with Globus, NextCloud&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/data_transfer_in_hpc.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;!--
-&gt; - **Containers in HPC: using Podman and Pixis**: [Slides](/workshops/spring2026/)
---&gt;
-&lt;blockquote&gt;
+&lt;h3 id='may-21-2026' class="title is-flex is-align-items-center mt-4 is-3"&gt;May 21, 2026&lt;a href='#may-21-2026' class='anchor'&gt;#&lt;/a&gt;
+&lt;/h3&gt;&lt;blockquote&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenOnDemand HPC Web portal: File Transfer, Remote Desktop and interactive GUI applications&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/introduction_openondemand.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Containers in HPC: using Singularity/Apptainer&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/Containers-in-HPC-Singularity-Apptainer-2026.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Containers in HPC: using Podman and Pyxis&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/introduction_podman.pdf"
+ class="is-pretty-link"&gt;Slides Podman&lt;/a
+&gt;
+ &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/introduction_pyxis.pdf"
+ class="is-pretty-link"&gt;Slides Pyxis&lt;/a
+&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Introduction to OpenOnDemand:Running jobs using the Job Composer&lt;/strong&gt;: &lt;a
  href="https://um-grex.github.io/docs/workshops/spring2026/Running-Jobs-via-OOD.pdf"
  class="is-pretty-link"&gt;Slides&lt;/a
@@ -143,13 +147,18 @@
  class="is-pretty-link"&gt;Slides&lt;/a
 &gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Using OpenStack Cloud Dashboard&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/openstack_community_cloud_beginner.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Using OpenStack CLI and ObjectStorage&lt;/strong&gt;: &lt;a
+ href="https://um-grex.github.io/docs/workshops/spring2026/openstack_community_cloud_object_storage.pdf"
+ class="is-pretty-link"&gt;Slides&lt;/a
+&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;!--
-&gt; - **Using OpenStack Cloud Dashboard**: [Slides](/workshops/spring2026/)
-&gt; - **Using OpenStack Cloud, deploying Web applications**: [Slides](/workshops/spring2026/)
-&gt; - **Using OpenStack CLI and ObjectStorage**: [Slides](/workshops/spring2026/)
---&gt;
 &lt;!--
 ### UManitoba Spring 2026 HPC and Cloud computing workshop
 
