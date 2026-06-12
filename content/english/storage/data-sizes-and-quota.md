@@ -87,7 +87,7 @@ In addition to the directory quota, each user has her own quota, presently for i
 
 {{< highlight bash >}}
 [someuser@yak ~]$ lfs quota -h -u $USER /project
-Disk quotas for usr kerrache (uid 123456):
+Disk quotas for user someuser (uid 123456):
      Filesystem    used   quota   limit   grace   files   quota   limit   grace
        /project  150.6G      0k      0k       -  175394  1000000 1100000       -
 {{< /highlight >}}

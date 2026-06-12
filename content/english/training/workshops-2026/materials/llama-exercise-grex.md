@@ -125,7 +125,7 @@ ls *.sif
 On Grex, use the Workshop's GPU reservation __ws_gpu__ !
 
 {{< highlight bash >}}
-salloc --account=def-gshamov  --mem-per-cpu=16gb  --cpus-per-task=1 --gpus=1 --reservation=ws_gpu --partition=livi-b,gpu-b,stamps-b,agro-b,mcordgpu-b
+salloc   --mem-per-cpu=16gb  --cpus-per-task=1 --gpus=1 --reservation=ws_gpu --partition=livi-b,gpu-b,stamps-b,agro-b,mcordgpu-b
 {{< /highlight >}}
 
 ( On MC, use a whole GPU VM as __salloc \-\-gpus=1 \-\-partition=gpu-node \-\-mem=0__ . Do not run it on Grex. )
