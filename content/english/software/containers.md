@@ -28,7 +28,7 @@ On Grex, Sylabs Singularity-CE is supported on local SBEnv software stack, while
 ## Using Singularity from SBEnv on Grex
 ---
 
-A brief introduction on [getting started with Singularity](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html) can be useful to get started. You will not need to install Singularity on Grex since it is already provided as a module.
+A brief introduction on [getting started with Singularity](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html) can be useful to get started. There is also a good [Singularity 101 Tutorial](https://sylabs.github.io/singularity101/intro.html). You will not need to install Singularity on Grex since it is already provided as a module.
 
 Start with __module spider singularity__; it will list the current version. Due to the nature of container runtime environments, we update Singularity regularly, so the installed version is usually the latest one. Load the module (in the default Grex environment) by the following command:
 
@@ -381,12 +381,12 @@ run		1000000
 ---
 
  * [Singularity/Sylabs homepage](https://sylabs.io)
+ * [Singularity 101 Tutorial](https://sylabs.github.io/singularity101/intro.html)
  * [Apptainer homepage](https://apptainer.org/)
  * [Podman homepage](https://podman.io/)
  * [Apptainer documentation on the Alliance Wiki](https://docs.alliancecan.ca/wiki/Apptainer)
  * [Docker Hub](https://hub.docker.com)
  * [RedHat Quay.io Hub](https://quay.io/search)
- * [Sylabs Cloud](https://cloud.sylabs.io/builder)
  * [NVIDIA NGC Cloud](https://ngc.nvidia.com/)
 
 <!-- {{< treeview display="tree" />}} -->
