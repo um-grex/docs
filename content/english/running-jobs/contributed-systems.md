@@ -146,6 +146,12 @@ Here is an example of script for running LAMMPS job on this partition:
 />}}
 {{< /collapsible >}}
 
+<br>
+
+{{< alert type="warning" >}}
+__Note:__ Since June 29, 2026, the partitions __agro__ and __agro-b__ were renamed to __agpu__. Any job submitted using __-\-partition=agro__ or __-\-partition=agro-b__ should work as the job will be re-assigned automatically by __Lua__ script to the new partition __agpu__.
+{{< /alert >}}
+
 <!-- {{< treeview display="tree" />}} -->
 
 <!-- Changes and update:
