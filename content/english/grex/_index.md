@@ -196,7 +196,7 @@ In addition to the traditional bash mode (connecting via SSH), users have access
 * [Digital Research Alliance of Canada](https://alliancecan.ca/) (Alliance), formerly known as Compute Canada
 * [Alliance documentation](https://docs.alliancecan.ca/wiki/Main_Page)
 * [Local Resources at UManitoba](localit)
-* [Grex status page](https://grex-status.netlify.app)
+* [Grex status page](https://um-grex.github.io/status/)
 
 ---
 
