@@ -9,13 +9,39 @@ categories: ["Training"]
 #draft: true
 ---
 
+## Autumn HPC and Cloud computing workshop, Oct 2026.
+---
+
+### Program and materials
+
+**Day 1: Oct 21: Introduction to Digital Resources, Linux Shell, Data Movement and Interactive computing.**
+
+* __9:30 - 10:00__: Intro to DRI resources in Canada/UManitoba [Grigory Shamov]
+* __10:00 - 11:00__: Using Linux Shell [Stefano Ansaloni]
+* __11:00 - 12:00__: Transferring Data: SSH and Globus [Stefano Ansaloni]
+* __12:00 - 13:00__: Break
+* __13:00 - 15:30__: OpenOnDemand Web Portal for HPC: Connect, File Transfer, Apps [Stefano Ansaloni]
+* __15:30 - 16:00__: OpenOnDemand Web Portal for HPC: running SLURM batch jobs [Ali Kerrache]
+
+**Day 02: Oct. 22: Software in HPC, using Modules and Containers.**
+
+* __9:30 - 11:00__: Intro to HPC software, modules [Ali Kerrache]
+* __11:00 - 11:30__: Containers in HPC: Singularity/Apptainer [Grigory Shamov]
+* __11:10 - 12:00__: Containers in HPC: Docker/Podman [Stefano Ansaloni]
+
+**Day 03: Oct. 23: Using SLURM batch jobs, AI and OpenStack Cloud.**
+
+* __9:30 - 11:00__: Running jobs with SLURM [Ali Kerrache]
+* __11:00 - 12:00__: Example on using Python/AI on HPC (?) [Grigory Shamov]
+* __12:00 - 13:00__: Break
+* __13:00 - 16:00__: Intro to OpenStack Cloud [Stefano Ansaloni]
+
 ## Spring HPC and Cloud computing workshop, May 2026.
 ---
 
 Below are the slides and some materials from the in-person workshop that was held on May 2026:
 
 ### May 20, 2026
-
 
 > - **Introduction to Alliance and Manitoba HPC, AI and Cloud resources**: [Slides](/workshops/spring2026/Intro-to-Canadian-and-Local-DRI-Spring-2026.pdf)
 > - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/spring2026/linux_shell_basics.pdf)
