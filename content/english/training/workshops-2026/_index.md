@@ -153,6 +153,18 @@ The first line will copy the directory __ws-may2026__ from the directory __/glob
 {{< treeview display="folder" />}}
 -->
 
+---
+
+## Fall DATA-4010 seminars, September/October 2026
+---
+
+Below are the slides from the DATA 4010 seminars that were held on September 24 and October 8, 2026:
+
+> - **Introduction to Version Control Systems 1**: [Slides](/workshops/fall2026data4010/VCS-Introduction-1.pdf)
+> - **Introduction to Version Control Systems 2**: [Slides](/workshops/fall2026data4010/VCS-Introduction-2.pdf)
+
+---
+
 [Materials](/training/workshops-2026/materials)
 
 <!-- Changes and update:

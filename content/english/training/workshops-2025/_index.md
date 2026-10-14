@@ -127,6 +127,18 @@ The exact program schedule will be emailed to all registered participants one we
 
 -->
 
+---
+
+## Fall DATA-4010 seminars, September/October 2025
+---
+
+Below are the slides from the DATA 4010 seminars that were held on September 22 and October 6, 2025:
+
+> - **Introduction to Version Control Systems 1**: [Slides](/workshops/fall2025data4010/VCS-Introduction-1.pdf)
+> - **Introduction to Version Control Systems 2**: [Slides](/workshops/fall2025data4010/VCS-Introduction-2.pdf)
+
+---
+
 ## Various materials
 
 {{< treeview
