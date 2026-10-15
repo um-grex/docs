@@ -15,8 +15,8 @@ categories: ["Training"]
 ## Introduction
 ---
 
-To run jobs on the cluster, a scheduler is used. In this section, different job scripts are presented. There are specified directive for each type of application: serial, openmp, mpi, hybrid and gpu.
- 
+To run jobs on the cluster, a scheduler is used. In this section, different job scripts are presented. Specific directives are used for each type of application: __serial__, __openmp__, __mpi__, __hybrid__ and __gpu__.
+
 ## Interactive job via salloc
 ---
 
@@ -81,7 +81,7 @@ sh ./grex-runlmp-interactive.sh
 The above shows how to run interactive job for testing and debugging. In case you have many commands, you can bundle them inside a script as in the above.
 {{< /alert >}}
 
-As a summary, here are the steps to follow for running interactive jobs to test and debug your progrqams and scripts before submitting jobs via sbatch:
+As a summary, here are the steps to follow for running interactive jobs to test and debug your programs and scripts before submitting jobs via sbatch:
 
 * salloc {+options} to ask for compute node.
 * load the modules that are needed for your workflow.
@@ -114,11 +114,11 @@ sbatch grex-sleep-job.sh
 sbatch --partition=genoa grex-sleep-job.sh
 {{< /highlight >}}
 
-* What is the job id for your job?
+* What is the JobID for your job?
 
-* See if your job is on the queue by running the command: sq
+* See if your job is on the queue by running the command: __sq__
 
-* Once the job is done, inspect the output: slurm-<JobID>.out
+* Once the job is done, inspect the output: slurm-JobID.out
 
 ## Serial job
 ---
@@ -586,6 +586,6 @@ pushd multiple-dir && sbatch grex-run-glost.sh && popd
 * [Containers](https://um-grex.github.io/docs/software/containers/)
 
 <!-- Changes and update:
-* Last revision: May 12, 2026.
+* Last revision: Oct 15, 2026.
 -->
 
