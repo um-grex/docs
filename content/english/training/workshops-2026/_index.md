@@ -36,8 +36,6 @@ categories: ["Training"]
 * __12:00 - 13:00__: Break
 * __13:00 - 16:00__: Intro to OpenStack Cloud [Stefano Ansaloni]
 
-{{< treeview display="folder" />}}
-
 ## Spring HPC and Cloud computing workshop, May 2026.
 ---
 
