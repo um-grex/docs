@@ -335,7 +335,7 @@ Trimmomatic is already available as a module. The procedure is discussed here to
 {{< /alert >}}
 
 {{< alert type="info" >}}
-New version of Trimmomatic (__0.40, 0.41__) are released. Try to use similar steps as above to latest version.
+New version of Trimmomatic (__0.40, 0.41__) are released. Try to use similar steps as above to install the latest version.
 {{< /alert >}}
 
 ## How to install STAR?
@@ -591,6 +591,12 @@ make install
 
 ## Useful links
 ---
+
+* [Available software](https://docs.alliancecan.ca/wiki/Available_software)
+* [Using modules](https://docs.alliancecan.ca/wiki/Utiliser_des_modules/en)
+* [Standard software environments](https://docs.alliancecan.ca/wiki/Standard_software_environments)
+* [Installing software](https://docs.alliancecan.ca/wiki/Installing_software_in_your_home_directory)
+
 
 <!-- Changes and update:
 * Last revision: Oct 14, 2026.

@@ -318,6 +318,39 @@ sh ./mc-runlmp-8cpu-4mpi-2openmp.sh
 Note that login nodes are not meant for intensive tests. For any memory or CPU intensive test, please user interactive jobs via salloc.
 {{< /alert >}}
 
+## Additional examples
+---
+
+__Pick any program and experiment with the modules:__
+
+- module purge
+- module list
+- module spider program
+- module load dep program
+- module whatis program
+- module help   program
+- module show   program
+
+__Here are some examples:__
+
+- gcc
+- hdf5
+- boost
+- netcdf
+- nextflow
+- blast
+- python
+- gromacs
+- openmm
+- geant4
+- lammps
+- apptainer
+- singularity
+- or any other program you have in mind.
+- ... etc.
+
+## Useful links
+
 ## Useful links
 ---
 

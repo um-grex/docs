@@ -334,7 +334,7 @@ Trimmomatic is already available as a module. The procedure is discussed here to
 {{< /alert >}}
 
 {{< alert type="info" >}}
-New version of Trimmomatic (__0.40, 0.41__) are released. Try to use similar steps as above to latest version.
+New version of Trimmomatic (__0.40, 0.41__) are released. Try to use similar steps as above to install the latest version.
 {{< /alert >}}
 
 ## How to install STAR?
@@ -593,6 +593,9 @@ make install
 
 ## Useful links
 ---
+
+* [List of software](https://um-grex.github.io/docs/software/software-list/)
+* [Using modules](https://um-grex.github.io/docs/software/using-modules/)
 
 <!-- Changes and update:
 * Last revision: Oct 14, 2026.
