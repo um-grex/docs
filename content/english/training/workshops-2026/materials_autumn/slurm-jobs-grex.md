@@ -21,7 +21,7 @@ To run jobs on the cluster, a scheduler is used. In this section, different job 
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps interactively via salloc. All the scripts and instructions are under the directory __interactive__.
+On this example, we will test lammps interactively via salloc. All the scripts and instructions are under the directory __00-interactive-job__.
 {{< /alert >}}
 
 **First, ask for interactive job using salloc:**
@@ -92,13 +92,13 @@ As a summary, here are the steps to follow for running interactive jobs to test 
 ---
 
 {{< alert type="info" >}}
-On this example, we will test a sleep job submitted via sbatch. All the scripts and instructions are under the directory __sleep-job__. In addition to running sleep command, the job prints also the slurm environment variables.
+On this example, we will test a sleep job submitted via sbatch. All the scripts and instructions are under the directory __01-sleep-job__. In addition to running sleep command, the job prints also the slurm environment variables.
 {{< /alert >}}
 
 **Under the directory sleep-job, use cat command to see the content of the script:**
 
 {{< highlight bash >}}
-cd sleep-job
+cd 01-sleep-job
 cat grex-sleep-job.sh
 {{< /highlight >}}
 
@@ -124,13 +124,13 @@ sbatch --partition=genoa grex-sleep-job.sh
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps using a serial job via sbatch. All the scripts and instructions are under the directory __serial-job__.
+On this example, we will test lammps using a serial job via sbatch. All the scripts and instructions are under the directory __02-serial-job__.
 {{< /alert >}}
 
-**Under the directory serial-job, use cat command to see the content of the script:**
+**Under the directory 02-serial-job, use cat command to see the content of the script:**
 
 {{< highlight bash >}}
-cd serial-job
+cd 02-serial-job
 cat grex-runlmp-1cpu-serial.sh
 {{< /highlight >}}
 
@@ -144,13 +144,13 @@ sbatch grex-runlmp-1cpu-serial.sh
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps using OpenMP job via sbatch. All the scripts and instructions are under the directory __openmp-job__.
+On this example, we will test lammps using OpenMP job via sbatch. All the scripts and instructions are under the directory __03-openmp-job__.
 {{< /alert >}}
 
-**Under the directory openmp-job, use cat command to see the content of the scripts:**
+**Under the directory 03-openmp-job, use cat command to see the content of the scripts:**
 
 {{< highlight bash >}}
-cd openmp-job
+cd 03-openmp-job
 cat grex-runlmp-2cpu-openmp.sh
 cat grex-runlmp-4cpu-openmp.sh
 cat grex-runlmp-8cpu-openmp.sh
@@ -177,13 +177,13 @@ sq -j <JOB ID>
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps using MPI job via sbatch. All the scripts and instructions are under the directory __mpi-job__.
+On this example, we will test lammps using MPI job via sbatch. All the scripts and instructions are under the directory __04-mpi-job__.
 {{< /alert >}}
 
 **Under the directory mpi-job, use cat command to see the content of the scripts:**
 
 {{< highlight bash >}}
-cd mpi-job
+cd 04-mpi-job
 cat grex-runlmp-16cpu-mpi.sh
 cat grex-runlmp-2cpu-mpi.sh
 cat grex-runlmp-4cpu-mpi.sh
@@ -209,13 +209,13 @@ sbatch grex-runlmp-64cpu-mpi.sh
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps using hybrid job (MPI and OpenMP) via sbatch. All the scripts and instructions are under the directory __hybrid-job__.
+On this example, we will test lammps using hybrid job (MPI and OpenMP) via sbatch. All the scripts and instructions are under the directory __05-hybrid-job__.
 {{< /alert >}}
 
-**Under the directory hybrid-job, use cat command to see the content of the scripts:**
+**Under the directory 05-hybrid-job, use cat command to see the content of the scripts:**
 
 {{< highlight bash >}}
-cd hybrid-job
+cd 05-hybrid-job
 cat grex-runlmp-16tasks-2threads.sh
 cat grex-runlmp-32cpu-mpi.sh
 cat grex-runlmp-8tasks-4threads.sh
@@ -242,7 +242,7 @@ sbatch grex-runlmp-8tasks-4threads.sh
 ---
 
 {{< alert type="info" >}}
-On this directory, there are two example: the first one is for running lammps on GPU using singularity and the second uses apptainer. 
+On the directory 06-gpu-job, there are two examples: the first one is for running lammps on GPU using singularity and the second uses apptainer. 
 {{< /alert >}}
 
 ** First, pull the container:**
@@ -342,7 +342,7 @@ run		20000
 <br>
 
 {{< alert type="info" >}}
-The same scripts can be adapted and used to run LAMMPS using apptainer.
+The same scripts can be adapted and used to run LAMMPS using apptainer from CCEnv.
 {{< /alert >}}
 
 **Note__: On Grex, it is also possible to use podman and pyxis.
@@ -351,13 +351,13 @@ The same scripts can be adapted and used to run LAMMPS using apptainer.
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps using a serial job via sbatch and asking for very short time. All the scripts and instructions are under the directory __time-out-job__. The goal is to reproduce the __TIMEOUT__ message for the job.
+On this example, we will test lammps using a serial job via sbatch and asking for very short time. All the scripts and instructions are under the directory __07-time-out-job__. The goal is to reproduce the __TIMEOUT__ message for the job.
 {{< /alert >}}
 
-**Under the directory time-out-job, use cat command to see the content of the scripts:**
+**Under the directory 07-time-out-job, use cat command to see the content of the scripts:**
 
 {{< highlight bash >}}
-cd time-out-job
+cd 07-time-out-job
 cat grex-runlmp-1cpu-serial.sh
 {{< /highlight >}}
 
@@ -390,13 +390,13 @@ and re-submit the job.
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps using a serial job via sbatch and asking for less memory. All the scripts and instructions are under the directory __oom-kill-job__. The goal is to reproduce the __oom-kill event__ for the job.
+On this example, we will test lammps using a serial job via sbatch and asking for less memory. All the scripts and instructions are under the directory __08-oom-kill-job__. The goal is to reproduce the __oom-kill event__ for the job.
 {{< /alert >}}
 
-**Under the directory oom-kill-job, use cat command to see the content of the scripts:**
+**Under the directory 08-oom-kill-job, use cat command to see the content of the scripts:**
 
 {{< highlight bash >}}
-cd oom-kill-job
+cd 08-oom-kill-job
 cat grex-runlmp-1cpu-serial.sh
 {{< /highlight >}}
 
@@ -429,7 +429,7 @@ and re-submit the job.
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps using MPI and/or OpenMP to compare the performance and how the program scales with the number of CPU. All the scripts and instructions are under the directory __performance__.
+On this example, we will test lammps using MPI and/or OpenMP to compare the performance and how the program scales with the number of CPU. All the scripts and instructions are under the directory __09-performance-jobs__.
 {{< /alert >}}
 
 While using parallel programs (OpenMP and/or MPI based applications), it is highly recommended to test how a program scales with number of CPUs. It is well known that increasing the number of CPUs for OpenMP based programs do not increase the performance of the code. The idea is to take a small test case and run it using different number of CPUs: 1, 2, 4, 8, ... etc. While MPI programs run across the nodes and use multiple CPUs, OpenMP codes run only on one node. Therefore, the maximum threads to use should not exceed the number of physical cores available on the node. 
@@ -467,10 +467,10 @@ For this example, we used LAMMPS and run it on Grex using OpenMP and OpenMPI. Th
 ---
 
 {{< alert type="info" >}}
-On this example, we will test lammps to run job array for running multiple copies of the job with different parameters. All the scripts and instructions are under the directory __array-job__. 
+On this example, we will test lammps to run job array for running multiple copies of the job with different parameters. All the scripts and instructions are under the directory __10-array-job__. 
 {{< /alert >}}
 
-### Jobs from a single directory
+### Jobs from a single directory: single-dir
 
 On this example, we will submit multiple jobs from the same directory to run lammis with multiple input files: lammps-input-X.in where X=0,...,9
 
@@ -515,7 +515,7 @@ sbatch --array=1,3 grex-runlmp-1cpu-jobarray.sh
  time.
 - The option __--array=1,3__ means that the script will submit an array job with indices __1__ and __3__. time.
 
-### Jobs on multiple directories
+### Jobs on multiple directories: multiple-dir
 
 To avoid data overlapping, it is possible to create sub-directories and stage the input files for running the job with different parameters. In this case, there is no need to rename the outut files as they are generated in separate directories.
 
@@ -554,7 +554,7 @@ sbatch --array=1,3 grex-runlmp-1cpu-jobarray.sh
 ---
 
 {{< alert type="info" >}}
-On this example, we will show how run multiple tasks using glost instead of job arrays. All the scripts and instructions are under the directory __glost-job__. 
+On this example, we will show how run multiple tasks using glost instead of job arrays. All the scripts and instructions are under the directory __11-glost-job__. 
 {{< /alert >}}
 
 Similar to job arrays, GLOST is used to run multiple independent tasks. In this case, we use a list where we add all the tasks. GLOST uses MPI and assign the first N lines of the list to the N CPUs asked for. Once one of these tasks is done, GLOST will assign the next available task in the list till all the tasks are done or the job times out.
