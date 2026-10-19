@@ -1,6 +1,6 @@
 ---
 weight: 1500
-linkTitle: "Openstack Cloud - Arbutus"
+linkTitle: "Openstack Cloud - Juno"
 Title: "Web service example - Forgejo"
 description: "Workshops and Training Material - 2026 - VM Creation"
 #titleIcon: "fa-solid fa-cubes"
@@ -17,9 +17,11 @@ categories: ["Training"]
 
 Walkthrough to install a code repository service based on [Forgejo](https://forgejo.org/).
 
-This tutorial assumes you already have a working [Debian 12](https://www.debian.org/releases/bookworm/) virtual machine with a public IP.
+This tutorial assumes you already have a working [Debian 13](https://www.debian.org/releases/trixie/) virtual machine with a public IP.
 
 Some useful links:
+ - Juno - [https://juno.calculquebec.ca/](https://juno.calculquebec.ca/)
+ - Arbutus - [https://arbutus.alliancecan.ca/](https://arbutus.alliancecan.ca/)
  - Arbutus (legacy) - [https://arbutus.cloud.computecanada.ca/](https://arbutus.cloud.computecanada.ca/)
  - Cloud on DRAC Wiki - [https://docs.alliancecan.ca/wiki/Cloud](https://docs.alliancecan.ca/wiki/Cloud)
  - Cloud Quick Start on DRAC Wiki - [https://docs.alliancecan.ca/wiki/Cloud_Quick_Start](https://docs.alliancecan.ca/wiki/Cloud_Quick_Start)
@@ -85,7 +87,7 @@ sudo systemctl enable forgejo.service
 
 {{< highlight bash >}}
 sudo systemctl stop nginx.service
-sudo certbot certonly --standalone -n --agree-tos --register-unsafely-without-email -d CHANGE_THIS.vm.juno.calculquebec.ca
+sudo certbot certonly --standalone -n --agree-tos --register-unsafely-without-email -d CHANGE_THIS.sslip.io
 {{< /highlight >}}
 
 9. Configure Nginx
@@ -109,8 +111,8 @@ server {
 server {
     listen 443 ssl;
 
-    ssl_certificate     /etc/letsencrypt/live/CHANGE_THIS.vm.juno.calculquebec.ca/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/CHANGE_THIS.vm.juno.calculquebec.ca/privkey.pem;
+    ssl_certificate     /etc/letsencrypt/live/CHANGE_THIS.sslip.io/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/CHANGE_THIS.sslip.io/privkey.pem;
 
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305;
@@ -145,7 +147,7 @@ server {
 sudo reboot
 {{< /highlight >}}
 
-11. Navigate to [https://CHANGE_THIS.vm.juno.calculquebec.ca](https://CHANGE_THIS.vm.juno.calculquebec.ca) to finish configuration
+11. Navigate to [https://CHANGE_THIS.sslip.io](https://CHANGE_THIS.sslip.io) to finish configuration
 
 <!-- Changes and update:
 * Last revision: May 21, 2026.
