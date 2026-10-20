@@ -12,6 +12,13 @@ categories: ["Training"]
 ## Autumn HPC and Cloud computing workshop, Oct 2026.
 ---
 
+### How to get to the Workshop location 
+
+The event is located at Bannatyne campus! This means that the first task is to find the venue.
+
+* The Workshop is an in-person, live event ! It will be held on the Bannatyne Campus, 405 Brodie Centre. [Google map](https://maps.app.goo.gl/AiKCqGhqN7AFQjAy9 ).  Attendees from Fort Garry campus can use Blue and F5 bus, or F8 and D11 to get there.
+* Please review the detailed walkthrough [Instructions for finding the room 405 Brodie on the Bannatyne Campus](/workshops/autumn2026/InstructionsForGettingTo405BrodieCentreOnOctober21-23.pdf)
+
 ### Program and materials
 
 **Day 1: Oct 21: Introduction to Digital Resources, Linux Shell, Data Movement and Interactive computing.**
