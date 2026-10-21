@@ -12,24 +12,20 @@ categories: ["Training"]
 # render: false
 ---
 
-## Introduction
+
+
+## Palmer Penguins Dataset, analysis using pandas
 ---
 
-{{< alert type="info" >}}
-A typical use case: Upload Data, use Jupter App to set up code, debug software environment, and produce results to be downloaded.
-{{< /alert >}}
 
-
-## Penguin Dataset analysis using pandas
----
 
 {{< alert type="info" >}}
 A typical use case: Upload some data in CSV format, use Jupter App to set up analysis, debug software environment, and produce results to be downloaded.
 {{< /alert >}}
 
-We will be using a free Penguins dataset, publicly available here, to do some statistical analysis. 
+We will be using a free Palmer Penguins dataset, publicly available here, to do some statistical analysis. 
 
- * First, download the  [Penguin dataset](https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv) to your laptop. 
+ * First, download the  [Palmer Penguins dataset](https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv) to your laptop. 
 
  * Log in to an OpenOnDemand instance we use for training. Navigate to __File Manager__, and uploade the __penguins.csv__ file. Put it right into the home directory.
 
@@ -93,8 +89,63 @@ At this point, we should have generated two __.png__ files somewhere. Those repr
 
 > Is just closing the tab enough to terminate the job?
 
-## Done
+## Neurodesktop in OOD Desktop
 
+{{< alert type="info" >}}
+Acessing GUI software in a virtual Desktop on HPC system using OOD and Singularity  containers.
+{{< /alert >}}
+
+Neurodesk is a suite of neuro-imaging tools. It is available as Singularity/Apptainer or via CVMFS
+
+ * [Neurodesk link Apptainer](https://neurodesk.org/getting-started/neurocontainers/singularity/)
+ * [Neurodesk link CVMFS](https://neurodesk.org/getting-started/neurocontainers/cvmfs/#use-of-neurodesk-cvmfs-containers)
+
+
+### Obtain the brain dataset:
+
+In an OOD shell or virtual desktop, use __wget_ to obtain sample brain images.
+
+{{< highlight bash >}}
+wget -O sample_T1.nii.gz https://github.com/neurolabusc/niivue-images/raw/main/chris_t1.nii.gz
+{{< /highlight >}}
+
+### Find the container using CVMFS
+
+Alliance systems and Grex include Neurodesk's CVMFS automatically , no need to follow installation instructions. Lets try to find the images:
+
+{{< highlight bash >}}
+ls /cvmfs/neurodesk.ardc.edu.au/containers/ | head
+{{< /highlight >}}
+
+If there is output, we have Neurodesk on CVMFS. Lets try to find latest FSLeyes container there:
+
+{{< highlight bash >}}
+#
+# finding all images
+ls /cvmfs/neurodesk.ardc.edu.au/containers/fsl_*/fsl_*.simg | grep 'fsl_6'
+#
+# inspecting the last version with singularity
+# substitute with apptainer/1.4 for Compute Canada!
+module load singularity; 
+singularity inspect /cvmfs/neurodesk.ardc.edu.au/containers/fsl_6.0.7.8_20240913/fsl_6.0.7.8_20240913.simg
+{{< /highlight >}}
+
+Now we have found the image . Get an OOD desktop seession (preferably with GPUs!). Open Terminal, load Singularity or Apptainer as per above.
+
+Neurodesk manual suggests using __shell__ command to get command prompt "inside the container", and then run __fsleyes__ in it.
+
+> How to copy/paste into OOD VDI  ? Use the NoVNC side panel and Clipboard Icon, then Paste in XFCE Terminal!
+
+{{< highlight bash >}}
+module load singularity
+singularity shell --nv  /cvmfs/neurodesk.ardc.edu.au/containers/fsl_6.0.7.8_20240913/fsl_6.0.7.8_20240913.simg
+# replace the above with Apptainer on CC systems!
+
+{{< /highlight >}}
+
+In the Apptainer prompt, issue __fsleyes__ command. A GUI should appear. Open the brain image file, and render the results interactively.
+
+## Done!
 
 <!-- Changes and update:
 * Last revision: Oct 20, 2026.

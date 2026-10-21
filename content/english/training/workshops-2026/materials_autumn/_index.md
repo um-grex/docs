@@ -6,7 +6,7 @@ description: "Workshops Training Material - 2026"
 #titleIcon: "fa-solid fa-cubes"
 categories: ["Training"]
 #tags: ["Content management"]
-draft: true
+draft: false
 #build:
 # list: false
 # render: false
