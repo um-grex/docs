@@ -92,8 +92,8 @@ Bioconductor and StaPH repositories on Quay.io are good places to start.
 apptainer pull docker://quay.io/biocontainers/bwa-mem2:2.3--he70b90d_0
 ls -lrt bwa*
 # should get something like  bwa-mem2_2.3--he70b90d_0.sif
-#
-ln -s /home/shared/sing/bwa-mem2_2.3--he70b90d_0.sif ./bwa-mem2_2.3--he70b90d_0.sif
+# Fallback: copy this instead
+# ln -s /home/shared/sing/bwa-mem2_2.3--he70b90d_0.sif ./bwa-mem2_2.3--he70b90d_0.sif
 {{< /highlight >}}
 
 
@@ -116,7 +116,7 @@ Fiest lets download the chr20 data for DeepVariant as per tutorial.
 
 {{< highlight bash >}}
 
-cd ~/scratch
+cd ./dv
 
 INPUT_DIR="${PWD}/quickstart-testdata"
 DATA_HTTP_DIR="https://storage.googleapis.com/deepvariant/quickstart-testdata"
@@ -138,9 +138,11 @@ Then we would need the Singularity image. It is too large to download! Lets make
 
 {{< highlight bash >}}
 
-echo singularity pull docker://google/deepvariant:latest-gpu
-echo singularity pull docker://google/deepvariant:latest
+# should pull but they are large
+echo apptainer pull docker://google/deepvariant:latest-gpu
+echo apptainer pull docker://google/deepvariant:latest
 
+# use pre-downloaded ones with symbolic link
 ln -s /home/shared/sing/deepvariant_latest-gpu.sif ./deepvariant_latest-gpu.sif
 
 ln -s /home/shared/sing/deepvariant_latest.sif ./deepvariant_latest.sif
@@ -152,7 +154,7 @@ Lets use VI and save the following job script:
 
 {{< highlight bash >}}
 #!/bin/bash
-#SBATCH   --gpus=1 --partition=gpu-node --mem=0
+#SBATCH   --gpus=1 --partition=gpu-node --mem=0 --cpus-per-gpu=4 --export=NONE
 
 #https://github.com/google/deepvariant/blob/r1.6/docs/deepvariant-quick-start.md
 
