@@ -195,6 +195,7 @@ Lets try to create SLURM job script for some of the applications (Gromacs?) .
 
 Use __sq__ to find your job id, and __scancel__ to cancel it.
 
+
 <!-- Changes and update:
 * Last revision: May 22, 2026.
 -->
