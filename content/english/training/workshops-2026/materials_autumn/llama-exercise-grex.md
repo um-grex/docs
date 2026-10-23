@@ -1,12 +1,12 @@
 ---
-weight: 5666
-linkTitle: "Local LLama.CPP on Grex"
-Title: "Exercise for running local models on Grex"
+weight: 5966
+linkTitle: "Local LLama.CPP in HPC Grex"
+Title: "Exercise for running local models on HPC Grex"
 description: "Workshops and Training Material - 2026 - Local Models and PI agent"
 #titleIcon: "fa-solid fa-cubes"
 categories: ["Training"]
 #tags: ["Content management"]
-draft: true
+#draft: true
 #build:
 # list: false
 # render: false
@@ -16,75 +16,20 @@ draft: true
 ---
 
 {{< alert type="info" >}}
-An example running local llama.cpp AI models on Grex with GPUs, and using them with the PI agentic harness.
+An example running local llama.cpp AI models on Grex with GPUs, and using them with an agentic harness. Need CCDB and Grex access! Let us know your username ASAP, ask TA!
 {{< /alert >}}
 
 
 ## Getting locally installed llama.cpp
 ---
 
-The code needs a GPU node , so request one in an interactive job.
-
-salloc --partition=gpu-node --nodes=1 --gpus=1 --cpus-per-gpu=3 --mem=0 --time=0-3:00
-
-We do it as always, by using modules , but need first to invoke __module use __.
+The code needs a GPU node , so lets request one in an interactive job. The job takes one  GPU on any of Grex GPU-enabled partitions.
 
 {{< highlight bash >}}
-module use /home/software/modules/2023/x86-64-v4/CUDA/gcc12/openmpi4/cuda12.2
-module load llama.cpp
-which llama-cli
+salloc  --nodes=1 --gpus=1 --cpus-per-gpu=4 --mem=12000 --time=0-3:00 --partition=gpu,stamps-b,livi-b,mcordgpu-b,agpu,lgpu --reservation=ws_gpu
 {{< /highlight >}}
 
-
-## Running local LLM interactively.
----
-
-
-We will also need models. They will be in the __/home/shared/models__. Let us load one of them and see if it works.
-
-{{< highlight bash >}}
-llama-cli -m rnj-1.5-instruct-q6_k.gguf -c 4096
-{{< /highlight >}}
-
-
-## Running local LLM interactively.
----
-
-We will need some model files. They can be obtained using Wget, but we have pre-loaded them to the __../models/__ directories of our usual workshop-2026 locations.
-Lets create a directory $HOME/models and make symbolic link to the pre-downloaded models now.
-
-
-Now we will need the Llama.cpp executables. It is either available as a module, or can be used in Singularity. 
-
- * On Grex, use module called __llama-cpp__.
- * On MagicCastle, pull both llama-server and llama-full images. Use CUDA-13 for newer H100 GPUs!
-
-{{< highlight bash >}}
-# Grex instructions 
-#
-module spider llama-cpp
-module load cuda/12.9 arch/avx2 gcc/14.3 
-module load llama-cpp
-
-which llama-cli
-#
-which llama-server
-#
-{{< /highlight >}}
-
-or 
-
-## Get an interactive job on a GPU compute node with salloc
-
-On Grex, use the Workshop's GPU reservation __ws_gpu__ !
-
-{{< highlight bash >}}
-salloc   --mem-per-cpu=16gb  --cpus-per-task=1 --gpus=1 --reservation=ws_gpu --partition=livi-b,gpu-b,stamps-b,agro-b,mcordgpu-b
-{{< /highlight >}}
-
-( On MC, use a whole GPU VM as __salloc \-\-gpus=1 \-\-partition=gpu-node \-\-mem=0__ . Do not run it on Grex. )
-
-Wait for it to give you and interactive prompt. Check your node name and if you have GPUs!
+Check if we have GPUs.
 
 {{< highlight bash >}}
 hostname
@@ -92,132 +37,164 @@ nvidia-smi
 {{< /highlight >}}
 
 
-Now we have the code, the model and the GPU, and can try loading the model into LLama.cpp and issuing a simple prompt.
+Now we will need the Llama.cpp executables. It is either available as a module, or can be used in Apptainer. This time we will use a system wide Grex install. 
 
 {{< highlight bash >}}
-llama-cli -c 4096 -ngl 60 --temp 0.7 -n 256 -m ~/models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf   -p "Hello, how are you?"
+module load cuda/12.9.1 arch/avx2 gcc/14.3
+module load llama-cpp
+
+which llama-cli
 {{< /highlight >}}
 
 
-( On MC, prefix the line above with __apptainer exec ./llama.cpp_full-cuda.sif /app/llama-cli__ . Do not run it on Grex)
+## Running a local LLM interactively.
+---
 
-Does it say? Try other models?
+
+We will also need models. Models are large files , usually downloaded from HuggingFace. Some of them are pre-downloaded, find them in the __/home/shared/models__. Let us load one of them and see if it works.
+
+In the same interactive GPU job, lets run a model from Meta.
+
+{{< highlight bash >}}
+llama-cli -m /home/shared/models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf -c 4096 
+{{< /highlight >}}
+
+
+Now we have the code, the model and the GPU, and can try loading the model into LLama.cpp and issuing a simple prompt.
+
+Does it say anything useful? Try other models?
 
 ## Running local inference engine Llama.cpp as a SLURM job
 ---
 
-We will need to run a persistent server job that does not quit. We will send the LLama.cpp into background with __&__ and we will __wait__.
+We'd want to run a persistent server job that does not quit. We will start llama-server, send the LLama.cpp into background with __&__ and we will __wait__. We will also set an authentication key.
 
 > !!Do not forget to use __scancel JobID__ when done to prevent wasting a GPU!!
 
-Lets use VI editor and save the following job script as __server.slurm__:
+Lets use VI editor and save the following job script as __llama-server.job__:
 
 
 {{< highlight bash >}}
 #!/bin/bash
 #SBATCH --job-name=llama-server
-#SBATCH --partition=gpu,livi-b,agro-b,mcordgpu-b
-#SBATCH --nodes=1
-#SBATCH --gpus=1 --reservation=ws_gpu
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=2 --mem-per-cpu=8gb
+#SBATCH --partition=gpu,agpu,lgpu,mcordgpu-b,livi-b,stamps-b --reservation=ws_gpu
+#SBATCH --gpus=1
+#SBATCH --cpus-per-task=4 --mem=12000 --time=0-3:00:00
 #SBATCH --output=llama-%j.out
 #SBATCH --error=llama-%j.err
 
 
-MODEL_PATH=~/models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
-PORT=8295 # !!!ADD YOUR user Number here prefixed by 8!!!
+#MODEL_PATH=~/models/Spark-X2.6-4B-Q6_K_S.gguf
 
+PORT=8080
+KEY="my-key"
+
+#on Grex !!!ADD YOUR user Number here prefixed by 8!!! 8251 for PORT
+
+#on Grex do modules below:
 module load cuda/12.9.1 arch/avx2 gcc/14.3
 module load llama-cpp
 
-# Run the server
-llama-server \
-  -m $MODEL_PATH \
-  --host 0.0.0.0 \
-  --port $PORT \
-  -ngl 69 \
-  -c 4096 \
-  --n-gpu-layers 99 \
-  -np 2 \
-  -n 256 --temp 0.7 \
-  > server.log 2>&1 &
+which llama-cli
+
+# Run the server in model router mode (directory)
+
+llama-server   --host 0.0.0.0   --port $PORT   -c 8192 -n 4096   -ngl 99   --jinja   --temp 0.7   -t 2  --models-dir /home/shared/models  --no-models-autoload --api-key "$KEY"   > server.log 2>&1 &
 
 echo "Server started on port $PORT. Use SSH tunnel to access."
 wait
-   
+# done   
 {{< /highlight >}}
 
-connect to the model with curl to see if the server is alive
-
-curl http://gpu-node1:8080/v1/models | jq 
+Then submit the script with __sbatch llama-server.slurm__ command. 
 
 
+Connect to the model with curl to see if the server is alive. Replace the node name with what you see in __sq__ for your GPU job. (If using different PORT, replace 8080 with the port ).
 
-Then submit the script with __sbatch server.slurm__ command. 
+{{< highlight bash >}}
+curl -H 'Authorization: Bearer my-key'   http://gXYZ:8080/health
 
-Now we will need to connect to the server. From a Desktop. On Grex, lets use OOD!
+curl -H 'Authorization: Bearer my-key'   http://gXYZ:8080/models | jq .
+{{< /highlight >}}
 
- * Navigate to [https://ood.hpc.umanitoba.ca](https://ood.hpc.umanitoba.ca) , 
- * pick Desktop, _genoa_ partition, add 8 CPUs , submit and connect
- * get a Terminal
+The model should be servable if the two above commands succeed. We also can see the models it has configured to use.
+
+## Next exercise: Connecting PI agent to LLama
+
+We will try to use our agentic harness now! Or at least connecting it. One lightweight, popular harness is [PI](https://pi.dev) .
+
+The code needs some CPU and memory, but no GPUs , so lets request aniother interactive job. The job takes one full gpu-node.
+
+> Note should be ok on the login node on Grex! skipt the step below
+
+{{< highlight bash >}}
+salloc --partition=skylake --nodes=1 --cpus-per-task=2 --mem=4000 --time=0-3:00
+{{< /highlight >}}
+
+Then, lets install PI. 
+
+{{< highlight bash >}}
+# trusting random s**t on Internets looks like this:
+curl -fsSL https://pi.dev/install.sh | sh
+which pi
+{{< /highlight >}}
+
+We need to configure it. Start __pi__ in a terminal window
+Then use various command to configure the API endporint to our LLama server. 
+find the server name using __sq__ command and noticing where the job runs (_gpu-nodeX_ on MC, some _gXYZ_=_ on Grex). Lets use PI's command area:
+
+ * /login llama.cpp
+ * Server URL: (when asked, enter the URL as http://gpu-nodeX:8080 )
+ * APi Key: (when asked, enter the model Key used in the LLama job)
+ * /llama
+ * Select models to "load". Use the ones we have under __/home/shared/models__
+ * /model
+ * Select the model to be used (there are many; use the ones we just loaded)
  
-Then, get yourself an SSH tunnel to the node your Llama is running on. In the terminal
+At this point, asking the model questions and trying to perform actions should work.
+
+## try to create a SLURM job script
+
+Lets try to create SLURM job script for some of the applications (Gromacs?) .
+
+## Working with skills, and prompts
+
+You may have noticed that the agent is not very smart. It needs more guidance, and these "skills" it can self-edit and improve. It also helps to save repeateable "prompts".
+
 
 {{< highlight bash >}}
-sq 
-# note the hostname for the Llama-server job
-export MYPORT=8295 # add your user number here; use the node instead of n999 below
-ssh -fNL $MYPORT:n999$MYPORT n999.local
-#no output expectd. Do not close the terminal
+# finding where the confuguration is
+ls ~/.pi/agent/
+# would have some 
+mkdir -p ~/.pi/agent/prompts
+mkdir -p ~/.pi/agent/skills
+mkdir -p ~/.pi/agent/skills/hpc-site/references
 {{< /highlight >}}
 
-Use the Firefox container and SSH port forwarding as follows.
+Use VI to create a prompt.
 
 {{< highlight bash >}}
-# singularity pull docker://linuxserver/firefox
-ln -s /home/software/sing-may2026/firefox_latest.sif ./firefox_latest.sif
-
-singularity exec firefox_latest.sif firefox
+vim ~/.pi/agent/prompts/learn.md
+#
+vim ~/.pi/agent/skills/hpc-site/SKILL.md
 {{< /highlight >}}
 
-Then, navigate the browser to __http://localhost:MYPORT__
-Must be able to  chat with the model!
-Kill Fifefox when done.
-
-## Next exercise: Connecting OpenWebUI to LLama
-
-
-We need Podman to run the OpenWebUI service right in our Desktop session.
-We will use Firefox to connect to it, on a port 8080 which is hardcoded in OpenWebUI.
-
-Later we will also need Podman loaded for running OpenWebUI. Also, created the local directory for the data:
+We can copy our long pre-made "skills" into the references:
 
 {{< highlight bash >}}
-module load podman
-podman version
-podman ps
-mkdir -p open-webui
+cp -r /home/shared/agent/skills/*.md  ~/.pi/agent/skills/hpc-site/references
+#
+ls  ~/.pi/agent/skills/hpc-site/references
 {{< /highlight >}}
 
-Then, use the Podman command below to fetch and run the OpenWebUI.
+## try to create a SLURM job script
 
-{{< highlight bash >}}
-podman run -d  \
-  -e WEBUI_AUTH=False \
-  -v open-webui:/app/backend/data \
-  --name open-webui \
-  ghcr.io/open-webui/open-webui:main
-{{< /highlight >}}
+Lets try to create SLURM job script for some of the applications (Gromacs?) .
 
-Then, start Firefox again and point it to the __http://localhost:8080__ . 
-Confgure OpenWebUI to see our Llama at http://n999:MYPORT in the Web UI: Admin - Connections - Add Connection
+## Cancel the GPU job to free the resources
 
-## Use Connecting OpenWebUI to make a RAG?
-
-TBD! Just explore the UI in Firefox at __http://localhost:8080__
-"Knowledge base" can be added by uploading some Markdown files and using local builtin vectoring models in OpenWebUI.
+Use __sq__ to find your job id, and __scancel__ to cancel it.
 
 <!-- Changes and update:
-* Last revision: May 22, 2026.
+* Last revision: Oct 32, 2026.
 -->

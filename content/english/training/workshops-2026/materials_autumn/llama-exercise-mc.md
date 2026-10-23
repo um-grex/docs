@@ -1,6 +1,6 @@
 ---
 weight: 566
-linkTitle: "Local LLama.CPP in HPC"
+linkTitle: "Local LLama.CPP in HPC MC"
 Title: "Exercise for running local models on HPC"
 description: "Workshops and Training Material - 2026 - Local Models and PI agent"
 #titleIcon: "fa-solid fa-cubes"
