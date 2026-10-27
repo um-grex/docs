@@ -12,6 +12,34 @@ categories: ["Training"]
 ## Autumn HPC and Cloud computing workshop, Oct. 21-23, 2026.
 ---
 
+Below are the slides and some materials from the in-person workshop that was held on Oct. 21-23, 2026.
+
+### Oct. 21, 2026: Introduction to Digital Resources, Linux Shell, Data Movement and Interactive computing.
+
+> - **Overview of Digital Research Infrastructure in Canada and at UManitoba**: [Slides](/workshops/autumn2026/01-IntrotoCanadianandLocalDRIandProgramAutumn2026.pdf)
+> - **Linux (BASH) CLI tutorial, SSH**: [Slides](/workshops/autumn2026/linux_shell_basics.pdf)
+> - **Transferring data, SSH and Globus**: [Slides](/workshops/autumn2026/data_transfer_in_hpc.pdf)
+> - **OpenOnDemand Web Portal for HPC: Connect, File Transfer, Apps**: [Slides](/workshops/autumn2026/04-OOD-HPC-Autumn2026.pdf)
+> - **OpenOnDemand Web Portal for HPC: running SLURM**: [Slides](/workshops/autumn2026/05-Running-Jobs-via-OOD.pdf)
+
+### Oct. 22, 2026: Software in HPC, using Modules and Containers.
+
+> - **Intro to HPC software, Environment Modules**: [Slides](/workshops/autumn2026/06-Introduction-to-HPC-software-2026.pdf)
+> - **Containers in HPC: using Singularity/Apptainer**: [Slides](/workshops/autumn2026/07-Singularity-Apptainer2026.pdf)
+> - **Containers in HPC: using Podman/Docker**: [Slides](/workshops/autumn2026/introduction_podman.pdf)
+
+### Oct. 23, 2026: Using SLURM batch jobs, AI and OpenStack Cloud.
+
+> - **Running HPC batch jobs with SLURM**: [Slides](/workshops/autumn2026/08-Running-Jobs-on-HPC-Cluster-2026.pdf)
+> - **AI on HPC topics**: [Slides](/workshops/autumn2026/09-Topics-on-using-AI-MLonHPCAutumn2026.pdf)
+> - **Using OpenStack Cloud, deploying Web applications on IaaS VMs**: [Slides](/workshops/autumn2026/openstack_community_cloud_beginner.pdf)
+
+<!--
+> - **Using OpenStack CLI and ObjectStorage**: [Slides](/workshops/autumn2026/)
+> - **Closing Remarks**: [Slides](/workshops/autumn2026/)
+--->
+
+<!--
 ### How to get to the Workshop location 
 
 The event is located at Bannatyne campus! This means that the first task is to find the venue.
@@ -53,7 +81,7 @@ The event is located at Bannatyne campus! This means that the first task is to f
 | 14:30 | 15:20 | Using OpenStack CLI and ObjectStorage  | Stefano |
 | 15:20 | 15:30 | Closing Remarks | Grigory |
 
-
+--->
 
 ## Spring HPC and Cloud computing workshop, May 2026.
 ---
@@ -75,8 +103,6 @@ Below are the slides and some materials from the in-person workshop that was hel
 > - **Introduction to OpenOnDemand:Running jobs using the Job Composer**: [Slides](/workshops/spring2026/Running-Jobs-via-OOD.pdf)
 > - **Running jobs on HPC cluster using SLURM: batch and interactive jobs**: [Slides](/workshops/spring2026/Running-Jobs-on-HPC-Cluster-2026.pdf)
 > - **Using Jupyter on HPC systems**: [Slides](/workshops/spring2026/Jupyter-on-HPC-Spring-2026.pdf)							
-
-
 ### May 22, 2026
 
 > - **AI on HPC topics**: [Slides](/workshops/spring2026/Topics-on-using-AI-on-HPC-Spring-2026.pdf)
@@ -139,7 +165,6 @@ Any individual sessions can be selected. We will issue certificates of attendanc
 | 13:45 | 14:45 | Using OpenStack CLI and ObjectStorage  | Stefano |
 | 14:45 | 15:00 | Closing Remarks | Grigory |
 --->
-
 
 <!--
 ## Various Workshop materials and walkthroughs
